@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt.ProvisioningMQTTTranslationStage
+  fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt.ProvisioningMQTTTranslationStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+  name: ProvisioningMQTTTranslationStage
+  source:
+    id: ProvisioningMQTTTranslationStage
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning_mqtt.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning_mqtt.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 27
+  summary: 'PipelineStage which converts other Provisioning pipeline operations into
+    MQTT operations. This stage also
+
+    converts MQTT pipeline events into Provisioning pipeline events.'
+  syntax:
+    content: ProvisioningMQTTTranslationStage()
+  type: class
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt.ProvisioningMQTTTranslationStage
+references: []

@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_stages_mqtt.MQTTTransportStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_mqtt.MQTTTransportStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_mqtt
+  name: MQTTTransportStage
+  source:
+    id: MQTTTransportStage
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_mqtt.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_mqtt.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 31
+  summary: 'PipelineStage object which is responsible for interfacing with the MQTT
+    protocol wrapper object.
+
+    This stage handles all MQTT operations and any other operations (such as ConnectOperation)
+    which
+
+    is not in the MQTT group of operations, but can only be run at the protocol level.'
+  syntax:
+    content: MQTTTransportStage()
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_stages_mqtt.MQTTTransportStage
+references: []

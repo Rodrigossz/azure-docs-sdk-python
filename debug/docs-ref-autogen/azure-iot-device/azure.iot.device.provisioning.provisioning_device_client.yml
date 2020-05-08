@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  - azure.iot.device.provisioning.provisioning_device_client.handle_result
+  fullName: azure.iot.device.provisioning.provisioning_device_client
+  langs:
+  - python
+  module: azure.iot.device.provisioning.provisioning_device_client
+  name: provisioning_device_client
+  source:
+    id: provisioning_device_client
+    path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'This module contains user-facing synchronous Provisioning Device Client
+    for Azure Provisioning
+
+    Device SDK. This client uses Symmetric Key and X509 authentication to register
+    devices with an
+
+    IoT Hub via the Device Provisioning Service.'
+  type: module
+  uid: azure.iot.device.provisioning.provisioning_device_client
+- fullName: azure.iot.device.provisioning.provisioning_device_client.handle_result
+  langs:
+  - python
+  module: azure.iot.device.provisioning.provisioning_device_client
+  name: handle_result(callback)
+  source:
+    id: handle_result
+    path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 23
+  syntax:
+    content: handle_result(callback)
+    parameters:
+    - id: callback
+  type: function
+  uid: azure.iot.device.provisioning.provisioning_device_client.handle_result
+references:
+- fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  isExternal: false
+  name: ProvisioningDeviceClient
+  parent: azure.iot.device.provisioning.provisioning_device_client
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+- fullName: azure.iot.device.provisioning.provisioning_device_client.handle_result
+  isExternal: false
+  name: handle_result(callback)
+  parent: azure.iot.device.provisioning.provisioning_device_client
+  uid: azure.iot.device.provisioning.provisioning_device_client.handle_result

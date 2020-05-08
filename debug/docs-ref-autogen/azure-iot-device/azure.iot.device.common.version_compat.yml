@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.version_compat.urlencode
+  fullName: azure.iot.device.common.version_compat
+  langs:
+  - python
+  module: azure.iot.device.common.version_compat
+  name: version_compat
+  source:
+    id: version_compat
+    path: azure-iot-device\azure\iot\device\common\version_compat.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\version_compat.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'This module defines functions intended for providing compatibility between
+
+    different versions of Python'
+  type: module
+  uid: azure.iot.device.common.version_compat
+- fullName: azure.iot.device.common.version_compat.urlencode
+  langs:
+  - python
+  module: azure.iot.device.common.version_compat
+  name: urlencode(query, quote_via=<function quote_plus>, safe='')
+  source:
+    id: urlencode
+    path: azure-iot-device\azure\iot\device\common\version_compat.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\version_compat.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 12
+  summary: 'Custom implementation of urllib.parse.urlencode().
+
+
+    This is necessary because prior to Python 3.5, urlencode() always encodes via
+
+    quote_plus() rather than quote(). This is generally not desirable for MQTT, as
+
+    it will translate '' '' into ''+'' rather than ''%20'', and ''+'' is not allowed
+    in the
+
+    topic strings for MQTT publish.
+
+
+    Starting in 3.5, the included library function for urlencode() allows you to specify
+
+    which style of encoding you want, however this feature is not available in 2.7
+    and so
+
+    we must implement it ourselves.'
+  syntax:
+    content: urlencode(query, quote_via=<function quote_plus>, safe='')
+    parameters:
+    - id: query
+    - defaultValue: <function quote_plus at 0x00000188E30CC6A8>
+      id: quote_via
+    - defaultValue: ''
+      id: safe
+  type: function
+  uid: azure.iot.device.common.version_compat.urlencode
+references:
+- fullName: azure.iot.device.common.version_compat.urlencode
+  isExternal: false
+  name: urlencode(query, quote_via=<function quote_plus>, safe='')
+  parent: azure.iot.device.common.version_compat
+  uid: azure.iot.device.common.version_compat.urlencode

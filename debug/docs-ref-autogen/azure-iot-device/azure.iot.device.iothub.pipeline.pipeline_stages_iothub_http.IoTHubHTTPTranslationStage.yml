@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.IoTHubHTTPTranslationStage
+  fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.IoTHubHTTPTranslationStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+  name: IoTHubHTTPTranslationStage
+  source:
+    id: IoTHubHTTPTranslationStage
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 37
+  summary: 'PipelineStage which converts other Iot and EdgeHub operations into HTTP
+    operations.  This stage also
+
+    converts http pipeline events into Iot and EdgeHub pipeline events.'
+  syntax:
+    content: IoTHubHTTPTranslationStage()
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.IoTHubHTTPTranslationStage
+references: []

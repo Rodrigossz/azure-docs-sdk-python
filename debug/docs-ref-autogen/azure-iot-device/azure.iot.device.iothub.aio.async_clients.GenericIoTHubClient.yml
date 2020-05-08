@@ -1,0 +1,411 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.connect
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.disconnect
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_storage_info_for_blob
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_twin
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.notify_blob_upload_status
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.patch_twin_reported_properties
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_method_request
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_twin_desired_properties_patch
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_message
+  - azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_method_response
+  class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.iothub.abstract_clients.AbstractIoTHubClient
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: GenericIoTHubClient
+  source:
+    id: GenericIoTHubClient
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 51
+  summary: 'A super class representing a generic asynchronous client.
+
+    This class needs to be extended for specific clients.'
+  syntax:
+    content: GenericIoTHubClient(**kwargs)
+  type: class
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.connect
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: connect()
+  source:
+    id: connect
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 88
+  summary: 'Connects the client to an Azure IoT Hub or Azure IoT Edge Hub instance.
+
+
+    The destination is chosen based on the credentials passed via the auth_provider
+    parameter
+
+    that was provided when this object was initialized.'
+  syntax:
+    content: connect()
+    parameters: []
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.connect
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.disconnect
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: disconnect()
+  source:
+    id: disconnect
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 112
+  summary: Disconnect the client from the Azure IoT Hub or Azure IoT Edge Hub instance.
+  syntax:
+    content: disconnect()
+    parameters: []
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.disconnect
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_storage_info_for_blob
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: get_storage_info_for_blob(blob_name)
+  source:
+    id: get_storage_info_for_blob
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 311
+  summary: Sends a POST request over HTTP to an IoTHub endpoint that will return information
+    for uploading via the Azure Storage Account linked to the IoTHub your device is
+    connected to.
+  syntax:
+    content: get_storage_info_for_blob(blob_name)
+    parameters:
+    - description: The name in string format of the blob that will be uploaded using
+        the storage API. This name will be used to generate the proper credentials
+        for Storage, and needs to match what will be used with the Azure Storage SDK
+        to perform the blob upload.
+      id: blob_name
+      type:
+      - str
+    return:
+      description: 'A JSON-like (dictionary) object from IoT Hub that will contain
+        relevant information including: correlationId, hostName, containerName, blobName,
+        sasToken.'
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_storage_info_for_blob
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_twin
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: get_twin()
+  source:
+    id: get_twin
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 230
+  summary: Gets the device or module twin from the Azure IoT Hub or Azure IoT Edge
+    Hub service.
+  syntax:
+    content: get_twin()
+    parameters: []
+    return:
+      description: Complete Twin as a JSON dict
+      type:
+      - dict
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_twin
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.notify_blob_upload_status
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: notify_blob_upload_status(correlation_id, is_success, status_code, status_description)
+  source:
+    id: notify_blob_upload_status
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 328
+  summary: When the upload is complete, the device sends a POST request to the IoT
+    Hub endpoint with information on the status of an upload to blob attempt. This
+    is used by IoT Hub to notify listening clients.
+  syntax:
+    content: notify_blob_upload_status(correlation_id, is_success, status_code, status_description)
+    parameters:
+    - description: Provided by IoT Hub on get_storage_info_for_blob request.
+      id: correlation_id
+      type:
+      - str
+    - description: A boolean that indicates whether the file was uploaded successfully.
+      id: is_success
+      type:
+      - bool
+    - description: A numeric status code that is the status for the upload of the
+        fiel to storage.
+      id: status_code
+      type:
+      - int
+    - description: A description that corresponds to the status_code.
+      id: status_description
+      type:
+      - str
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.notify_blob_upload_status
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  exceptions:
+  - type: azure.iot.device.exceptions.CredentialError
+  - type: azure.iot.device.exceptions.ConnectionFailedError
+  - type: azure.iot.device.exceptions.ConnectionDroppedError
+  - type: azure.iot.device.exceptions.ClientError
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.patch_twin_reported_properties
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: patch_twin_reported_properties(reported_properties_patch)
+  source:
+    id: patch_twin_reported_properties
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 259
+  summary: 'Update reported properties with the Azure IoT Hub or Azure IoT Edge Hub
+    service.
+
+
+    If the service returns an error on the patch operation, this function will raise
+    the
+
+    appropriate error.'
+  syntax:
+    content: patch_twin_reported_properties(reported_properties_patch)
+    parameters:
+    - description: Twin Reported Properties patch as a JSON dict
+      id: reported_properties_patch
+      type:
+      - dict
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.patch_twin_reported_properties
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_method_request
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: receive_method_request(method_name=None)
+  source:
+    id: receive_method_request
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 162
+  summary: 'Receive a method request via the Azure IoT Hub or Azure IoT Edge Hub.
+
+
+    If no method request is yet available, will wait until it is available.'
+  syntax:
+    content: receive_method_request(method_name=None)
+    parameters:
+    - defaultValue: None
+      description: 'Optionally provide the name of the method to receive requests
+        for.
+
+        If this parameter is not given, all methods not already being specifically
+        targeted by
+
+        a different call to receive_method will be received.'
+      id: method_name
+      type:
+      - str
+    return:
+      description: MethodRequest object representing the received method request.
+      type:
+      - '*azure.iot.device.MethodRequest*'
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_method_request
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_twin_desired_properties_patch
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: receive_twin_desired_properties_patch()
+  source:
+    id: receive_twin_desired_properties_patch
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 293
+  summary: 'Receive a desired property patch via the Azure IoT Hub or Azure IoT Edge
+    Hub.
+
+
+    If no method request is yet available, will wait until it is available.'
+  syntax:
+    content: receive_twin_desired_properties_patch()
+    parameters: []
+    return:
+      description: Twin Desired Properties patch as a JSON dict
+      type:
+      - dict
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_twin_desired_properties_patch
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  exceptions:
+  - type: azure.iot.device.exceptions.CredentialError
+  - type: azure.iot.device.exceptions.ConnectionFailedError
+  - type: azure.iot.device.exceptions.ConnectionDroppedError
+  - type: azure.iot.device.exceptions.ClientError
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_message
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: send_message(message)
+  source:
+    id: send_message
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 127
+  summary: 'Sends a message to the default events endpoint on the Azure IoT Hub or
+    Azure IoT Edge Hub instance.
+
+
+    If the connection to the service has not previously been opened by a call to connect,
+    this
+
+    function will open the connection before sending the event.'
+  syntax:
+    content: send_message(message)
+    parameters:
+    - description: 'The actual message to send. Anything passed that is not an instance
+        of the
+
+        Message class will be converted to Message object.'
+      id: message
+      type:
+      - azure.iot.device.Message
+      - str
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_message
+- class: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  exceptions:
+  - type: azure.iot.device.exceptions.CredentialError
+  - type: azure.iot.device.exceptions.ConnectionFailedError
+  - type: azure.iot.device.exceptions.ConnectionDroppedError
+  - type: azure.iot.device.exceptions.ClientError
+  fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_method_response
+  langs:
+  - python
+  module: azure.iot.device.iothub.aio.async_clients
+  name: send_method_response(method_response)
+  source:
+    id: send_method_response
+    path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 184
+  summary: 'Send a response to a method request via the Azure IoT Hub or Azure IoT
+    Edge Hub.
+
+
+    If the connection to the service has not previously been opened by a call to connect,
+    this
+
+    function will open the connection before sending the event.'
+  syntax:
+    content: send_method_response(method_response)
+    parameters:
+    - description: The MethodResponse to send
+      id: method_response
+      type:
+      - azure.iot.device.MethodResponse
+  type: method
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_method_response
+references:
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.connect
+  isExternal: false
+  name: connect()
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.connect
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.disconnect
+  isExternal: false
+  name: disconnect()
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.disconnect
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_storage_info_for_blob
+  isExternal: false
+  name: get_storage_info_for_blob(blob_name)
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_storage_info_for_blob
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_twin
+  isExternal: false
+  name: get_twin()
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.get_twin
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.notify_blob_upload_status
+  isExternal: false
+  name: notify_blob_upload_status(correlation_id, is_success, status_code, status_description)
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.notify_blob_upload_status
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.patch_twin_reported_properties
+  isExternal: false
+  name: patch_twin_reported_properties(reported_properties_patch)
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.patch_twin_reported_properties
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_method_request
+  isExternal: false
+  name: receive_method_request(method_name=None)
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_method_request
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_twin_desired_properties_patch
+  isExternal: false
+  name: receive_twin_desired_properties_patch()
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.receive_twin_desired_properties_patch
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_message
+  isExternal: false
+  name: send_message(message)
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_message
+- fullName: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_method_response
+  isExternal: false
+  name: send_method_response(method_response)
+  parent: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+  uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient.send_method_response

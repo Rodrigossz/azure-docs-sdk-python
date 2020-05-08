@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.sync_clients.GenericIoTHubClient
+  - azure.iot.device.iothub.sync_clients.IoTHubDeviceClient
+  - azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+  - azure.iot.device.iothub.sync_clients.handle_result
+  fullName: azure.iot.device.iothub.sync_clients
+  langs:
+  - python
+  module: azure.iot.device.iothub.sync_clients
+  name: sync_clients
+  source:
+    id: sync_clients
+    path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'This module contains user-facing synchronous clients for the
+
+    Azure IoTHub Device SDK for Python.'
+  type: module
+  uid: azure.iot.device.iothub.sync_clients
+- fullName: azure.iot.device.iothub.sync_clients.handle_result
+  langs:
+  - python
+  module: azure.iot.device.iothub.sync_clients
+  name: handle_result(callback)
+  source:
+    id: handle_result
+    path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 30
+  syntax:
+    content: handle_result(callback)
+    parameters:
+    - id: callback
+  type: function
+  uid: azure.iot.device.iothub.sync_clients.handle_result
+references:
+- fullName: azure.iot.device.iothub.sync_clients.GenericIoTHubClient
+  isExternal: false
+  name: GenericIoTHubClient
+  parent: azure.iot.device.iothub.sync_clients
+  uid: azure.iot.device.iothub.sync_clients.GenericIoTHubClient
+- fullName: azure.iot.device.iothub.sync_clients.IoTHubDeviceClient
+  isExternal: false
+  name: IoTHubDeviceClient
+  parent: azure.iot.device.iothub.sync_clients
+  uid: azure.iot.device.iothub.sync_clients.IoTHubDeviceClient
+- fullName: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+  isExternal: false
+  name: IoTHubModuleClient
+  parent: azure.iot.device.iothub.sync_clients
+  uid: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+- fullName: azure.iot.device.iothub.sync_clients.handle_result
+  isExternal: false
+  name: handle_result(callback)
+  parent: azure.iot.device.iothub.sync_clients
+  uid: azure.iot.device.iothub.sync_clients.handle_result

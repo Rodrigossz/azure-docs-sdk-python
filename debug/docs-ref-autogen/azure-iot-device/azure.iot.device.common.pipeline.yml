@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.config
+  - azure.iot.device.common.pipeline.pipeline_events_base
+  - azure.iot.device.common.pipeline.pipeline_events_mqtt
+  - azure.iot.device.common.pipeline.pipeline_exceptions
+  - azure.iot.device.common.pipeline.pipeline_ops_base
+  - azure.iot.device.common.pipeline.pipeline_ops_http
+  - azure.iot.device.common.pipeline.pipeline_ops_mqtt
+  - azure.iot.device.common.pipeline.pipeline_stages_base
+  - azure.iot.device.common.pipeline.pipeline_stages_http
+  - azure.iot.device.common.pipeline.pipeline_stages_mqtt
+  - azure.iot.device.common.pipeline.pipeline_thread
+  fullName: azure.iot.device.common.pipeline
+  kind: import
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline
+  name: pipeline
+  source:
+    id: pipeline
+    path: azure-iot-device\azure\iot\device\common\pipeline\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'Azure IoT Hub Device SDK Pipeline
+
+
+
+    This package provides pipeline objects for use with the Azure IoT Hub Device SDK.
+
+
+
+    INTERNAL USAGE ONLY'
+  type: package
+  uid: azure.iot.device.common.pipeline
+references:
+- fullName: azure.iot.device.common.pipeline.config
+  isExternal: false
+  name: config
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.config
+- fullName: azure.iot.device.common.pipeline.pipeline_events_base
+  isExternal: false
+  name: pipeline_events_base
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_events_base
+- fullName: azure.iot.device.common.pipeline.pipeline_events_mqtt
+  isExternal: false
+  name: pipeline_events_mqtt
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_events_mqtt
+- fullName: azure.iot.device.common.pipeline.pipeline_exceptions
+  isExternal: false
+  name: pipeline_exceptions
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_exceptions
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base
+  isExternal: false
+  name: pipeline_ops_base
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_http
+  isExternal: false
+  name: pipeline_ops_http
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_ops_http
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+  isExternal: false
+  name: pipeline_ops_mqtt
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base
+  isExternal: false
+  name: pipeline_stages_base
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_http
+  isExternal: false
+  name: pipeline_stages_http
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_stages_http
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_mqtt
+  isExternal: false
+  name: pipeline_stages_mqtt
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_stages_mqtt
+- fullName: azure.iot.device.common.pipeline.pipeline_thread
+  isExternal: false
+  name: pipeline_thread
+  parent: azure.iot.device.common.pipeline
+  uid: azure.iot.device.common.pipeline.pipeline_thread

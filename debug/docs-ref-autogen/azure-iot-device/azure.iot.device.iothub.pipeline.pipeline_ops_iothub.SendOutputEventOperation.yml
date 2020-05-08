@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendOutputEventOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendOutputEventOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  name: SendOutputEventOperation
+  source:
+    id: SendOutputEventOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 127
+  summary: 'A PipelineOperation object which contains arguments used to send an output
+    message to an EdgeHub server.
+
+
+    This operation is in the group of IoTHub operations because it is very specific
+    to the IoTHub client'
+  syntax:
+    content: SendOutputEventOperation(message, callback)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendOutputEventOperation
+references: []

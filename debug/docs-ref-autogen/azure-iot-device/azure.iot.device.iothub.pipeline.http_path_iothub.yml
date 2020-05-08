@@ -1,0 +1,119 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.http_path_iothub.get_method_invoke_path
+  - azure.iot.device.iothub.pipeline.http_path_iothub.get_notify_blob_upload_status_path
+  - azure.iot.device.iothub.pipeline.http_path_iothub.get_storage_info_for_blob_path
+  fullName: azure.iot.device.iothub.pipeline.http_path_iothub
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_path_iothub
+  name: http_path_iothub
+  source:
+    id: http_path_iothub
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_path_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_path_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.http_path_iothub
+- fullName: azure.iot.device.iothub.pipeline.http_path_iothub.get_method_invoke_path
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_path_iothub
+  name: get_method_invoke_path(device_id, module_id=None)
+  source:
+    id: get_method_invoke_path
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_path_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_path_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 13
+  summary: twins/uri_encode($device_id)/modules/uri_encode($module_id)/methods
+  syntax:
+    content: get_method_invoke_path(device_id, module_id=None)
+    parameters:
+    - id: device_id
+    - defaultValue: None
+      id: module_id
+    return:
+      description: The path for invoking methods from one module to a device or module.
+        It is of the format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.http_path_iothub.get_method_invoke_path
+- fullName: azure.iot.device.iothub.pipeline.http_path_iothub.get_notify_blob_upload_status_path
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_path_iothub
+  name: get_notify_blob_upload_status_path(device_id)
+  source:
+    id: get_notify_blob_upload_status_path
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_path_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_path_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 37
+  summary: 'This does not take a module_id since get_notify_blob_upload_status_path
+    should only ever be invoked on device clients.
+
+
+
+    devices/uri_encode($device_id)/files/notifications'
+  syntax:
+    content: get_notify_blob_upload_status_path(device_id)
+    parameters:
+    - id: device_id
+    return:
+      description: The path for getting the storage sdk credential information from
+        IoT Hub. It is of the format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.http_path_iothub.get_notify_blob_upload_status_path
+- fullName: azure.iot.device.iothub.pipeline.http_path_iothub.get_storage_info_for_blob_path
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_path_iothub
+  name: get_storage_info_for_blob_path(device_id)
+  source:
+    id: get_storage_info_for_blob_path
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_path_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_path_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 27
+  summary: 'This does not take a module_id since get_storage_info_for_blob_path should
+    only ever be invoked on device clients.
+
+
+
+    devices/uri_encode($device_id)/files'
+  syntax:
+    content: get_storage_info_for_blob_path(device_id)
+    parameters:
+    - id: device_id
+    return:
+      description: The path for getting the storage sdk credential information from
+        IoT Hub. It is of the format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.http_path_iothub.get_storage_info_for_blob_path
+references:
+- fullName: azure.iot.device.iothub.pipeline.http_path_iothub.get_method_invoke_path
+  isExternal: false
+  name: get_method_invoke_path(device_id, module_id=None)
+  parent: azure.iot.device.iothub.pipeline.http_path_iothub
+  uid: azure.iot.device.iothub.pipeline.http_path_iothub.get_method_invoke_path
+- fullName: azure.iot.device.iothub.pipeline.http_path_iothub.get_notify_blob_upload_status_path
+  isExternal: false
+  name: get_notify_blob_upload_status_path(device_id)
+  parent: azure.iot.device.iothub.pipeline.http_path_iothub
+  uid: azure.iot.device.iothub.pipeline.http_path_iothub.get_notify_blob_upload_status_path
+- fullName: azure.iot.device.iothub.pipeline.http_path_iothub.get_storage_info_for_blob_path
+  isExternal: false
+  name: get_storage_info_for_blob_path(device_id)
+  parent: azure.iot.device.iothub.pipeline.http_path_iothub
+  uid: azure.iot.device.iothub.pipeline.http_path_iothub.get_storage_info_for_blob_path

@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_ops_base.ConnectOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.ConnectOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: ConnectOperation
+  source:
+    id: ConnectOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 220
+  summary: 'A PipelineOperation object which tells the pipeline to connect to whatever
+    service it needs to connect to.
+
+
+    This operation is in the group of base operations because connecting is a common
+    operation that many clients might need to do.
+
+
+    Even though this is an base operation, it will most likely be handled by a more
+    specific stage (such as an IoTHub or MQTT stage).'
+  syntax:
+    content: ConnectOperation(callback)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.ConnectOperation
+references: []

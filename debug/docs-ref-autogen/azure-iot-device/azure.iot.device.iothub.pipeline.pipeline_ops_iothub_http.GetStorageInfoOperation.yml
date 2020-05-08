@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.GetStorageInfoOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.GetStorageInfoOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  name: GetStorageInfoOperation
+  source:
+    id: GetStorageInfoOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 35
+  summary: A PipleineOperation object which contains arguments used to get the storage
+    information from IoT Hub.
+  syntax:
+    content: GetStorageInfoOperation(blob_name, callback)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.GetStorageInfoOperation
+references: []

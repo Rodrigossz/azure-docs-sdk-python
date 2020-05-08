@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.async_adapter.AwaitableCallback.completion
+  class: azure.iot.device.common.async_adapter.AwaitableCallback
+  fullName: azure.iot.device.common.async_adapter.AwaitableCallback
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.async_adapter
+  name: AwaitableCallback
+  source:
+    id: AwaitableCallback
+    path: azure-iot-device\azure\iot\device\common\async_adapter.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\async_adapter.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 36
+  summary: A sync callback whose completion can be waited upon.
+  syntax:
+    content: AwaitableCallback(return_arg_name=None)
+  type: class
+  uid: azure.iot.device.common.async_adapter.AwaitableCallback
+- class: azure.iot.device.common.async_adapter.AwaitableCallback
+  fullName: azure.iot.device.common.async_adapter.AwaitableCallback.completion
+  langs:
+  - python
+  module: azure.iot.device.common.async_adapter
+  name: completion()
+  source:
+    id: completion
+    path: azure-iot-device\azure\iot\device\common\async_adapter.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\async_adapter.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 88
+  summary: 'Awaitable coroutine method that will return once the AwaitableCallback
+
+    has been completed.'
+  syntax:
+    content: completion()
+    parameters: []
+    return:
+      description: Result of the callback when it was called.
+  type: method
+  uid: azure.iot.device.common.async_adapter.AwaitableCallback.completion
+references:
+- fullName: azure.iot.device.common.async_adapter.AwaitableCallback.completion
+  isExternal: false
+  name: completion()
+  parent: azure.iot.device.common.async_adapter.AwaitableCallback
+  uid: azure.iot.device.common.async_adapter.AwaitableCallback.completion

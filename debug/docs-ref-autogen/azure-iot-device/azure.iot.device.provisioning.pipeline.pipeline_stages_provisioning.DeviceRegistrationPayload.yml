@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload.get_json_string
+  class: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+  fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  name: DeviceRegistrationPayload
+  source:
+    id: DeviceRegistrationPayload
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 487
+  summary: The class representing the payload that needs to be sent to the service.
+  syntax:
+    content: DeviceRegistrationPayload(registration_id, custom_payload=None)
+  type: class
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+- class: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+  fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload.get_json_string
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  name: get_json_string()
+  source:
+    id: get_json_string
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 498
+  syntax:
+    content: get_json_string()
+    parameters: []
+  type: method
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload.get_json_string
+references:
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload.get_json_string
+  isExternal: false
+  name: get_json_string()
+  parent: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload.get_json_string

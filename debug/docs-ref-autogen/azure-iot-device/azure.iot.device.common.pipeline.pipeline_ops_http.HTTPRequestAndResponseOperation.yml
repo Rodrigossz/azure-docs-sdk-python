@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_ops_http.HTTPRequestAndResponseOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_http.HTTPRequestAndResponseOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_http
+  name: HTTPRequestAndResponseOperation
+  source:
+    id: HTTPRequestAndResponseOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 38
+  summary: 'A PipelineOperation object which contains arguments used to connect to
+    a server using the HTTP protocol.
+
+
+    This operation is in the group of HTTP operations because its attributes are very
+    specific to the HTTP protocol.'
+  syntax:
+    content: HTTPRequestAndResponseOperation(method, path, headers, body, query_params,
+      callback)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_http.HTTPRequestAndResponseOperation
+references: []

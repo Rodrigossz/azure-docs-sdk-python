@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_ops_base.EnableFeatureOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.EnableFeatureOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: EnableFeatureOperation
+  source:
+    id: EnableFeatureOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 265
+  summary: 'A PipelineOperation object which tells the pipeline to "enable" a particular
+    feature.
+
+
+    A "feature" is just a string which represents some set of functionality that needs
+    to be enabled, such as "C2D" or "Twin".
+
+
+    This object has no notion of what it means to "enable" a feature.  That knowledge
+    is handled by stages in the pipeline which might convert
+
+    this operation to a more specific operation (such as an MQTT subscribe operation
+    with a specific topic name).
+
+
+    This operation is in the group of base operations because disconnecting is a common
+    operation that many clients might need to do.
+
+
+    Even though this is an base operation, it will most likely be handled by a more
+    specific stage (such as an IoTHub or MQTT stage).'
+  syntax:
+    content: EnableFeatureOperation(feature_name, callback)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.EnableFeatureOperation
+references: []

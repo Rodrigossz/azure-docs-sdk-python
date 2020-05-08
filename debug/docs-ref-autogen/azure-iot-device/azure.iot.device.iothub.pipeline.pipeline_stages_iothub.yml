@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.pipeline_stages_iothub.EnsureDesiredPropertiesStage
+  - azure.iot.device.iothub.pipeline.pipeline_stages_iothub.TwinRequestResponseStage
+  - azure.iot.device.iothub.pipeline.pipeline_stages_iothub.UseAuthProviderStage
+  fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+  name: pipeline_stages_iothub
+  source:
+    id: pipeline_stages_iothub
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+references:
+- fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.EnsureDesiredPropertiesStage
+  isExternal: false
+  name: EnsureDesiredPropertiesStage
+  parent: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.EnsureDesiredPropertiesStage
+- fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.TwinRequestResponseStage
+  isExternal: false
+  name: TwinRequestResponseStage
+  parent: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.TwinRequestResponseStage
+- fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.UseAuthProviderStage
+  isExternal: false
+  name: UseAuthProviderStage
+  parent: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.UseAuthProviderStage

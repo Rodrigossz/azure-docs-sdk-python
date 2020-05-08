@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.pipeline_events_iothub.C2DMessageEvent
+  - azure.iot.device.iothub.pipeline.pipeline_events_iothub.InputMessageEvent
+  - azure.iot.device.iothub.pipeline.pipeline_events_iothub.MethodRequestEvent
+  - azure.iot.device.iothub.pipeline.pipeline_events_iothub.TwinDesiredPropertiesPatchEvent
+  fullName: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  name: pipeline_events_iothub
+  source:
+    id: pipeline_events_iothub
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_events_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_events_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+references:
+- fullName: azure.iot.device.iothub.pipeline.pipeline_events_iothub.C2DMessageEvent
+  isExternal: false
+  name: C2DMessageEvent
+  parent: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.C2DMessageEvent
+- fullName: azure.iot.device.iothub.pipeline.pipeline_events_iothub.InputMessageEvent
+  isExternal: false
+  name: InputMessageEvent
+  parent: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.InputMessageEvent
+- fullName: azure.iot.device.iothub.pipeline.pipeline_events_iothub.MethodRequestEvent
+  isExternal: false
+  name: MethodRequestEvent
+  parent: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.MethodRequestEvent
+- fullName: azure.iot.device.iothub.pipeline.pipeline_events_iothub.TwinDesiredPropertiesPatchEvent
+  isExternal: false
+  name: TwinDesiredPropertiesPatchEvent
+  parent: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.TwinDesiredPropertiesPatchEvent

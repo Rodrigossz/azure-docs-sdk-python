@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.auth.X509AuthenticationProvider.get_x509_certificate
+  class: azure.iot.device.iothub.auth.X509AuthenticationProvider
+  fullName: azure.iot.device.iothub.auth.X509AuthenticationProvider
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
+  langs:
+  - python
+  module: azure.iot.device.iothub.auth
+  name: X509AuthenticationProvider
+  source:
+    id: X509AuthenticationProvider
+    path: azure-iot-device\azure\iot\device\iothub\auth\x509_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\auth\x509_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 13
+  summary: 'An X509 Authentication Provider. This provider uses the certificate and
+    key provided to
+
+    authenticate a device with an Azure IoT Hub instance. X509 Authentication is only
+    supported
+
+    for device identities connecting directly to an Azure IoT hub.'
+  syntax:
+    content: X509AuthenticationProvider(x509, hostname, device_id, module_id=None)
+  type: class
+  uid: azure.iot.device.iothub.auth.X509AuthenticationProvider
+- class: azure.iot.device.iothub.auth.X509AuthenticationProvider
+  fullName: azure.iot.device.iothub.auth.X509AuthenticationProvider.get_x509_certificate
+  langs:
+  - python
+  module: azure.iot.device.iothub.auth
+  name: get_x509_certificate()
+  source:
+    id: get_x509_certificate
+    path: azure-iot-device\azure\iot\device\iothub\auth\x509_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\auth\x509_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 38
+  syntax:
+    content: get_x509_certificate()
+    parameters: []
+    return:
+      description: 'The x509 certificate, To use the certificate the enrollment object
+        needs to contain
+
+        cert (either the root certificate or one of the intermediate CA certificates).'
+  type: method
+  uid: azure.iot.device.iothub.auth.X509AuthenticationProvider.get_x509_certificate
+references:
+- fullName: azure.iot.device.iothub.auth.X509AuthenticationProvider.get_x509_certificate
+  isExternal: false
+  name: get_x509_certificate()
+  parent: azure.iot.device.iothub.auth.X509AuthenticationProvider
+  uid: azure.iot.device.iothub.auth.X509AuthenticationProvider.get_x509_certificate

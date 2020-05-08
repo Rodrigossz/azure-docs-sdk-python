@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.chainable_exception.ChainableException
+  fullName: azure.iot.device.common.chainable_exception.ChainableException
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: builtins.BaseException
+    type: builtins.Exception
+  langs:
+  - python
+  module: azure.iot.device.common.chainable_exception
+  name: ChainableException
+  source:
+    id: ChainableException
+    path: azure-iot-device\azure\iot\device\common\chainable_exception.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\chainable_exception.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 8
+  summary: 'This exception stores a reference to a previous exception which has caused
+
+    the current one'
+  syntax:
+    content: ChainableException(message=None, cause=None)
+  type: class
+  uid: azure.iot.device.common.chainable_exception.ChainableException
+references: []

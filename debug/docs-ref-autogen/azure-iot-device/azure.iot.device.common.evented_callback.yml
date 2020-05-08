@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.evented_callback.EventedCallback
+  fullName: azure.iot.device.common.evented_callback
+  langs:
+  - python
+  module: azure.iot.device.common.evented_callback
+  name: evented_callback
+  source:
+    id: evented_callback
+    path: azure-iot-device\azure\iot\device\common\evented_callback.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\evented_callback.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.evented_callback
+references:
+- fullName: azure.iot.device.common.evented_callback.EventedCallback
+  isExternal: false
+  name: EventedCallback
+  parent: azure.iot.device.common.evented_callback
+  uid: azure.iot.device.common.evented_callback.EventedCallback

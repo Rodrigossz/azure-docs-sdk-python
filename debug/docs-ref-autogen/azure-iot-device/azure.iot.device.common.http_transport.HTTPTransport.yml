@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.http_transport.HTTPTransport.request
+  class: azure.iot.device.common.http_transport.HTTPTransport
+  fullName: azure.iot.device.common.http_transport.HTTPTransport
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.http_transport
+  name: HTTPTransport
+  source:
+    id: HTTPTransport
+    path: azure-iot-device\azure\iot\device\common\http_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\http_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 19
+  summary: A wrapper class that provides an implementation-agnostic HTTP interface.
+  syntax:
+    content: HTTPTransport(hostname, server_verification_cert=None, x509_cert=None,
+      cipher=None)
+  type: class
+  uid: azure.iot.device.common.http_transport.HTTPTransport
+- class: azure.iot.device.common.http_transport.HTTPTransport
+  fullName: azure.iot.device.common.http_transport.HTTPTransport.request
+  langs:
+  - python
+  module: azure.iot.device.common.http_transport
+  name: request(method, path, callback, body='', headers={}, query_params='')
+  source:
+    id: request
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 71
+  summary: This method creates a connection to a remote host, sends a request to that
+    host, and then waits for and reads the response from that request.
+  syntax:
+    content: request(method, path, callback, body='', headers={}, query_params='')
+    parameters:
+    - description: The request method (e.g. "POST")
+      id: method
+      type:
+      - str
+    - description: The path for the URL
+      id: path
+      type:
+      - str
+    - description: The function that gets called when this operation is complete or
+        has failed. The callback function must accept an error and a response dictionary,
+        where the response dictionary contains a status code, a reason, and a response
+        string.
+      id: callback
+      type:
+      - Function
+    - description: The body of the HTTP request to be sent following the headers.
+      id: body
+      type:
+      - str
+    - description: A dictionary that provides extra HTTP headers to be sent with the
+        request.
+      id: headers
+      type:
+      - dict
+    - description: The optional query parameters to be appended at the end of the
+        URL.
+      id: query_params
+      type:
+      - str
+  type: method
+  uid: azure.iot.device.common.http_transport.HTTPTransport.request
+references:
+- fullName: azure.iot.device.common.http_transport.HTTPTransport.request
+  isExternal: false
+  name: request(method, path, callback, body='', headers={}, query_params='')
+  parent: azure.iot.device.common.http_transport.HTTPTransport
+  uid: azure.iot.device.common.http_transport.HTTPTransport.request

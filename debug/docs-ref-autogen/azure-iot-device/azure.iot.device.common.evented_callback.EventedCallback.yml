@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.evented_callback.EventedCallback.wait_for_completion
+  class: azure.iot.device.common.evented_callback.EventedCallback
+  fullName: azure.iot.device.common.evented_callback.EventedCallback
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.evented_callback
+  name: EventedCallback
+  source:
+    id: EventedCallback
+    path: azure-iot-device\azure\iot\device\common\evented_callback.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\evented_callback.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 14
+  summary: A sync callback whose completion can be waited upon.
+  syntax:
+    content: EventedCallback(return_arg_name=None)
+  type: class
+  uid: azure.iot.device.common.evented_callback.EventedCallback
+- class: azure.iot.device.common.evented_callback.EventedCallback
+  fullName: azure.iot.device.common.evented_callback.EventedCallback.wait_for_completion
+  langs:
+  - python
+  module: azure.iot.device.common.evented_callback
+  name: wait_for_completion(*args, **kwargs)
+  source:
+    id: wait_for_completion
+    path: azure-iot-device\azure\iot\device\common\evented_callback.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\evented_callback.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 63
+  summary: Wait for the callback to be called, and return the results.
+  syntax:
+    content: wait_for_completion(*args, **kwargs)
+    parameters: []
+  type: method
+  uid: azure.iot.device.common.evented_callback.EventedCallback.wait_for_completion
+references:
+- fullName: azure.iot.device.common.evented_callback.EventedCallback.wait_for_completion
+  isExternal: false
+  name: wait_for_completion(*args, **kwargs)
+  parent: azure.iot.device.common.evented_callback.EventedCallback
+  uid: azure.iot.device.common.evented_callback.EventedCallback.wait_for_completion

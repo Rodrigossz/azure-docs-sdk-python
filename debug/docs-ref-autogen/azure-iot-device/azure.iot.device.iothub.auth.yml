@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.auth.SymmetricKeyAuthenticationProvider
+  - azure.iot.device.iothub.auth.SharedAccessSignatureAuthenticationProvider
+  - azure.iot.device.iothub.auth.IoTEdgeAuthenticationProvider
+  - azure.iot.device.iothub.auth.IoTEdgeError
+  - azure.iot.device.iothub.auth.X509AuthenticationProvider
+  - azure.iot.device.iothub.auth.authentication_provider
+  - azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
+  - azure.iot.device.iothub.auth.iotedge_authentication_provider
+  - azure.iot.device.iothub.auth.sas_authentication_provider
+  - azure.iot.device.iothub.auth.sk_authentication_provider
+  - azure.iot.device.iothub.auth.x509_authentication_provider
+  fullName: azure.iot.device.iothub.auth
+  kind: import
+  langs:
+  - python
+  module: azure.iot.device.iothub.auth
+  name: auth
+  source:
+    id: auth
+    path: azure-iot-device\azure\iot\device\iothub\auth\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\auth\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'Azure IoT Hub Device SDK Authentication
+
+
+
+    This package provides authentication-related functionality for use with the
+
+    Azure IoT Hub Device SDK.'
+  type: package
+  uid: azure.iot.device.iothub.auth
+references:
+- fullName: azure.iot.device.iothub.auth.SymmetricKeyAuthenticationProvider
+  isExternal: false
+  name: SymmetricKeyAuthenticationProvider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.SymmetricKeyAuthenticationProvider
+- fullName: azure.iot.device.iothub.auth.SharedAccessSignatureAuthenticationProvider
+  isExternal: false
+  name: SharedAccessSignatureAuthenticationProvider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.SharedAccessSignatureAuthenticationProvider
+- fullName: azure.iot.device.iothub.auth.IoTEdgeAuthenticationProvider
+  isExternal: false
+  name: IoTEdgeAuthenticationProvider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.IoTEdgeAuthenticationProvider
+- fullName: azure.iot.device.iothub.auth.IoTEdgeError
+  isExternal: false
+  name: IoTEdgeError
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.IoTEdgeError
+- fullName: azure.iot.device.iothub.auth.X509AuthenticationProvider
+  isExternal: false
+  name: X509AuthenticationProvider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.X509AuthenticationProvider
+- fullName: azure.iot.device.iothub.auth.authentication_provider
+  isExternal: false
+  name: authentication_provider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.authentication_provider
+- fullName: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
+  isExternal: false
+  name: base_renewable_token_authentication_provider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
+- fullName: azure.iot.device.iothub.auth.iotedge_authentication_provider
+  isExternal: false
+  name: iotedge_authentication_provider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.iotedge_authentication_provider
+- fullName: azure.iot.device.iothub.auth.sas_authentication_provider
+  isExternal: false
+  name: sas_authentication_provider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.sas_authentication_provider
+- fullName: azure.iot.device.iothub.auth.sk_authentication_provider
+  isExternal: false
+  name: sk_authentication_provider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.sk_authentication_provider
+- fullName: azure.iot.device.iothub.auth.x509_authentication_provider
+  isExternal: false
+  name: x509_authentication_provider
+  parent: azure.iot.device.iothub.auth
+  uid: azure.iot.device.iothub.auth.x509_authentication_provider

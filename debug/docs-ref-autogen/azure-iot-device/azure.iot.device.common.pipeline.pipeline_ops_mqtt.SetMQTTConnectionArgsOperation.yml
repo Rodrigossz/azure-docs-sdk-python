@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_ops_mqtt.SetMQTTConnectionArgsOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_mqtt.SetMQTTConnectionArgsOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+  name: SetMQTTConnectionArgsOperation
+  source:
+    id: SetMQTTConnectionArgsOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_mqtt.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_mqtt.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 9
+  summary: 'A PipelineOperation object which contains arguments used to connect to
+    a server using the MQTT protocol.
+
+
+    This operation is in the group of MQTT operations because its attributes are very
+    specific to the MQTT protocol.'
+  syntax:
+    content: SetMQTTConnectionArgsOperation(client_id, hostname, username, callback,
+      server_verification_cert=None, client_cert=None, sas_token=None)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt.SetMQTTConnectionArgsOperation
+references: []

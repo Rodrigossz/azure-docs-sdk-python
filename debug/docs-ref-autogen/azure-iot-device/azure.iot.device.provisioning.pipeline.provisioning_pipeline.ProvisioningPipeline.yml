@@ -1,0 +1,164 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.connect
+  - azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.disconnect
+  - azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.enable_responses
+  - azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.register
+  class: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  name: ProvisioningPipeline
+  source:
+    id: ProvisioningPipeline
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 23
+  summary: ''
+  syntax:
+    content: ProvisioningPipeline(security_client, pipeline_configuration)
+  type: class
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+- class: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.connect
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  name: connect(callback=None)
+  source:
+    id: connect
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 134
+  summary: 'Connect to the service.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: connect(callback=None)
+    parameters:
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.connect
+- class: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.disconnect
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  name: disconnect(callback=None)
+  source:
+    id: disconnect
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 155
+  summary: 'Disconnect from the service.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: disconnect(callback=None)
+    parameters:
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.disconnect
+- class: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.enable_responses
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  name: enable_responses(callback=None)
+  source:
+    id: enable_responses
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 173
+  summary: Enable response from the DPS service by subscribing to the appropriate
+    topics.
+  syntax:
+    content: enable_responses(callback=None)
+    parameters:
+    - defaultValue: None
+      description: callback which is called when responses are enabled
+      id: callback
+  type: method
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.enable_responses
+- class: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.register
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  name: register(payload=None, callback=None)
+  source:
+    id: register
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 192
+  summary: 'Register to the device provisioning service.
+
+    :param payload: Payload that can be sent with the registration request.
+
+    :param callback: callback which is called when the registration is done.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: register(payload=None, callback=None)
+    parameters:
+    - defaultValue: None
+      id: payload
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.register
+references:
+- fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.connect
+  isExternal: false
+  name: connect(callback=None)
+  parent: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.connect
+- fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.disconnect
+  isExternal: false
+  name: disconnect(callback=None)
+  parent: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.disconnect
+- fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.enable_responses
+  isExternal: false
+  name: enable_responses(callback=None)
+  parent: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.enable_responses
+- fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.register
+  isExternal: false
+  name: register(payload=None, callback=None)
+  parent: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline.register

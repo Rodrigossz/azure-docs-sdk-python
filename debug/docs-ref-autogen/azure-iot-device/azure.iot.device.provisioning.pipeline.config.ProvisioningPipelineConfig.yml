@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.provisioning.pipeline.config.ProvisioningPipelineConfig
+  fullName: azure.iot.device.provisioning.pipeline.config.ProvisioningPipelineConfig
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.config.BasePipelineConfig
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.config
+  name: ProvisioningPipelineConfig
+  source:
+    id: ProvisioningPipelineConfig
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\config.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\config.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 13
+  summary: A class for storing all configurations/options for Provisioning clients
+    in the Azure IoT Python Device Client Library.
+  syntax:
+    content: ProvisioningPipelineConfig(websockets=False, cipher='', proxy_options=None)
+  type: class
+  uid: azure.iot.device.provisioning.pipeline.config.ProvisioningPipelineConfig
+references: []

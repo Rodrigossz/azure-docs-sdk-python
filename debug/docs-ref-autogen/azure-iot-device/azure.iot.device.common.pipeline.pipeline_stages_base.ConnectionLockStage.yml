@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_stages_base.ConnectionLockStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ConnectionLockStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: ConnectionLockStage
+  source:
+    id: ConnectionLockStage
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 363
+  summary: 'This stage is responsible for serializing connect, disconnect, and reauthorize
+    ops on
+
+    the pipeline, such that only a single one of these ops can go past this stage
+    at a
+
+    time.  This way, we don''t have to worry about cases like "what happens if we
+    try to
+
+    disconnect if we''re in the middle of reauthorizing."  This stage will wait for
+    the
+
+    reauthorize to complete before letting the disconnect past.'
+  syntax:
+    content: ConnectionLockStage()
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ConnectionLockStage
+references: []

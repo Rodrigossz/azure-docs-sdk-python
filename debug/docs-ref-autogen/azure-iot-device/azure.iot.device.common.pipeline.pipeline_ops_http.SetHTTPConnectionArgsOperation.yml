@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_ops_http.SetHTTPConnectionArgsOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_http.SetHTTPConnectionArgsOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_http
+  name: SetHTTPConnectionArgsOperation
+  source:
+    id: SetHTTPConnectionArgsOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 9
+  summary: 'A PipelineOperation object which contains arguments used to connect to
+    a server using the HTTP protocol.
+
+
+    This operation is in the group of HTTP operations because its attributes are very
+    specific to the HTTP protocol.'
+  syntax:
+    content: SetHTTPConnectionArgsOperation(hostname, callback, server_verification_cert=None,
+      client_cert=None, sas_token=None)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_http.SetHTTPConnectionArgsOperation
+references: []

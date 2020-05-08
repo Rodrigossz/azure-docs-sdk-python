@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_events_base.DisconnectedEvent
+  fullName: azure.iot.device.common.pipeline.pipeline_events_base.DisconnectedEvent
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_events_base
+  name: DisconnectedEvent
+  source:
+    id: DisconnectedEvent
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 76
+  summary: A PipelineEvent object indicating a connection has been dropped.
+  syntax:
+    content: DisconnectedEvent()
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_events_base.DisconnectedEvent
+references: []

@@ -1,0 +1,286 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.mqtt_transport.MQTTTransport.connect
+  - azure.iot.device.common.mqtt_transport.MQTTTransport.disconnect
+  - azure.iot.device.common.mqtt_transport.MQTTTransport.publish
+  - azure.iot.device.common.mqtt_transport.MQTTTransport.reauthorize_connection
+  - azure.iot.device.common.mqtt_transport.MQTTTransport.subscribe
+  - azure.iot.device.common.mqtt_transport.MQTTTransport.unsubscribe
+  class: azure.iot.device.common.mqtt_transport.MQTTTransport
+  fullName: azure.iot.device.common.mqtt_transport.MQTTTransport
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: MQTTTransport
+  source:
+    id: MQTTTransport
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 80
+  summary: A wrapper class that provides an implementation-agnostic MQTT message broker
+    interface.
+  syntax:
+    content: MQTTTransport(client_id, hostname, username, server_verification_cert=None,
+      x509_cert=None, websockets=False, cipher=None, proxy_options=None)
+    variables:
+    - description: Event handler callback, called upon establishing a connection.
+      id: on_mqtt_connected_handler
+    - description: Event handler callback, called upon a disconnection.
+      id: on_mqtt_disconnected_handler
+    - description: Event handler callback, called upon receiving a message.
+      id: on_mqtt_message_received_handler
+    - description: Event handler callback, called upon a connection failure.
+      id: on_mqtt_connection_failure_handler
+  type: class
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport
+- class: azure.iot.device.common.mqtt_transport.MQTTTransport
+  fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.connect
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: connect(password=None)
+  source:
+    id: connect
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 352
+  summary: 'Connect to the MQTT broker, using hostname and username set at instantiation.
+
+
+    This method should be called as an entry point before sending any telemetry.
+
+
+    The password is not required if the transport was instantiated with an x509 certificate.
+
+
+    If MQTT connection has been proxied, connection will take a bit longer to allow
+    negotiation
+
+    with the proxy server. Any errors in the proxy connection process will trigger
+    exceptions'
+  syntax:
+    content: connect(password=None)
+    parameters:
+    - defaultValue: None
+      description: The password for connecting with the MQTT broker (Optional).
+      id: password
+      type:
+      - str
+  type: method
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.connect
+- class: azure.iot.device.common.mqtt_transport.MQTTTransport
+  fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.disconnect
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: disconnect()
+  source:
+    id: disconnect
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 458
+  summary: Disconnect from the MQTT broker.
+  syntax:
+    content: disconnect()
+    parameters: []
+  type: method
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.disconnect
+- class: azure.iot.device.common.mqtt_transport.MQTTTransport
+  fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.publish
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: publish(topic, payload, qos=1, callback=None)
+  source:
+    id: publish
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 542
+  summary: Send a message via the MQTT broker.
+  syntax:
+    content: publish(topic, payload, qos=1, callback=None)
+    parameters:
+    - description: 'topic: The topic that the message should be published on.'
+      id: topic
+      type:
+      - str
+    - description: The actual message to send.
+      id: payload
+      type:
+      - str, bytes, int, float
+      - None
+    - defaultValue: '1'
+      description: the desired quality of service level for the subscription. Defaults
+        to 1.
+      id: qos
+      type:
+      - int
+    - defaultValue: None
+      description: A callback to be triggered upon completion (Optional).
+      id: callback
+  type: method
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.publish
+- class: azure.iot.device.common.mqtt_transport.MQTTTransport
+  fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.reauthorize_connection
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: reauthorize_connection(password=None)
+  source:
+    id: reauthorize_connection
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 427
+  summary: 'Reauthorize with the MQTT broker, using username set at instantiation.
+
+
+    Connect should have previously been called in order to use this function.
+
+
+    The password is not required if the transport was instantiated with an x509 certificate.'
+  syntax:
+    content: reauthorize_connection(password=None)
+    parameters:
+    - defaultValue: None
+      description: The password for reauthorizing with the MQTT broker (Optional).
+      id: password
+      type:
+      - str
+  type: method
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.reauthorize_connection
+- class: azure.iot.device.common.mqtt_transport.MQTTTransport
+  fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.subscribe
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: subscribe(topic, qos=1, callback=None)
+  source:
+    id: subscribe
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 486
+  summary: This method subscribes the client to one topic from the MQTT broker.
+  syntax:
+    content: subscribe(topic, qos=1, callback=None)
+    parameters:
+    - description: a single string specifying the subscription topic to subscribe
+        to
+      id: topic
+      type:
+      - str
+    - defaultValue: '1'
+      description: the desired quality of service level for the subscription. Defaults
+        to 1.
+      id: qos
+      type:
+      - int
+    - defaultValue: None
+      description: A callback to be triggered upon completion (Optional).
+      id: callback
+    return:
+      description: message ID for the subscribe request.
+  type: method
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.subscribe
+- class: azure.iot.device.common.mqtt_transport.MQTTTransport
+  fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.unsubscribe
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: unsubscribe(topic, callback=None)
+  source:
+    id: unsubscribe
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 516
+  summary: Unsubscribe the client from one topic on the MQTT broker.
+  syntax:
+    content: unsubscribe(topic, callback=None)
+    parameters:
+    - description: a single string which is the subscription topic to unsubscribe
+        from.
+      id: topic
+      type:
+      - str
+    - defaultValue: None
+      description: A callback to be triggered upon completion (Optional).
+      id: callback
+  type: method
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.unsubscribe
+references:
+- fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.connect
+  isExternal: false
+  name: connect(password=None)
+  parent: azure.iot.device.common.mqtt_transport.MQTTTransport
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.connect
+- fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.disconnect
+  isExternal: false
+  name: disconnect()
+  parent: azure.iot.device.common.mqtt_transport.MQTTTransport
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.disconnect
+- fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.publish
+  isExternal: false
+  name: publish(topic, payload, qos=1, callback=None)
+  parent: azure.iot.device.common.mqtt_transport.MQTTTransport
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.publish
+- fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.reauthorize_connection
+  isExternal: false
+  name: reauthorize_connection(password=None)
+  parent: azure.iot.device.common.mqtt_transport.MQTTTransport
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.reauthorize_connection
+- fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.subscribe
+  isExternal: false
+  name: subscribe(topic, qos=1, callback=None)
+  parent: azure.iot.device.common.mqtt_transport.MQTTTransport
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.subscribe
+- fullName: azure.iot.device.common.mqtt_transport.MQTTTransport.unsubscribe
+  isExternal: false
+  name: unsubscribe(topic, callback=None)
+  parent: azure.iot.device.common.mqtt_transport.MQTTTransport
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport.unsubscribe
+- fullName: str, bytes, int, float
+  name: str, bytes, int, float
+  spec.python:
+  - fullName: str
+    name: str
+    uid: str
+  - fullName: ', '
+    name: ', '
+  - fullName: bytes
+    name: bytes
+    uid: bytes
+  - fullName: ', '
+    name: ', '
+  - fullName: int
+    name: int
+    uid: int
+  - fullName: ', '
+    name: ', '
+  - fullName: float
+    name: float
+    uid: float
+  uid: str, bytes, int, float

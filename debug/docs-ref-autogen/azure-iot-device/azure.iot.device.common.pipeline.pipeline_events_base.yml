@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_events_base.ConnectedEvent
+  - azure.iot.device.common.pipeline.pipeline_events_base.DisconnectedEvent
+  - azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  - azure.iot.device.common.pipeline.pipeline_events_base.ResponseEvent
+  fullName: azure.iot.device.common.pipeline.pipeline_events_base
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_events_base
+  name: pipeline_events_base
+  source:
+    id: pipeline_events_base
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.pipeline.pipeline_events_base
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_events_base.ConnectedEvent
+  isExternal: false
+  name: ConnectedEvent
+  parent: azure.iot.device.common.pipeline.pipeline_events_base
+  uid: azure.iot.device.common.pipeline.pipeline_events_base.ConnectedEvent
+- fullName: azure.iot.device.common.pipeline.pipeline_events_base.DisconnectedEvent
+  isExternal: false
+  name: DisconnectedEvent
+  parent: azure.iot.device.common.pipeline.pipeline_events_base
+  uid: azure.iot.device.common.pipeline.pipeline_events_base.DisconnectedEvent
+- fullName: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  isExternal: false
+  name: PipelineEvent
+  parent: azure.iot.device.common.pipeline.pipeline_events_base
+  uid: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+- fullName: azure.iot.device.common.pipeline.pipeline_events_base.ResponseEvent
+  isExternal: false
+  name: ResponseEvent
+  parent: azure.iot.device.common.pipeline.pipeline_events_base
+  uid: azure.iot.device.common.pipeline.pipeline_events_base.ResponseEvent

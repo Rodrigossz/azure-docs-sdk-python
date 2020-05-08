@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_ops_base.ConnectOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_base.DisableFeatureOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_base.DisconnectOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_base.EnableFeatureOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_base.ReauthorizeConnectionOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_base.RequestAndResponseOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_base.RequestOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_base.UpdateSasTokenOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: pipeline_ops_base
+  source:
+    id: pipeline_ops_base
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.ConnectOperation
+  isExternal: false
+  name: ConnectOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.ConnectOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.DisableFeatureOperation
+  isExternal: false
+  name: DisableFeatureOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.DisableFeatureOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.DisconnectOperation
+  isExternal: false
+  name: DisconnectOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.DisconnectOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.EnableFeatureOperation
+  isExternal: false
+  name: EnableFeatureOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.EnableFeatureOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  isExternal: false
+  name: PipelineOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.ReauthorizeConnectionOperation
+  isExternal: false
+  name: ReauthorizeConnectionOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.ReauthorizeConnectionOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.RequestAndResponseOperation
+  isExternal: false
+  name: RequestAndResponseOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.RequestAndResponseOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.RequestOperation
+  isExternal: false
+  name: RequestOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.RequestOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.UpdateSasTokenOperation
+  isExternal: false
+  name: UpdateSasTokenOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.UpdateSasTokenOperation

@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.config
+  - azure.iot.device.iothub.pipeline.constant
+  - azure.iot.device.iothub.pipeline.exceptions
+  - azure.iot.device.iothub.pipeline.http_map_error
+  - azure.iot.device.iothub.pipeline.http_path_iothub
+  - azure.iot.device.iothub.pipeline.http_pipeline
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  - azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  - azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+  - azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+  - azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt
+  fullName: azure.iot.device.iothub.pipeline
+  kind: import
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline
+  name: pipeline
+  source:
+    id: pipeline
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'Azure IoT Hub Device SDK Pipeline
+
+
+
+    This package provides a protocol pipeline for use with the Azure IoT Hub Device
+    SDK.
+
+
+
+    INTERNAL USAGE ONLY'
+  type: package
+  uid: azure.iot.device.iothub.pipeline
+references:
+- fullName: azure.iot.device.iothub.pipeline.config
+  isExternal: false
+  name: config
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.config
+- fullName: azure.iot.device.iothub.pipeline.constant
+  isExternal: false
+  name: constant
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.constant
+- fullName: azure.iot.device.iothub.pipeline.exceptions
+  isExternal: false
+  name: exceptions
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.exceptions
+- fullName: azure.iot.device.iothub.pipeline.http_map_error
+  isExternal: false
+  name: http_map_error
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.http_map_error
+- fullName: azure.iot.device.iothub.pipeline.http_path_iothub
+  isExternal: false
+  name: http_path_iothub
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.http_path_iothub
+- fullName: azure.iot.device.iothub.pipeline.http_pipeline
+  isExternal: false
+  name: http_pipeline
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.http_pipeline
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  isExternal: false
+  name: mqtt_pipeline
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  isExternal: false
+  name: mqtt_topic_iothub
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+- fullName: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  isExternal: false
+  name: pipeline_events_iothub
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  isExternal: false
+  name: pipeline_ops_iothub
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  isExternal: false
+  name: pipeline_ops_iothub_http
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+- fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+  isExternal: false
+  name: pipeline_stages_iothub
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+- fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+  isExternal: false
+  name: pipeline_stages_iothub_http
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+- fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt
+  isExternal: false
+  name: pipeline_stages_iothub_mqtt
+  parent: azure.iot.device.iothub.pipeline
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt

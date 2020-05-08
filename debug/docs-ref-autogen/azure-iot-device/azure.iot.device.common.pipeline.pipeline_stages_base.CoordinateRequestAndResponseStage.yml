@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_stages_base.CoordinateRequestAndResponseStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.CoordinateRequestAndResponseStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: CoordinateRequestAndResponseStage
+  source:
+    id: CoordinateRequestAndResponseStage
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 476
+  summary: 'Pipeline stage which is responsible for coordinating RequestAndResponseOperation
+    operations.  For each
+
+    RequestAndResponseOperation operation, this stage passes down a RequestOperation
+    operation and waits for
+
+    an ResponseEvent event.  All other events are passed down unmodified.'
+  syntax:
+    content: CoordinateRequestAndResponseStage()
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.CoordinateRequestAndResponseStage
+references: []

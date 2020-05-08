@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.IoTHubHTTPTranslationStage
+  - azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.map_http_error
+  fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+  name: pipeline_stages_iothub_http
+  source:
+    id: pipeline_stages_iothub_http
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+- fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.map_http_error
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+  name: map_http_error(error, http_op)
+  source:
+    id: map_http_error
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 26
+  syntax:
+    content: map_http_error(error, http_op)
+  type: function
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.map_http_error
+references:
+- fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.IoTHubHTTPTranslationStage
+  isExternal: false
+  name: IoTHubHTTPTranslationStage
+  parent: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.IoTHubHTTPTranslationStage
+- fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.map_http_error
+  isExternal: false
+  name: map_http_error(error, http_op)
+  parent: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.map_http_error

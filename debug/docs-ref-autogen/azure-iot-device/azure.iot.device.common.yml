@@ -1,0 +1,127 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.X509
+  - azure.iot.device.common.ProxyOptions
+  - azure.iot.device.common.async_adapter
+  - azure.iot.device.common.asyncio_compat
+  - azure.iot.device.common.callable_weak_method
+  - azure.iot.device.common.chainable_exception
+  - azure.iot.device.common.connection_string
+  - azure.iot.device.common.evented_callback
+  - azure.iot.device.common.handle_exceptions
+  - azure.iot.device.common.http_transport
+  - azure.iot.device.common.mqtt_transport
+  - azure.iot.device.common.sastoken
+  - azure.iot.device.common.transport_exceptions
+  - azure.iot.device.common.version_compat
+  - azure.iot.device.common.models
+  - azure.iot.device.common.pipeline
+  fullName: azure.iot.device.common
+  kind: import
+  langs:
+  - python
+  module: azure.iot.device.common
+  name: common
+  source:
+    id: common
+    path: azure-iot-device\azure\iot\device\common\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'Azure IoT Device Common
+
+
+
+    This package provides shared modules for use with various Azure IoT device-side
+    clients.
+
+
+
+    INTERNAL USAGE ONLY'
+  type: package
+  uid: azure.iot.device.common
+references:
+- fullName: azure.iot.device.common.X509
+  isExternal: false
+  name: X509
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.X509
+- fullName: azure.iot.device.common.ProxyOptions
+  isExternal: false
+  name: ProxyOptions
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.ProxyOptions
+- fullName: azure.iot.device.common.async_adapter
+  isExternal: false
+  name: async_adapter
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.async_adapter
+- fullName: azure.iot.device.common.asyncio_compat
+  isExternal: false
+  name: asyncio_compat
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.asyncio_compat
+- fullName: azure.iot.device.common.callable_weak_method
+  isExternal: false
+  name: callable_weak_method
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.callable_weak_method
+- fullName: azure.iot.device.common.chainable_exception
+  isExternal: false
+  name: chainable_exception
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.chainable_exception
+- fullName: azure.iot.device.common.connection_string
+  isExternal: false
+  name: connection_string
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.connection_string
+- fullName: azure.iot.device.common.evented_callback
+  isExternal: false
+  name: evented_callback
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.evented_callback
+- fullName: azure.iot.device.common.handle_exceptions
+  isExternal: false
+  name: handle_exceptions
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.handle_exceptions
+- fullName: azure.iot.device.common.http_transport
+  isExternal: false
+  name: http_transport
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.http_transport
+- fullName: azure.iot.device.common.mqtt_transport
+  isExternal: false
+  name: mqtt_transport
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.mqtt_transport
+- fullName: azure.iot.device.common.sastoken
+  isExternal: false
+  name: sastoken
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.sastoken
+- fullName: azure.iot.device.common.transport_exceptions
+  isExternal: false
+  name: transport_exceptions
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.transport_exceptions
+- fullName: azure.iot.device.common.version_compat
+  isExternal: false
+  name: version_compat
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.version_compat
+- fullName: azure.iot.device.common.models
+  isExternal: false
+  name: models
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.models
+- fullName: azure.iot.device.common.pipeline
+  isExternal: false
+  name: pipeline
+  parent: azure.iot.device.common
+  uid: azure.iot.device.common.pipeline

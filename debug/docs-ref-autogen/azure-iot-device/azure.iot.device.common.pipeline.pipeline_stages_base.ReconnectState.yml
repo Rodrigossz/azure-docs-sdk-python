@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.CONNECTED_OR_DISCONNECTED
+  - azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.NEVER_CONNECTED
+  - azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.WAITING_TO_RECONNECT
+  class: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: ReconnectState
+  source:
+    id: ReconnectState
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 793
+  summary: 'Class which holds reconenct states as class variables.  Created to make
+    code that reads like an enum without using an enum.
+
+
+    NEVER_CONNECTED: Ttransport has never been conencted.  This state is necessary
+    because some errors might be fatal or transient,
+
+    depending on wether the transport has been connceted.  For example, a failed conenction
+    is a transient error if we''ve connected
+
+    before, but it''s fatal if we''ve never conencted.
+
+
+    WAITING_TO_RECONNECT: This stage is in a waiting period before reconnecting.
+
+
+    CONNECTED_OR_DISCONNECTED: The transport is either connected or disconencted.  This
+    stage doesn''t really care which one, so
+
+    it doesn''t keep track.'
+  syntax: {}
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+- class: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.CONNECTED_OR_DISCONNECTED
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: CONNECTED_OR_DISCONNECTED
+  syntax:
+    content: CONNECTED_OR_DISCONNECTED = 'CONNECTED_OR_DISCONNECTED'
+  type: attribute
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.CONNECTED_OR_DISCONNECTED
+- class: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.NEVER_CONNECTED
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: NEVER_CONNECTED
+  syntax:
+    content: NEVER_CONNECTED = 'NEVER_CONNECTED'
+  type: attribute
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.NEVER_CONNECTED
+- class: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.WAITING_TO_RECONNECT
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: WAITING_TO_RECONNECT
+  syntax:
+    content: WAITING_TO_RECONNECT = 'WAITING_TO_RECONNECT'
+  type: attribute
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.WAITING_TO_RECONNECT
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.CONNECTED_OR_DISCONNECTED
+  isExternal: false
+  name: CONNECTED_OR_DISCONNECTED
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.CONNECTED_OR_DISCONNECTED
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.NEVER_CONNECTED
+  isExternal: false
+  name: NEVER_CONNECTED
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.NEVER_CONNECTED
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.WAITING_TO_RECONNECT
+  isExternal: false
+  name: WAITING_TO_RECONNECT
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState.WAITING_TO_RECONNECT

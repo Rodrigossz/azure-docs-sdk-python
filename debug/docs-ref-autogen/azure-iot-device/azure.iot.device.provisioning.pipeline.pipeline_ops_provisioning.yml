@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.PollStatusOperation
+  - azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.RegisterOperation
+  - azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetProvisioningClientConnectionArgsOperation
+  - azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetSymmetricKeySecurityClientOperation
+  - azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetX509SecurityClientOperation
+  fullName: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  name: pipeline_ops_provisioning
+  source:
+    id: pipeline_ops_provisioning
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_ops_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_ops_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+references:
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.PollStatusOperation
+  isExternal: false
+  name: PollStatusOperation
+  parent: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.PollStatusOperation
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.RegisterOperation
+  isExternal: false
+  name: RegisterOperation
+  parent: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.RegisterOperation
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetProvisioningClientConnectionArgsOperation
+  isExternal: false
+  name: SetProvisioningClientConnectionArgsOperation
+  parent: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetProvisioningClientConnectionArgsOperation
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetSymmetricKeySecurityClientOperation
+  isExternal: false
+  name: SetSymmetricKeySecurityClientOperation
+  parent: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetSymmetricKeySecurityClientOperation
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetX509SecurityClientOperation
+  isExternal: false
+  name: SetX509SecurityClientOperation
+  parent: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetX509SecurityClientOperation

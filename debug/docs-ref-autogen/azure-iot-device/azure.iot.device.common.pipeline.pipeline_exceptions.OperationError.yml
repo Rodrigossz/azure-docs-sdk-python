@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_exceptions.OperationError
+  fullName: azure.iot.device.common.pipeline.pipeline_exceptions.OperationError
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: builtins.BaseException
+        type: builtins.Exception
+      type: azure.iot.device.common.chainable_exception.ChainableException
+    type: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineException
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_exceptions
+  name: OperationError
+  source:
+    id: OperationError
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 23
+  summary: Error while executing an Operation
+  syntax:
+    content: OperationError(message=None, cause=None)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_exceptions.OperationError
+references: []

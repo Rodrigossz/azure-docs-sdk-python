@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTPublishOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTSubscribeOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTUnsubscribeOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_mqtt.SetMQTTConnectionArgsOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+  name: pipeline_ops_mqtt
+  source:
+    id: pipeline_ops_mqtt
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_mqtt.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_mqtt.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTPublishOperation
+  isExternal: false
+  name: MQTTPublishOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+  uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTPublishOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTSubscribeOperation
+  isExternal: false
+  name: MQTTSubscribeOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+  uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTSubscribeOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTUnsubscribeOperation
+  isExternal: false
+  name: MQTTUnsubscribeOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+  uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTUnsubscribeOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_mqtt.SetMQTTConnectionArgsOperation
+  isExternal: false
+  name: SetMQTTConnectionArgsOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+  uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt.SetMQTTConnectionArgsOperation

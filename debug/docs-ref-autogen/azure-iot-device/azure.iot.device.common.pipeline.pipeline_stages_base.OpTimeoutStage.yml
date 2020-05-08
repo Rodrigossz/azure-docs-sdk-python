@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_stages_base.OpTimeoutStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.OpTimeoutStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: OpTimeoutStage
+  source:
+    id: OpTimeoutStage
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 615
+  summary: 'The purpose of the timeout stage is to add timeout errors to select operations
+
+
+    The timeout_intervals attribute contains a list of operations to track along with
+
+    their timeout values.  Right now this list is hard-coded but the operations and
+
+    intervals will eventually become a parameter.
+
+
+    For each operation that needs a timeout check, this stage will add a timer to
+
+    the operation.  If the timer elapses, this stage will fail the operation with
+
+    a PipelineTimeoutError.  The intention is that a higher stage will know what to
+
+    do with that error and act accordingly (either return the error to the user or
+
+    retry).
+
+
+    This stage currently assumes that all timed out operation are just "lost".
+
+    It does not attempt to cancel the operation, as Paho doesn''t have a way to
+
+    cancel an operation, and with QOS=1, sending a pub or sub twice is not
+
+    catastrophic.
+
+
+    Also, as a long-term plan, the operations that need to be watched for timeout
+
+    will become an initialization parameter for this stage so that differet
+
+    instances of this stage can watch for timeouts on different operations.
+
+    This will be done because we want a lower-level timeout stage which can watch
+
+    for timeouts at the MQTT level, and we want a higher-level timeout stage which
+
+    can watch for timeouts at the iothub level.  In this way, an MQTT operation that
+
+    times out can be retried as an MQTT operation and a higher-level IoTHub operation
+
+    which times out can be retried as an IoTHub operation (which might necessitate
+
+    redoing multiple MQTT operations).'
+  syntax:
+    content: OpTimeoutStage()
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.OpTimeoutStage
+references: []

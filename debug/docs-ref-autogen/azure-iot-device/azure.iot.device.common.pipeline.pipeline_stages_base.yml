@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_stages_base.AutoConnectStage
+  - azure.iot.device.common.pipeline.pipeline_stages_base.ConnectionLockStage
+  - azure.iot.device.common.pipeline.pipeline_stages_base.CoordinateRequestAndResponseStage
+  - azure.iot.device.common.pipeline.pipeline_stages_base.OpTimeoutStage
+  - azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+  - azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  - azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectStage
+  - azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  - azure.iot.device.common.pipeline.pipeline_stages_base.RetryStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: pipeline_stages_base
+  source:
+    id: pipeline_stages_base
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.AutoConnectStage
+  isExternal: false
+  name: AutoConnectStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.AutoConnectStage
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ConnectionLockStage
+  isExternal: false
+  name: ConnectionLockStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ConnectionLockStage
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.CoordinateRequestAndResponseStage
+  isExternal: false
+  name: CoordinateRequestAndResponseStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.CoordinateRequestAndResponseStage
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.OpTimeoutStage
+  isExternal: false
+  name: OpTimeoutStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.OpTimeoutStage
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+  isExternal: false
+  name: PipelineRootStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  isExternal: false
+  name: PipelineStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectStage
+  isExternal: false
+  name: ReconnectStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectStage
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+  isExternal: false
+  name: ReconnectState
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.RetryStage
+  isExternal: false
+  name: RetryStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.RetryStage

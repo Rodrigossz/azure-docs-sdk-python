@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.transport_exceptions.ConnectionFailedError
+  fullName: azure.iot.device.common.transport_exceptions.ConnectionFailedError
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.BaseException
+      type: builtins.Exception
+    type: azure.iot.device.common.chainable_exception.ChainableException
+  langs:
+  - python
+  module: azure.iot.device.common.transport_exceptions
+  name: ConnectionFailedError
+  source:
+    id: ConnectionFailedError
+    path: azure-iot-device\azure\iot\device\common\transport_exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\transport_exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 11
+  summary: Connection failed to be established
+  syntax:
+    content: ConnectionFailedError(message=None, cause=None)
+  type: class
+  uid: azure.iot.device.common.transport_exceptions.ConnectionFailedError
+references: []

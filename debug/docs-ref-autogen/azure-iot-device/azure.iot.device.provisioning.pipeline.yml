@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.pipeline.config
+  - azure.iot.device.provisioning.pipeline.constant
+  - azure.iot.device.provisioning.pipeline.exceptions
+  - azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  - azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  - azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  - azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+  - azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  fullName: azure.iot.device.provisioning.pipeline
+  kind: import
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline
+  name: pipeline
+  source:
+    id: pipeline
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'Azure Provisioning Device Communication Pipeline
+
+
+
+    This package provides pipeline for use with the Azure Provisioning Device SDK.
+
+
+
+    INTERNAL USAGE ONLY'
+  type: package
+  uid: azure.iot.device.provisioning.pipeline
+references:
+- fullName: azure.iot.device.provisioning.pipeline.config
+  isExternal: false
+  name: config
+  parent: azure.iot.device.provisioning.pipeline
+  uid: azure.iot.device.provisioning.pipeline.config
+- fullName: azure.iot.device.provisioning.pipeline.constant
+  isExternal: false
+  name: constant
+  parent: azure.iot.device.provisioning.pipeline
+  uid: azure.iot.device.provisioning.pipeline.constant
+- fullName: azure.iot.device.provisioning.pipeline.exceptions
+  isExternal: false
+  name: exceptions
+  parent: azure.iot.device.provisioning.pipeline
+  uid: azure.iot.device.provisioning.pipeline.exceptions
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  isExternal: false
+  name: mqtt_topic_provisioning
+  parent: azure.iot.device.provisioning.pipeline
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  isExternal: false
+  name: pipeline_ops_provisioning
+  parent: azure.iot.device.provisioning.pipeline
+  uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  isExternal: false
+  name: pipeline_stages_provisioning
+  parent: azure.iot.device.provisioning.pipeline
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+  isExternal: false
+  name: pipeline_stages_provisioning_mqtt
+  parent: azure.iot.device.provisioning.pipeline
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+- fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  isExternal: false
+  name: provisioning_pipeline
+  parent: azure.iot.device.provisioning.pipeline
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline

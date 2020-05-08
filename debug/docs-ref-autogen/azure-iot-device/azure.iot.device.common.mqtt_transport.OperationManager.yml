@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.mqtt_transport.OperationManager.complete_operation
+  - azure.iot.device.common.mqtt_transport.OperationManager.establish_operation
+  class: azure.iot.device.common.mqtt_transport.OperationManager
+  fullName: azure.iot.device.common.mqtt_transport.OperationManager
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: OperationManager
+  source:
+    id: OperationManager
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 578
+  summary: Tracks pending operations and thier associated callbacks until completion.
+  syntax:
+    content: OperationManager()
+  type: class
+  uid: azure.iot.device.common.mqtt_transport.OperationManager
+- class: azure.iot.device.common.mqtt_transport.OperationManager
+  fullName: azure.iot.device.common.mqtt_transport.OperationManager.complete_operation
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: complete_operation(mid)
+  source:
+    id: complete_operation
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 633
+  summary: 'Complete an operation identified by MID and trigger the associated completion
+    callback.
+
+
+    If the operation MID is unknown, the completion status will be stored until
+
+    the operation is established.'
+  syntax:
+    content: complete_operation(mid)
+    parameters:
+    - id: mid
+  type: method
+  uid: azure.iot.device.common.mqtt_transport.OperationManager.complete_operation
+- class: azure.iot.device.common.mqtt_transport.OperationManager
+  fullName: azure.iot.device.common.mqtt_transport.OperationManager.establish_operation
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: establish_operation(mid, callback=None)
+  source:
+    id: establish_operation
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 595
+  summary: 'Establish a pending operation identified by MID, and store its completion
+    callback.
+
+
+    If the operation has already been completed, the callback will be triggered.'
+  syntax:
+    content: establish_operation(mid, callback=None)
+    parameters:
+    - id: mid
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.device.common.mqtt_transport.OperationManager.establish_operation
+references:
+- fullName: azure.iot.device.common.mqtt_transport.OperationManager.complete_operation
+  isExternal: false
+  name: complete_operation(mid)
+  parent: azure.iot.device.common.mqtt_transport.OperationManager
+  uid: azure.iot.device.common.mqtt_transport.OperationManager.complete_operation
+- fullName: azure.iot.device.common.mqtt_transport.OperationManager.establish_operation
+  isExternal: false
+  name: establish_operation(mid, callback=None)
+  parent: azure.iot.device.common.mqtt_transport.OperationManager
+  uid: azure.iot.device.common.mqtt_transport.OperationManager.establish_operation

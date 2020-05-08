@@ -1,0 +1,100 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.get_trust_bundle
+  - azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.sign
+  class: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm
+  fullName: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.iothub.auth.iotedge_authentication_provider
+  name: IoTEdgeHsm
+  source:
+    id: IoTEdgeHsm
+    path: azure-iot-device\azure\iot\device\iothub\auth\iotedge_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\auth\iotedge_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 77
+  summary: "Constructor for instantiating a iot hsm object.  This is an object that\n\
+    communicates with the Azure IoT Edge HSM in order to get connection credentials\n\
+    for an Azure IoT Edge module.  The credentials that this object return come in\n\
+    two forms:\n\n1. The trust bundle, which is a certificate that can be used as\
+    \ a trusted cert to authenticate the SSL connection between the IoE Edge module\
+    \ and IoT Edge \n\n2. A signing function, which can be used to create the sig\
+    \ field for a SharedAccessSignature string which can be used to authenticate with\
+    \ Iot Edge"
+  syntax:
+    content: IoTEdgeHsm(module_id, module_generation_id, workload_uri, api_version)
+  type: class
+  uid: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm
+- class: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm
+  fullName: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.get_trust_bundle
+  langs:
+  - python
+  module: azure.iot.device.iothub.auth.iotedge_authentication_provider
+  name: get_trust_bundle()
+  source:
+    id: get_trust_bundle
+    path: azure-iot-device\azure\iot\device\iothub\auth\iotedge_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\auth\iotedge_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 106
+  summary: 'Return the trust bundle that can be used to validate the server-side SSL
+
+    TLS connection that we use to talk to edgeHub.
+
+
+
+    instance, as a PEM certificate in string form.'
+  syntax:
+    content: get_trust_bundle()
+    parameters: []
+  type: method
+  uid: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.get_trust_bundle
+- class: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm
+  fullName: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.sign
+  langs:
+  - python
+  module: azure.iot.device.iothub.auth.iotedge_authentication_provider
+  name: sign(data_str)
+  source:
+    id: sign
+    path: azure-iot-device\azure\iot\device\iothub\auth\iotedge_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\auth\iotedge_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 138
+  summary: 'Use the IoTEdge HSM to sign a piece of string data.  The caller should
+    then insert the
+
+    returned value (the signature) into the ''sig'' field of a SharedAccessSignature
+    string.
+
+
+
+    directly insert into the SharedAccessSignature string.'
+  syntax:
+    content: sign(data_str)
+    parameters:
+    - id: data_str
+  type: method
+  uid: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.sign
+references:
+- fullName: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.get_trust_bundle
+  isExternal: false
+  name: get_trust_bundle()
+  parent: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm
+  uid: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.get_trust_bundle
+- fullName: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.sign
+  isExternal: false
+  name: sign(data_str)
+  parent: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm
+  uid: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm.sign

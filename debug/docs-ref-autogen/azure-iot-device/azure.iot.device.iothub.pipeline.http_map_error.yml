@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.http_map_error.translate_error
+  fullName: azure.iot.device.iothub.pipeline.http_map_error
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_map_error
+  name: http_map_error
+  source:
+    id: http_map_error
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_map_error.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_map_error.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.http_map_error
+- fullName: azure.iot.device.iothub.pipeline.http_map_error.translate_error
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_map_error
+  name: translate_error(sc, reason)
+  source:
+    id: translate_error
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_map_error.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_map_error.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 1
+  summary: 'Codes_SRS_NODE_IOTHUB_REST_API_CLIENT_16_012: [Any error object returned
+    by translate_error shall inherit from the generic Error Javascript object and
+    have 3 properties:
+
+    - response shall contain the IncomingMessage object returned by the HTTP layer.
+
+    - reponseBody shall contain the content of the HTTP response.
+
+    - message shall contain a human-readable error message.]'
+  syntax:
+    content: translate_error(sc, reason)
+    parameters:
+    - id: sc
+    - id: reason
+  type: function
+  uid: azure.iot.device.iothub.pipeline.http_map_error.translate_error
+references:
+- fullName: azure.iot.device.iothub.pipeline.http_map_error.translate_error
+  isExternal: false
+  name: translate_error(sc, reason)
+  parent: azure.iot.device.iothub.pipeline.http_map_error
+  uid: azure.iot.device.iothub.pipeline.http_map_error.translate_error

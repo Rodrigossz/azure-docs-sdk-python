@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_events_mqtt.IncomingMQTTMessageEvent
+  fullName: azure.iot.device.common.pipeline.pipeline_events_mqtt.IncomingMQTTMessageEvent
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_events_mqtt
+  name: IncomingMQTTMessageEvent
+  source:
+    id: IncomingMQTTMessageEvent
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_mqtt.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_mqtt.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 9
+  summary: A PipelineEvent object which represents an incoming MQTT message on some
+    MQTT topic
+  syntax:
+    content: IncomingMQTTMessageEvent(topic, payload)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_events_mqtt.IncomingMQTTMessageEvent
+references: []

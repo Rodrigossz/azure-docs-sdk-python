@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.patch.add_shims_for_inherited_methods
+  fullName: azure.iot.device.patch
+  langs:
+  - python
+  module: azure.iot.device.patch
+  name: patch
+  source:
+    id: patch
+    path: azure-iot-device\azure\iot\device\patch.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\patch.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module provides patches used to dynamically modify items from the
+    libraries
+  type: module
+  uid: azure.iot.device.patch
+- fullName: azure.iot.device.patch.add_shims_for_inherited_methods
+  langs:
+  - python
+  module: azure.iot.device.patch
+  name: add_shims_for_inherited_methods(target_class)
+  source:
+    id: add_shims_for_inherited_methods
+    path: azure-iot-device\azure\iot\device\patch.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\patch.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 20
+  summary: 'Dynamically add overriding, pass-through shim methods for all public inherited
+    methods
+
+    on a child class, which simply call into the parent class implementation of the
+    same method.
+
+
+    These shim methods will include the same docstrings as the method from the parent
+    class.
+
+
+    This currently only works for Python 3.5+
+
+
+    Using DEBUG logging will allow you to see output of all dynamic operations that
+    occur within
+
+    for debugging purposes.'
+  syntax:
+    content: add_shims_for_inherited_methods(target_class)
+    parameters:
+    - description: The child class to add shim methods to
+      id: target_class
+  type: function
+  uid: azure.iot.device.patch.add_shims_for_inherited_methods
+references:
+- fullName: azure.iot.device.patch.add_shims_for_inherited_methods
+  isExternal: false
+  name: add_shims_for_inherited_methods(target_class)
+  parent: azure.iot.device.patch
+  uid: azure.iot.device.patch.add_shims_for_inherited_methods

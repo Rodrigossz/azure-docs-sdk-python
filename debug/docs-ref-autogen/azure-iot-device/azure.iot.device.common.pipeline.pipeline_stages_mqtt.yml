@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_stages_mqtt.MQTTTransportStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_mqtt
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_mqtt
+  name: pipeline_stages_mqtt
+  source:
+    id: pipeline_stages_mqtt
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_mqtt.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_mqtt.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.pipeline.pipeline_stages_mqtt
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_mqtt.MQTTTransportStage
+  isExternal: false
+  name: MQTTTransportStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_mqtt
+  uid: azure.iot.device.common.pipeline.pipeline_stages_mqtt.MQTTTransportStage

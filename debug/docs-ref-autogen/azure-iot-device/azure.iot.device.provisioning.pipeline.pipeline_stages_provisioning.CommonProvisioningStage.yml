@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.CommonProvisioningStage
+  fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.CommonProvisioningStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  name: CommonProvisioningStage
+  source:
+    id: CommonProvisioningStage
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 62
+  summary: 'This is a super stage that the RegistrationStage and PollingStatusStage
+    of
+
+    provisioning would both use. It contains some common functions like decoding response
+
+    and retrieving error, retrieving registration status, retrieving operation id
+
+    and forming a complete result.'
+  syntax:
+    content: CommonProvisioningStage()
+  type: class
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.CommonProvisioningStage
+references: []

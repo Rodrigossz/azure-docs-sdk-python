@@ -1,0 +1,108 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.handle_exceptions.handle_background_exception
+  - azure.iot.device.common.handle_exceptions.swallow_unraised_exception
+  fullName: azure.iot.device.common.handle_exceptions
+  langs:
+  - python
+  module: azure.iot.device.common.handle_exceptions
+  name: handle_exceptions
+  source:
+    id: handle_exceptions
+    path: azure-iot-device\azure\iot\device\common\handle_exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\handle_exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.handle_exceptions
+- fullName: azure.iot.device.common.handle_exceptions.handle_background_exception
+  langs:
+  - python
+  module: azure.iot.device.common.handle_exceptions
+  name: handle_background_exception(e)
+  source:
+    id: handle_background_exception
+    path: azure-iot-device\azure\iot\device\common\handle_exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\handle_exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 12
+  summary: 'Function which handled exceptions that are caught in background thread.  This
+    is
+
+    typically called from the callback thread inside the pipeline.  These exceptions
+
+    need special handling because callback functions are typically called inside a
+
+    non-application thread in response to non-user-initiated actions, so there''s
+
+    nobody else to catch them.
+
+
+    This function gets called from inside an arbitrary thread context, so code that
+
+    runs from this function should be limited to the bare minumum.'
+  syntax:
+    content: handle_background_exception(e)
+    parameters:
+    - description: Exception object raised from inside a background thread
+      id: e
+      type:
+      - Error
+  type: function
+  uid: azure.iot.device.common.handle_exceptions.handle_background_exception
+- fullName: azure.iot.device.common.handle_exceptions.swallow_unraised_exception
+  langs:
+  - python
+  module: azure.iot.device.common.handle_exceptions
+  name: swallow_unraised_exception(e, log_msg=None, log_lvl='warning')
+  source:
+    id: swallow_unraised_exception
+    path: azure-iot-device\azure\iot\device\common\handle_exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\handle_exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 32
+  summary: 'Swallow and log an exception object.
+
+
+    Convenience function for logging, as exceptions can only be logged correctly from
+    within a
+
+    except block.'
+  syntax:
+    content: swallow_unraised_exception(e, log_msg=None, log_lvl='warning')
+    parameters:
+    - description: Exception object to be swallowed.
+      id: e
+      type:
+      - Exception
+    - defaultValue: None
+      description: Optional message to use when logging.
+      id: log_msg
+      type:
+      - str
+    - defaultValue: warning
+      description: The log level to use for logging. Default "warning".
+      id: log_lvl
+      type:
+      - str
+  type: function
+  uid: azure.iot.device.common.handle_exceptions.swallow_unraised_exception
+references:
+- fullName: azure.iot.device.common.handle_exceptions.handle_background_exception
+  isExternal: false
+  name: handle_background_exception(e)
+  parent: azure.iot.device.common.handle_exceptions
+  uid: azure.iot.device.common.handle_exceptions.handle_background_exception
+- fullName: azure.iot.device.common.handle_exceptions.swallow_unraised_exception
+  isExternal: false
+  name: swallow_unraised_exception(e, log_msg=None, log_lvl='warning')
+  parent: azure.iot.device.common.handle_exceptions
+  uid: azure.iot.device.common.handle_exceptions.swallow_unraised_exception

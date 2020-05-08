@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetIoTHubConnectionArgsOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetIoTHubConnectionArgsOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  name: SetIoTHubConnectionArgsOperation
+  source:
+    id: SetIoTHubConnectionArgsOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 59
+  summary: 'A PipelineOperation object which contains connection arguments which were
+    retrieved from an authorization provider,
+
+    likely by a pipeline stage which handles the SetAuthProviderOperation operation.
+
+
+    This operation is in the group of IoTHub operations because the arguments which
+    it accepts are very specific to
+
+    IoTHub connections and would not apply to other types of client connections (such
+    as a DPS client).'
+  syntax:
+    content: SetIoTHubConnectionArgsOperation(device_id, hostname, callback, module_id=None,
+      gateway_hostname=None, server_verification_cert=None, client_cert=None, sas_token=None)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetIoTHubConnectionArgsOperation
+references: []

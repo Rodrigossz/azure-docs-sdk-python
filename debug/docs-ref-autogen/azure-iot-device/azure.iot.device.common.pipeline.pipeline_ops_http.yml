@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_ops_http.HTTPRequestAndResponseOperation
+  - azure.iot.device.common.pipeline.pipeline_ops_http.SetHTTPConnectionArgsOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_http
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_http
+  name: pipeline_ops_http
+  source:
+    id: pipeline_ops_http
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.pipeline.pipeline_ops_http
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_http.HTTPRequestAndResponseOperation
+  isExternal: false
+  name: HTTPRequestAndResponseOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_http
+  uid: azure.iot.device.common.pipeline.pipeline_ops_http.HTTPRequestAndResponseOperation
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_http.SetHTTPConnectionArgsOperation
+  isExternal: false
+  name: SetHTTPConnectionArgsOperation
+  parent: azure.iot.device.common.pipeline.pipeline_ops_http
+  uid: azure.iot.device.common.pipeline.pipeline_ops_http.SetHTTPConnectionArgsOperation

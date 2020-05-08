@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.GetTwinOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.GetTwinOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  name: GetTwinOperation
+  source:
+    id: GetTwinOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 170
+  summary: 'A PipelineOperation object which represents a request to get a device
+    twin or a module twin from an Azure
+
+    IoT Hub or Azure Iot Edge Hub service.'
+  syntax:
+    content: GetTwinOperation(callback)
+    variables:
+    - description: Upon completion, this contains the twin which was retrieved from
+        the service.
+      id: twin
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.GetTwinOperation
+references: []

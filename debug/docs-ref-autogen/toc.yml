@@ -1,212 +1,762 @@
 - items:
   - items:
     - items:
-      - name: azure.core.async_paging.AsyncItemPaged
-        uid: azure.core.async_paging.AsyncItemPaged
-      - name: azure.core.async_paging.AsyncPageIterator
-        uid: azure.core.async_paging.AsyncPageIterator
-      name: azure.core.async_paging
-      uid: azure.core.async_paging
+      - name: azure.datalake.store.core.AzureDLFile
+        uid: azure.datalake.store.core.AzureDLFile
+      - name: azure.datalake.store.core.AzureDLFileSystem
+        uid: azure.datalake.store.core.AzureDLFileSystem
+      - name: azure.datalake.store.core.AzureDLPath
+        uid: azure.datalake.store.core.AzureDLPath
+      name: azure.datalake.store.core
+      uid: azure.datalake.store.core
     - items:
-      - name: azure.core.configuration.Configuration
-        uid: azure.core.configuration.Configuration
-      - name: azure.core.configuration.ConnectionConfiguration
-        uid: azure.core.configuration.ConnectionConfiguration
-      name: azure.core.configuration
-      uid: azure.core.configuration
+      - name: azure.datalake.store.enums.ExpiryOptionType
+        uid: azure.datalake.store.enums.ExpiryOptionType
+      name: azure.datalake.store.enums
+      uid: azure.datalake.store.enums
     - items:
-      - name: azure.core.credentials.AccessToken
-        uid: azure.core.credentials.AccessToken
-      - name: azure.core.credentials.AzureKeyCredential
-        uid: azure.core.credentials.AzureKeyCredential
-      name: azure.core.credentials
-      uid: azure.core.credentials
-    - name: azure.core.credentials_async
-      uid: azure.core.credentials_async
+      - name: azure.datalake.store.exceptions.DatalakeBadOffsetException
+        uid: azure.datalake.store.exceptions.DatalakeBadOffsetException
+      - name: azure.datalake.store.exceptions.DatalakeIncompleteTransferException
+        uid: azure.datalake.store.exceptions.DatalakeIncompleteTransferException
+      - name: azure.datalake.store.exceptions.DatalakeRESTException
+        uid: azure.datalake.store.exceptions.DatalakeRESTException
+      name: azure.datalake.store.exceptions
+      uid: azure.datalake.store.exceptions
     - items:
-      - name: azure.core.exceptions.AzureError
-        uid: azure.core.exceptions.AzureError
-      - name: azure.core.exceptions.ClientAuthenticationError
-        uid: azure.core.exceptions.ClientAuthenticationError
-      - name: azure.core.exceptions.DecodeError
-        uid: azure.core.exceptions.DecodeError
-      - name: azure.core.exceptions.HttpResponseError
-        uid: azure.core.exceptions.HttpResponseError
-      - name: azure.core.exceptions.ODataV4Error
-        uid: azure.core.exceptions.ODataV4Error
-      - name: azure.core.exceptions.ODataV4Format
-        uid: azure.core.exceptions.ODataV4Format
-      - name: azure.core.exceptions.ResourceExistsError
-        uid: azure.core.exceptions.ResourceExistsError
-      - name: azure.core.exceptions.ResourceModifiedError
-        uid: azure.core.exceptions.ResourceModifiedError
-      - name: azure.core.exceptions.ResourceNotFoundError
-        uid: azure.core.exceptions.ResourceNotFoundError
-      - name: azure.core.exceptions.ResourceNotModifiedError
-        uid: azure.core.exceptions.ResourceNotModifiedError
-      - name: azure.core.exceptions.ServiceRequestError
-        uid: azure.core.exceptions.ServiceRequestError
-      - name: azure.core.exceptions.ServiceResponseError
-        uid: azure.core.exceptions.ServiceResponseError
-      - name: azure.core.exceptions.TooManyRedirectsError
-        uid: azure.core.exceptions.TooManyRedirectsError
-      name: azure.core.exceptions
-      uid: azure.core.exceptions
+      - name: azure.datalake.store.lib.DataLakeCredential
+        uid: azure.datalake.store.lib.DataLakeCredential
+      - name: azure.datalake.store.lib.DatalakeRESTInterface
+        uid: azure.datalake.store.lib.DatalakeRESTInterface
+      name: azure.datalake.store.lib
+      uid: azure.datalake.store.lib
+    - name: azure.datalake.store.multiprocessor
+      uid: azure.datalake.store.multiprocessor
     - items:
-      - name: azure.core.paging.ItemPaged
-        uid: azure.core.paging.ItemPaged
-      - name: azure.core.paging.PageIterator
-        uid: azure.core.paging.PageIterator
-      name: azure.core.paging
-      uid: azure.core.paging
+      - name: azure.datalake.store.multithread.ADLDownloader
+        uid: azure.datalake.store.multithread.ADLDownloader
+      - name: azure.datalake.store.multithread.ADLUploader
+        uid: azure.datalake.store.multithread.ADLUploader
+      name: azure.datalake.store.multithread
+      uid: azure.datalake.store.multithread
     - items:
-      - items:
-        - name: azure.core.pipeline.policies.AsyncBearerTokenCredentialPolicy
-          uid: azure.core.pipeline.policies.AsyncBearerTokenCredentialPolicy
-        - name: azure.core.pipeline.policies.AsyncHTTPPolicy
-          uid: azure.core.pipeline.policies.AsyncHTTPPolicy
-        - name: azure.core.pipeline.policies.AsyncRedirectPolicy
-          uid: azure.core.pipeline.policies.AsyncRedirectPolicy
-        - name: azure.core.pipeline.policies.AsyncRetryPolicy
-          uid: azure.core.pipeline.policies.AsyncRetryPolicy
-        - name: azure.core.pipeline.policies.AzureKeyCredentialPolicy
-          uid: azure.core.pipeline.policies.AzureKeyCredentialPolicy
-        - name: azure.core.pipeline.policies.BearerTokenCredentialPolicy
-          uid: azure.core.pipeline.policies.BearerTokenCredentialPolicy
-        - name: azure.core.pipeline.policies.ContentDecodePolicy
-          uid: azure.core.pipeline.policies.ContentDecodePolicy
-        - name: azure.core.pipeline.policies.CustomHookPolicy
-          uid: azure.core.pipeline.policies.CustomHookPolicy
-        - name: azure.core.pipeline.policies.DistributedTracingPolicy
-          uid: azure.core.pipeline.policies.DistributedTracingPolicy
-        - name: azure.core.pipeline.policies.HTTPPolicy
-          uid: azure.core.pipeline.policies.HTTPPolicy
-        - name: azure.core.pipeline.policies.HeadersPolicy
-          uid: azure.core.pipeline.policies.HeadersPolicy
-        - name: azure.core.pipeline.policies.HttpLoggingPolicy
-          uid: azure.core.pipeline.policies.HttpLoggingPolicy
-        - name: azure.core.pipeline.policies.NetworkTraceLoggingPolicy
-          uid: azure.core.pipeline.policies.NetworkTraceLoggingPolicy
-        - name: azure.core.pipeline.policies.ProxyPolicy
-          uid: azure.core.pipeline.policies.ProxyPolicy
-        - name: azure.core.pipeline.policies.RedirectPolicy
-          uid: azure.core.pipeline.policies.RedirectPolicy
-        - name: azure.core.pipeline.policies.RequestHistory
-          uid: azure.core.pipeline.policies.RequestHistory
-        - name: azure.core.pipeline.policies.RequestIdPolicy
-          uid: azure.core.pipeline.policies.RequestIdPolicy
-        - name: azure.core.pipeline.policies.RetryMode
-          uid: azure.core.pipeline.policies.RetryMode
-        - name: azure.core.pipeline.policies.RetryPolicy
-          uid: azure.core.pipeline.policies.RetryPolicy
-        - name: azure.core.pipeline.policies.SansIOHTTPPolicy
-          uid: azure.core.pipeline.policies.SansIOHTTPPolicy
-        - name: azure.core.pipeline.policies.UserAgentPolicy
-          uid: azure.core.pipeline.policies.UserAgentPolicy
-        name: azure.core.pipeline.policies
-        uid: azure.core.pipeline.policies
-      - items:
-        - name: azure.core.pipeline.transport.AioHttpTransport
-          uid: azure.core.pipeline.transport.AioHttpTransport
-        - name: azure.core.pipeline.transport.AioHttpTransportResponse
-          uid: azure.core.pipeline.transport.AioHttpTransportResponse
-        - name: azure.core.pipeline.transport.AsyncHttpResponse
-          uid: azure.core.pipeline.transport.AsyncHttpResponse
-        - name: azure.core.pipeline.transport.AsyncHttpTransport
-          uid: azure.core.pipeline.transport.AsyncHttpTransport
-        - name: azure.core.pipeline.transport.AsyncioRequestsTransport
-          uid: azure.core.pipeline.transport.AsyncioRequestsTransport
-        - name: azure.core.pipeline.transport.AsyncioRequestsTransportResponse
-          uid: azure.core.pipeline.transport.AsyncioRequestsTransportResponse
-        - name: azure.core.pipeline.transport.HttpRequest
-          uid: azure.core.pipeline.transport.HttpRequest
-        - name: azure.core.pipeline.transport.HttpResponse
-          uid: azure.core.pipeline.transport.HttpResponse
-        - name: azure.core.pipeline.transport.HttpTransport
-          uid: azure.core.pipeline.transport.HttpTransport
-        - name: azure.core.pipeline.transport.RequestsTransport
-          uid: azure.core.pipeline.transport.RequestsTransport
-        - name: azure.core.pipeline.transport.RequestsTransportResponse
-          uid: azure.core.pipeline.transport.RequestsTransportResponse
-        name: azure.core.pipeline.transport
-        uid: azure.core.pipeline.transport
-      - name: azure.core.pipeline.AsyncPipeline
-        uid: azure.core.pipeline.AsyncPipeline
-      - name: azure.core.pipeline.Pipeline
-        uid: azure.core.pipeline.Pipeline
-      - name: azure.core.pipeline.PipelineContext
-        uid: azure.core.pipeline.PipelineContext
-      - name: azure.core.pipeline.PipelineRequest
-        uid: azure.core.pipeline.PipelineRequest
-      - name: azure.core.pipeline.PipelineResponse
-        uid: azure.core.pipeline.PipelineResponse
-      name: azure.core.pipeline
-      uid: azure.core.pipeline
+      - name: azure.datalake.store.retry.ExponentialRetryPolicy
+        uid: azure.datalake.store.retry.ExponentialRetryPolicy
+      - name: azure.datalake.store.retry.NoRetryPolicy
+        uid: azure.datalake.store.retry.NoRetryPolicy
+      - name: azure.datalake.store.retry.RetryPolicy
+        uid: azure.datalake.store.retry.RetryPolicy
+      name: azure.datalake.store.retry
+      uid: azure.datalake.store.retry
+    - items:
+      - name: azure.datalake.store.transfer.ADLTransferClient
+        uid: azure.datalake.store.transfer.ADLTransferClient
+      - name: azure.datalake.store.transfer.Chunk
+        uid: azure.datalake.store.transfer.Chunk
+      - name: azure.datalake.store.transfer.File
+        uid: azure.datalake.store.transfer.File
+      - name: azure.datalake.store.transfer.StateManager
+        uid: azure.datalake.store.transfer.StateManager
+      name: azure.datalake.store.transfer
+      uid: azure.datalake.store.transfer
+    - items:
+      - name: azure.datalake.store.utils.CountUpDownLatch
+        uid: azure.datalake.store.utils.CountUpDownLatch
+      name: azure.datalake.store.utils
+      uid: azure.datalake.store.utils
+    name: azure.datalake.store
+    uid: azure.datalake.store
+  name: azure-datalake-store
+  uid: project-azure-datalake-store
+
+- items:
+  - items:
     - items:
       - items:
-        - name: azure.core.polling.async_base_polling.AsyncLROBasePolling
-          uid: azure.core.polling.async_base_polling.AsyncLROBasePolling
-        name: azure.core.polling.async_base_polling
-        uid: azure.core.polling.async_base_polling
+        - name: azure.functions.blob.BlobConverter
+          uid: azure.functions.blob.BlobConverter
+        - name: azure.functions.blob.InputStream
+          uid: azure.functions.blob.InputStream
+        name: azure.functions.blob
+        uid: azure.functions.blob
       - items:
-        - name: azure.core.polling.base_polling.BadResponse
-          uid: azure.core.polling.base_polling.BadResponse
-        - name: azure.core.polling.base_polling.BadStatus
-          uid: azure.core.polling.base_polling.BadStatus
-        - name: azure.core.polling.base_polling.LROBasePolling
-          uid: azure.core.polling.base_polling.LROBasePolling
-        - name: azure.core.polling.base_polling.LocationPolling
-          uid: azure.core.polling.base_polling.LocationPolling
-        - name: azure.core.polling.base_polling.LongRunningOperation
-          uid: azure.core.polling.base_polling.LongRunningOperation
-        - name: azure.core.polling.base_polling.OperationFailed
-          uid: azure.core.polling.base_polling.OperationFailed
-        - name: azure.core.polling.base_polling.OperationResourcePolling
-          uid: azure.core.polling.base_polling.OperationResourcePolling
-        - name: azure.core.polling.base_polling.StatusCheckPolling
-          uid: azure.core.polling.base_polling.StatusCheckPolling
-        name: azure.core.polling.base_polling
-        uid: azure.core.polling.base_polling
-      - name: azure.core.polling.AsyncNoPolling
-        uid: azure.core.polling.AsyncNoPolling
-      - name: azure.core.polling.AsyncPollingMethod
-        uid: azure.core.polling.AsyncPollingMethod
-      - name: azure.core.polling.LROPoller
-        uid: azure.core.polling.LROPoller
-      - name: azure.core.polling.NoPolling
-        uid: azure.core.polling.NoPolling
-      - name: azure.core.polling.PollingMethod
-        uid: azure.core.polling.PollingMethod
-      name: azure.core.polling
-      uid: azure.core.polling
+        - name: azure.functions.cosmosdb.CosmosDBConverter
+          uid: azure.functions.cosmosdb.CosmosDBConverter
+        - name: azure.functions.cosmosdb.CosmosDBTriggerConverter
+          uid: azure.functions.cosmosdb.CosmosDBTriggerConverter
+        name: azure.functions.cosmosdb
+        uid: azure.functions.cosmosdb
+      - items:
+        - name: azure.functions.durable_functions.ActivityTriggerConverter
+          uid: azure.functions.durable_functions.ActivityTriggerConverter
+        - name: azure.functions.durable_functions.OrchestrationTriggerConverter
+          uid: azure.functions.durable_functions.OrchestrationTriggerConverter
+        name: azure.functions.durable_functions
+        uid: azure.functions.durable_functions
+      - items:
+        - name: azure.functions.eventgrid.EventGridEventInConverter
+          uid: azure.functions.eventgrid.EventGridEventInConverter
+        - name: azure.functions.eventgrid.EventGridEventOutConverter
+          uid: azure.functions.eventgrid.EventGridEventOutConverter
+        name: azure.functions.eventgrid
+        uid: azure.functions.eventgrid
+      - items:
+        - name: azure.functions.eventhub.EventHubConverter
+          uid: azure.functions.eventhub.EventHubConverter
+        - name: azure.functions.eventhub.EventHubTriggerConverter
+          uid: azure.functions.eventhub.EventHubTriggerConverter
+        name: azure.functions.eventhub
+        uid: azure.functions.eventhub
+      - items:
+        - name: azure.functions.http.HttpRequest
+          uid: azure.functions.http.HttpRequest
+        - name: azure.functions.http.HttpRequestConverter
+          uid: azure.functions.http.HttpRequestConverter
+        - name: azure.functions.http.HttpResponseConverter
+          uid: azure.functions.http.HttpResponseConverter
+        name: azure.functions.http
+        uid: azure.functions.http
+      - items:
+        - name: azure.functions.meta.Datum
+          uid: azure.functions.meta.Datum
+        - name: azure.functions.meta.InConverter
+          uid: azure.functions.meta.InConverter
+        - name: azure.functions.meta.OutConverter
+          uid: azure.functions.meta.OutConverter
+        name: azure.functions.meta
+        uid: azure.functions.meta
+      - items:
+        - name: azure.functions.queue.QueueMessage
+          uid: azure.functions.queue.QueueMessage
+        - name: azure.functions.queue.QueueMessageInConverter
+          uid: azure.functions.queue.QueueMessageInConverter
+        - name: azure.functions.queue.QueueMessageOutConverter
+          uid: azure.functions.queue.QueueMessageOutConverter
+        name: azure.functions.queue
+        uid: azure.functions.queue
+      - items:
+        - name: azure.functions.servicebus.ServiceBusMessage
+          uid: azure.functions.servicebus.ServiceBusMessage
+        - name: azure.functions.servicebus.ServiceBusMessageInConverter
+          uid: azure.functions.servicebus.ServiceBusMessageInConverter
+        - name: azure.functions.servicebus.ServiceBusMessageOutConverter
+          uid: azure.functions.servicebus.ServiceBusMessageOutConverter
+        name: azure.functions.servicebus
+        uid: azure.functions.servicebus
+      - items:
+        - name: azure.functions.timer.TimerRequest
+          uid: azure.functions.timer.TimerRequest
+        - name: azure.functions.timer.TimerRequestConverter
+          uid: azure.functions.timer.TimerRequestConverter
+        name: azure.functions.timer
+        uid: azure.functions.timer
+      - name: azure.functions.Context
+        uid: azure.functions.Context
+      - name: azure.functions.Document
+        uid: azure.functions.Document
+      - name: azure.functions.DocumentList
+        uid: azure.functions.DocumentList
+      - name: azure.functions.EventGridEvent
+        uid: azure.functions.EventGridEvent
+      - name: azure.functions.EventHubEvent
+        uid: azure.functions.EventHubEvent
+      - name: azure.functions.HttpRequest
+        uid: azure.functions.HttpRequest
+      - name: azure.functions.HttpResponse
+        uid: azure.functions.HttpResponse
+      - name: azure.functions.InputStream
+        uid: azure.functions.InputStream
+      - name: azure.functions.OrchestrationContext
+        uid: azure.functions.OrchestrationContext
+      - name: azure.functions.Out
+        uid: azure.functions.Out
+      - name: azure.functions.QueueMessage
+        uid: azure.functions.QueueMessage
+      - name: azure.functions.ServiceBusMessage
+        uid: azure.functions.ServiceBusMessage
+      - name: azure.functions.TimerRequest
+        uid: azure.functions.TimerRequest
+      - name: azure.functions.WsgiMiddleware
+        uid: azure.functions.WsgiMiddleware
+      name: azure.functions
+      uid: azure.functions
+    name: azure
+    uid: azure
+  name: azure-functions
+  uid: project-azure-functions
+
+- items:
+  - items:
     - items:
-      - name: azure.core.settings.Settings
-        uid: azure.core.settings.Settings
-      name: azure.core.settings
-      uid: azure.core.settings
+      - name: azure.iot.device.aio.patch_documentation
+        uid: azure.iot.device.aio.patch_documentation
+      - name: azure.iot.device.aio.IoTHubDeviceClient
+        uid: azure.iot.device.aio.IoTHubDeviceClient
+      - name: azure.iot.device.aio.IoTHubModuleClient
+        uid: azure.iot.device.aio.IoTHubModuleClient
+      - name: azure.iot.device.aio.ProvisioningDeviceClient
+        uid: azure.iot.device.aio.ProvisioningDeviceClient
+      name: azure.iot.device.aio
+      uid: azure.iot.device.aio
     - items:
-      - name: azure.core.tracing.common
-        uid: azure.core.tracing.common
-      - name: azure.core.tracing.decorator
-        uid: azure.core.tracing.decorator
-      - name: azure.core.tracing.decorator_async
-        uid: azure.core.tracing.decorator_async
-      - name: azure.core.tracing.AbstractSpan
-        uid: azure.core.tracing.AbstractSpan
-      - name: azure.core.tracing.HttpSpanMixin
-        uid: azure.core.tracing.HttpSpanMixin
-      - name: azure.core.tracing.SpanKind
-        uid: azure.core.tracing.SpanKind
-      name: azure.core.tracing
-      uid: azure.core.tracing
-    - name: azure.core.AsyncPipelineClient
-      uid: azure.core.AsyncPipelineClient
-    - name: azure.core.MatchConditions
-      uid: azure.core.MatchConditions
-    - name: azure.core.PipelineClient
-      uid: azure.core.PipelineClient
-    name: azure.core
-    uid: azure.core
-  name: azure-core
-  uid: project-azure-core
+      - items:
+        - name: azure.iot.device.common.async_adapter.AwaitableCallback
+          uid: azure.iot.device.common.async_adapter.AwaitableCallback
+        name: azure.iot.device.common.async_adapter
+        uid: azure.iot.device.common.async_adapter
+      - name: azure.iot.device.common.asyncio_compat
+        uid: azure.iot.device.common.asyncio_compat
+      - items:
+        - name: azure.iot.device.common.callable_weak_method.CallableWeakMethod
+          uid: azure.iot.device.common.callable_weak_method.CallableWeakMethod
+        name: azure.iot.device.common.callable_weak_method
+        uid: azure.iot.device.common.callable_weak_method
+      - items:
+        - name: azure.iot.device.common.chainable_exception.ChainableException
+          uid: azure.iot.device.common.chainable_exception.ChainableException
+        name: azure.iot.device.common.chainable_exception
+        uid: azure.iot.device.common.chainable_exception
+      - items:
+        - name: azure.iot.device.common.connection_string.ConnectionString
+          uid: azure.iot.device.common.connection_string.ConnectionString
+        name: azure.iot.device.common.connection_string
+        uid: azure.iot.device.common.connection_string
+      - items:
+        - name: azure.iot.device.common.evented_callback.EventedCallback
+          uid: azure.iot.device.common.evented_callback.EventedCallback
+        name: azure.iot.device.common.evented_callback
+        uid: azure.iot.device.common.evented_callback
+      - name: azure.iot.device.common.handle_exceptions
+        uid: azure.iot.device.common.handle_exceptions
+      - items:
+        - name: azure.iot.device.common.http_transport.HTTPTransport
+          uid: azure.iot.device.common.http_transport.HTTPTransport
+        name: azure.iot.device.common.http_transport
+        uid: azure.iot.device.common.http_transport
+      - items:
+        - items:
+          - name: azure.iot.device.common.models.proxy_options.ProxyOptions
+            uid: azure.iot.device.common.models.proxy_options.ProxyOptions
+          name: azure.iot.device.common.models.proxy_options
+          uid: azure.iot.device.common.models.proxy_options
+        - items:
+          - name: azure.iot.device.common.models.x509.X509
+            uid: azure.iot.device.common.models.x509.X509
+          name: azure.iot.device.common.models.x509
+          uid: azure.iot.device.common.models.x509
+        name: azure.iot.device.common.models
+        uid: azure.iot.device.common.models
+      - items:
+        - name: azure.iot.device.common.mqtt_transport.MQTTTransport
+          uid: azure.iot.device.common.mqtt_transport.MQTTTransport
+        - name: azure.iot.device.common.mqtt_transport.OperationManager
+          uid: azure.iot.device.common.mqtt_transport.OperationManager
+        name: azure.iot.device.common.mqtt_transport
+        uid: azure.iot.device.common.mqtt_transport
+      - items:
+        - items:
+          - name: azure.iot.device.common.pipeline.config.BasePipelineConfig
+            uid: azure.iot.device.common.pipeline.config.BasePipelineConfig
+          name: azure.iot.device.common.pipeline.config
+          uid: azure.iot.device.common.pipeline.config
+        - items:
+          - name: azure.iot.device.common.pipeline.pipeline_events_base.ConnectedEvent
+            uid: azure.iot.device.common.pipeline.pipeline_events_base.ConnectedEvent
+          - name: azure.iot.device.common.pipeline.pipeline_events_base.DisconnectedEvent
+            uid: azure.iot.device.common.pipeline.pipeline_events_base.DisconnectedEvent
+          - name: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+            uid: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+          - name: azure.iot.device.common.pipeline.pipeline_events_base.ResponseEvent
+            uid: azure.iot.device.common.pipeline.pipeline_events_base.ResponseEvent
+          name: azure.iot.device.common.pipeline.pipeline_events_base
+          uid: azure.iot.device.common.pipeline.pipeline_events_base
+        - items:
+          - name: azure.iot.device.common.pipeline.pipeline_events_mqtt.IncomingMQTTMessageEvent
+            uid: azure.iot.device.common.pipeline.pipeline_events_mqtt.IncomingMQTTMessageEvent
+          name: azure.iot.device.common.pipeline.pipeline_events_mqtt
+          uid: azure.iot.device.common.pipeline.pipeline_events_mqtt
+        - items:
+          - name: azure.iot.device.common.pipeline.pipeline_exceptions.OperationCancelled
+            uid: azure.iot.device.common.pipeline.pipeline_exceptions.OperationCancelled
+          - name: azure.iot.device.common.pipeline.pipeline_exceptions.OperationError
+            uid: azure.iot.device.common.pipeline.pipeline_exceptions.OperationError
+          - name: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineError
+            uid: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineError
+          - name: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineException
+            uid: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineException
+          - name: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineTimeoutError
+            uid: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineTimeoutError
+          name: azure.iot.device.common.pipeline.pipeline_exceptions
+          uid: azure.iot.device.common.pipeline.pipeline_exceptions
+        - items:
+          - name: azure.iot.device.common.pipeline.pipeline_ops_base.ConnectOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_base.ConnectOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_base.DisableFeatureOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_base.DisableFeatureOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_base.DisconnectOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_base.DisconnectOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_base.EnableFeatureOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_base.EnableFeatureOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_base.ReauthorizeConnectionOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_base.ReauthorizeConnectionOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_base.RequestAndResponseOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_base.RequestAndResponseOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_base.RequestOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_base.RequestOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_base.UpdateSasTokenOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_base.UpdateSasTokenOperation
+          name: azure.iot.device.common.pipeline.pipeline_ops_base
+          uid: azure.iot.device.common.pipeline.pipeline_ops_base
+        - items:
+          - name: azure.iot.device.common.pipeline.pipeline_ops_http.HTTPRequestAndResponseOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_http.HTTPRequestAndResponseOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_http.SetHTTPConnectionArgsOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_http.SetHTTPConnectionArgsOperation
+          name: azure.iot.device.common.pipeline.pipeline_ops_http
+          uid: azure.iot.device.common.pipeline.pipeline_ops_http
+        - items:
+          - name: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTPublishOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTPublishOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTSubscribeOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTSubscribeOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTUnsubscribeOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt.MQTTUnsubscribeOperation
+          - name: azure.iot.device.common.pipeline.pipeline_ops_mqtt.SetMQTTConnectionArgsOperation
+            uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt.SetMQTTConnectionArgsOperation
+          name: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+          uid: azure.iot.device.common.pipeline.pipeline_ops_mqtt
+        - items:
+          - name: azure.iot.device.common.pipeline.pipeline_stages_base.AutoConnectStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_base.AutoConnectStage
+          - name: azure.iot.device.common.pipeline.pipeline_stages_base.ConnectionLockStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_base.ConnectionLockStage
+          - name: azure.iot.device.common.pipeline.pipeline_stages_base.CoordinateRequestAndResponseStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_base.CoordinateRequestAndResponseStage
+          - name: azure.iot.device.common.pipeline.pipeline_stages_base.OpTimeoutStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_base.OpTimeoutStage
+          - name: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+          - name: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+          - name: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectStage
+          - name: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+            uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectState
+          - name: azure.iot.device.common.pipeline.pipeline_stages_base.RetryStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_base.RetryStage
+          name: azure.iot.device.common.pipeline.pipeline_stages_base
+          uid: azure.iot.device.common.pipeline.pipeline_stages_base
+        - items:
+          - name: azure.iot.device.common.pipeline.pipeline_stages_http.HTTPTransportStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_http.HTTPTransportStage
+          name: azure.iot.device.common.pipeline.pipeline_stages_http
+          uid: azure.iot.device.common.pipeline.pipeline_stages_http
+        - items:
+          - name: azure.iot.device.common.pipeline.pipeline_stages_mqtt.MQTTTransportStage
+            uid: azure.iot.device.common.pipeline.pipeline_stages_mqtt.MQTTTransportStage
+          name: azure.iot.device.common.pipeline.pipeline_stages_mqtt
+          uid: azure.iot.device.common.pipeline.pipeline_stages_mqtt
+        - name: azure.iot.device.common.pipeline.pipeline_thread
+          uid: azure.iot.device.common.pipeline.pipeline_thread
+        name: azure.iot.device.common.pipeline
+        uid: azure.iot.device.common.pipeline
+      - items:
+        - name: azure.iot.device.common.sastoken.SasToken
+          uid: azure.iot.device.common.sastoken.SasToken
+        - name: azure.iot.device.common.sastoken.SasTokenError
+          uid: azure.iot.device.common.sastoken.SasTokenError
+        name: azure.iot.device.common.sastoken
+        uid: azure.iot.device.common.sastoken
+      - items:
+        - name: azure.iot.device.common.transport_exceptions.ConnectionDroppedError
+          uid: azure.iot.device.common.transport_exceptions.ConnectionDroppedError
+        - name: azure.iot.device.common.transport_exceptions.ConnectionFailedError
+          uid: azure.iot.device.common.transport_exceptions.ConnectionFailedError
+        - name: azure.iot.device.common.transport_exceptions.ProtocolClientError
+          uid: azure.iot.device.common.transport_exceptions.ProtocolClientError
+        - name: azure.iot.device.common.transport_exceptions.ProtocolProxyError
+          uid: azure.iot.device.common.transport_exceptions.ProtocolProxyError
+        - name: azure.iot.device.common.transport_exceptions.TlsExchangeAuthError
+          uid: azure.iot.device.common.transport_exceptions.TlsExchangeAuthError
+        - name: azure.iot.device.common.transport_exceptions.UnauthorizedError
+          uid: azure.iot.device.common.transport_exceptions.UnauthorizedError
+        name: azure.iot.device.common.transport_exceptions
+        uid: azure.iot.device.common.transport_exceptions
+      - name: azure.iot.device.common.version_compat
+        uid: azure.iot.device.common.version_compat
+      - name: azure.iot.device.common.ProxyOptions
+        uid: azure.iot.device.common.ProxyOptions
+      - name: azure.iot.device.common.X509
+        uid: azure.iot.device.common.X509
+      name: azure.iot.device.common
+      uid: azure.iot.device.common
+    - name: azure.iot.device.constant
+      uid: azure.iot.device.constant
+    - items:
+      - name: azure.iot.device.exceptions.ClientError
+        uid: azure.iot.device.exceptions.ClientError
+      - name: azure.iot.device.exceptions.ConnectionDroppedError
+        uid: azure.iot.device.exceptions.ConnectionDroppedError
+      - name: azure.iot.device.exceptions.ConnectionFailedError
+        uid: azure.iot.device.exceptions.ConnectionFailedError
+      - name: azure.iot.device.exceptions.CredentialError
+        uid: azure.iot.device.exceptions.CredentialError
+      - name: azure.iot.device.exceptions.OperationCancelled
+        uid: azure.iot.device.exceptions.OperationCancelled
+      - name: azure.iot.device.exceptions.ServiceError
+        uid: azure.iot.device.exceptions.ServiceError
+      name: azure.iot.device.exceptions
+      uid: azure.iot.device.exceptions
+    - items:
+      - items:
+        - name: azure.iot.device.iothub.abstract_clients.AbstractIoTHubClient
+          uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubClient
+        - name: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+          uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+        - name: azure.iot.device.iothub.abstract_clients.AbstractIoTHubModuleClient
+          uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubModuleClient
+        name: azure.iot.device.iothub.abstract_clients
+        uid: azure.iot.device.iothub.abstract_clients
+      - items:
+        - items:
+          - name: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+            uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+          - name: azure.iot.device.iothub.aio.async_clients.IoTHubDeviceClient
+            uid: azure.iot.device.iothub.aio.async_clients.IoTHubDeviceClient
+          - name: azure.iot.device.iothub.aio.async_clients.IoTHubModuleClient
+            uid: azure.iot.device.iothub.aio.async_clients.IoTHubModuleClient
+          name: azure.iot.device.iothub.aio.async_clients
+          uid: azure.iot.device.iothub.aio.async_clients
+        - items:
+          - name: azure.iot.device.iothub.aio.async_inbox.AsyncClientInbox
+            uid: azure.iot.device.iothub.aio.async_inbox.AsyncClientInbox
+          name: azure.iot.device.iothub.aio.async_inbox
+          uid: azure.iot.device.iothub.aio.async_inbox
+        - name: azure.iot.device.iothub.aio.IoTHubDeviceClient
+          uid: azure.iot.device.iothub.aio.IoTHubDeviceClient
+        - name: azure.iot.device.iothub.aio.IoTHubModuleClient
+          uid: azure.iot.device.iothub.aio.IoTHubModuleClient
+        name: azure.iot.device.iothub.aio
+        uid: azure.iot.device.iothub.aio
+      - items:
+        - items:
+          - name: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
+            uid: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
+          name: azure.iot.device.iothub.auth.authentication_provider
+          uid: azure.iot.device.iothub.auth.authentication_provider
+        - items:
+          - name: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+            uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+          name: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
+          uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
+        - items:
+          - name: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeAuthenticationProvider
+            uid: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeAuthenticationProvider
+          - name: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeError
+            uid: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeError
+          - name: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm
+            uid: azure.iot.device.iothub.auth.iotedge_authentication_provider.IoTEdgeHsm
+          name: azure.iot.device.iothub.auth.iotedge_authentication_provider
+          uid: azure.iot.device.iothub.auth.iotedge_authentication_provider
+        - items:
+          - name: azure.iot.device.iothub.auth.sas_authentication_provider.SharedAccessSignatureAuthenticationProvider
+            uid: azure.iot.device.iothub.auth.sas_authentication_provider.SharedAccessSignatureAuthenticationProvider
+          name: azure.iot.device.iothub.auth.sas_authentication_provider
+          uid: azure.iot.device.iothub.auth.sas_authentication_provider
+        - items:
+          - name: azure.iot.device.iothub.auth.sk_authentication_provider.SymmetricKeyAuthenticationProvider
+            uid: azure.iot.device.iothub.auth.sk_authentication_provider.SymmetricKeyAuthenticationProvider
+          name: azure.iot.device.iothub.auth.sk_authentication_provider
+          uid: azure.iot.device.iothub.auth.sk_authentication_provider
+        - items:
+          - name: azure.iot.device.iothub.auth.x509_authentication_provider.X509AuthenticationProvider
+            uid: azure.iot.device.iothub.auth.x509_authentication_provider.X509AuthenticationProvider
+          name: azure.iot.device.iothub.auth.x509_authentication_provider
+          uid: azure.iot.device.iothub.auth.x509_authentication_provider
+        - name: azure.iot.device.iothub.auth.IoTEdgeAuthenticationProvider
+          uid: azure.iot.device.iothub.auth.IoTEdgeAuthenticationProvider
+        - name: azure.iot.device.iothub.auth.IoTEdgeError
+          uid: azure.iot.device.iothub.auth.IoTEdgeError
+        - name: azure.iot.device.iothub.auth.SharedAccessSignatureAuthenticationProvider
+          uid: azure.iot.device.iothub.auth.SharedAccessSignatureAuthenticationProvider
+        - name: azure.iot.device.iothub.auth.SymmetricKeyAuthenticationProvider
+          uid: azure.iot.device.iothub.auth.SymmetricKeyAuthenticationProvider
+        - name: azure.iot.device.iothub.auth.X509AuthenticationProvider
+          uid: azure.iot.device.iothub.auth.X509AuthenticationProvider
+        name: azure.iot.device.iothub.auth
+        uid: azure.iot.device.iothub.auth
+      - items:
+        - name: azure.iot.device.iothub.inbox_manager.InboxManager
+          uid: azure.iot.device.iothub.inbox_manager.InboxManager
+        name: azure.iot.device.iothub.inbox_manager
+        uid: azure.iot.device.iothub.inbox_manager
+      - items:
+        - items:
+          - name: azure.iot.device.iothub.models.message.Message
+            uid: azure.iot.device.iothub.models.message.Message
+          name: azure.iot.device.iothub.models.message
+          uid: azure.iot.device.iothub.models.message
+        - items:
+          - name: azure.iot.device.iothub.models.methods.MethodRequest
+            uid: azure.iot.device.iothub.models.methods.MethodRequest
+          - name: azure.iot.device.iothub.models.methods.MethodResponse
+            uid: azure.iot.device.iothub.models.methods.MethodResponse
+          name: azure.iot.device.iothub.models.methods
+          uid: azure.iot.device.iothub.models.methods
+        - items:
+          - name: azure.iot.device.iothub.models.twin.Twin
+            uid: azure.iot.device.iothub.models.twin.Twin
+          name: azure.iot.device.iothub.models.twin
+          uid: azure.iot.device.iothub.models.twin
+        name: azure.iot.device.iothub.models
+        uid: azure.iot.device.iothub.models
+      - items:
+        - items:
+          - name: azure.iot.device.iothub.pipeline.config.IoTHubPipelineConfig
+            uid: azure.iot.device.iothub.pipeline.config.IoTHubPipelineConfig
+          name: azure.iot.device.iothub.pipeline.config
+          uid: azure.iot.device.iothub.pipeline.config
+        - name: azure.iot.device.iothub.pipeline.constant
+          uid: azure.iot.device.iothub.pipeline.constant
+        - name: azure.iot.device.iothub.pipeline.exceptions
+          uid: azure.iot.device.iothub.pipeline.exceptions
+        - name: azure.iot.device.iothub.pipeline.http_map_error
+          uid: azure.iot.device.iothub.pipeline.http_map_error
+        - name: azure.iot.device.iothub.pipeline.http_path_iothub
+          uid: azure.iot.device.iothub.pipeline.http_path_iothub
+        - items:
+          - name: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+            uid: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+          name: azure.iot.device.iothub.pipeline.http_pipeline
+          uid: azure.iot.device.iothub.pipeline.http_pipeline
+        - items:
+          - name: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+            uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+          name: azure.iot.device.iothub.pipeline.mqtt_pipeline
+          uid: azure.iot.device.iothub.pipeline.mqtt_pipeline
+        - name: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+          uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+        - items:
+          - name: azure.iot.device.iothub.pipeline.pipeline_events_iothub.C2DMessageEvent
+            uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.C2DMessageEvent
+          - name: azure.iot.device.iothub.pipeline.pipeline_events_iothub.InputMessageEvent
+            uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.InputMessageEvent
+          - name: azure.iot.device.iothub.pipeline.pipeline_events_iothub.MethodRequestEvent
+            uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.MethodRequestEvent
+          - name: azure.iot.device.iothub.pipeline.pipeline_events_iothub.TwinDesiredPropertiesPatchEvent
+            uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.TwinDesiredPropertiesPatchEvent
+          name: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+          uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+        - items:
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.GetTwinOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.GetTwinOperation
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.PatchTwinReportedPropertiesOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.PatchTwinReportedPropertiesOperation
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendD2CMessageOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendD2CMessageOperation
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendMethodResponseOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendMethodResponseOperation
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendOutputEventOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendOutputEventOperation
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetAuthProviderOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetAuthProviderOperation
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetIoTHubConnectionArgsOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetIoTHubConnectionArgsOperation
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetX509AuthProviderOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetX509AuthProviderOperation
+          name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+          uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+        - items:
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.GetStorageInfoOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.GetStorageInfoOperation
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.MethodInvokeOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.MethodInvokeOperation
+          - name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.NotifyBlobUploadStatusOperation
+            uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.NotifyBlobUploadStatusOperation
+          name: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+          uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+        - items:
+          - name: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.EnsureDesiredPropertiesStage
+            uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.EnsureDesiredPropertiesStage
+          - name: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.TwinRequestResponseStage
+            uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.TwinRequestResponseStage
+          - name: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.UseAuthProviderStage
+            uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.UseAuthProviderStage
+          name: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+          uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+        - items:
+          - name: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.IoTHubHTTPTranslationStage
+            uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http.IoTHubHTTPTranslationStage
+          name: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+          uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_http
+        - items:
+          - name: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt.IoTHubMQTTTranslationStage
+            uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt.IoTHubMQTTTranslationStage
+          name: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt
+          uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt
+        name: azure.iot.device.iothub.pipeline
+        uid: azure.iot.device.iothub.pipeline
+      - items:
+        - name: azure.iot.device.iothub.sync_clients.GenericIoTHubClient
+          uid: azure.iot.device.iothub.sync_clients.GenericIoTHubClient
+        - name: azure.iot.device.iothub.sync_clients.IoTHubDeviceClient
+          uid: azure.iot.device.iothub.sync_clients.IoTHubDeviceClient
+        - name: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+          uid: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+        name: azure.iot.device.iothub.sync_clients
+        uid: azure.iot.device.iothub.sync_clients
+      - items:
+        - name: azure.iot.device.iothub.sync_inbox.AbstractInbox
+          uid: azure.iot.device.iothub.sync_inbox.AbstractInbox
+        - name: azure.iot.device.iothub.sync_inbox.InboxEmpty
+          uid: azure.iot.device.iothub.sync_inbox.InboxEmpty
+        - name: azure.iot.device.iothub.sync_inbox.SyncClientInbox
+          uid: azure.iot.device.iothub.sync_inbox.SyncClientInbox
+        name: azure.iot.device.iothub.sync_inbox
+        uid: azure.iot.device.iothub.sync_inbox
+      - name: azure.iot.device.iothub.IoTHubDeviceClient
+        uid: azure.iot.device.iothub.IoTHubDeviceClient
+      - name: azure.iot.device.iothub.IoTHubModuleClient
+        uid: azure.iot.device.iothub.IoTHubModuleClient
+      - name: azure.iot.device.iothub.Message
+        uid: azure.iot.device.iothub.Message
+      - name: azure.iot.device.iothub.MethodRequest
+        uid: azure.iot.device.iothub.MethodRequest
+      - name: azure.iot.device.iothub.MethodResponse
+        uid: azure.iot.device.iothub.MethodResponse
+      name: azure.iot.device.iothub
+      uid: azure.iot.device.iothub
+    - name: azure.iot.device.patch
+      uid: azure.iot.device.patch
+    - name: azure.iot.device.patch_documentation
+      uid: azure.iot.device.patch_documentation
+    - items:
+      - name: azure.iot.device.product_info.ProductInfo
+        uid: azure.iot.device.product_info.ProductInfo
+      name: azure.iot.device.product_info
+      uid: azure.iot.device.product_info
+    - items:
+      - items:
+        - name: azure.iot.device.provisioning.abstract_provisioning_device_client.AbstractProvisioningDeviceClient
+          uid: azure.iot.device.provisioning.abstract_provisioning_device_client.AbstractProvisioningDeviceClient
+        name: azure.iot.device.provisioning.abstract_provisioning_device_client
+        uid: azure.iot.device.provisioning.abstract_provisioning_device_client
+      - items:
+        - items:
+          - name: azure.iot.device.provisioning.aio.async_provisioning_device_client.ProvisioningDeviceClient
+            uid: azure.iot.device.provisioning.aio.async_provisioning_device_client.ProvisioningDeviceClient
+          name: azure.iot.device.provisioning.aio.async_provisioning_device_client
+          uid: azure.iot.device.provisioning.aio.async_provisioning_device_client
+        - name: azure.iot.device.provisioning.aio.ProvisioningDeviceClient
+          uid: azure.iot.device.provisioning.aio.ProvisioningDeviceClient
+        name: azure.iot.device.provisioning.aio
+        uid: azure.iot.device.provisioning.aio
+      - items:
+        - items:
+          - name: azure.iot.device.provisioning.models.registration_result.RegistrationResult
+            uid: azure.iot.device.provisioning.models.registration_result.RegistrationResult
+          - name: azure.iot.device.provisioning.models.registration_result.RegistrationState
+            uid: azure.iot.device.provisioning.models.registration_result.RegistrationState
+          name: azure.iot.device.provisioning.models.registration_result
+          uid: azure.iot.device.provisioning.models.registration_result
+        name: azure.iot.device.provisioning.models
+        uid: azure.iot.device.provisioning.models
+      - items:
+        - items:
+          - name: azure.iot.device.provisioning.pipeline.config.ProvisioningPipelineConfig
+            uid: azure.iot.device.provisioning.pipeline.config.ProvisioningPipelineConfig
+          name: azure.iot.device.provisioning.pipeline.config
+          uid: azure.iot.device.provisioning.pipeline.config
+        - name: azure.iot.device.provisioning.pipeline.constant
+          uid: azure.iot.device.provisioning.pipeline.constant
+        - name: azure.iot.device.provisioning.pipeline.exceptions
+          uid: azure.iot.device.provisioning.pipeline.exceptions
+        - name: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+          uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+        - items:
+          - name: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.PollStatusOperation
+            uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.PollStatusOperation
+          - name: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.RegisterOperation
+            uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.RegisterOperation
+          - name: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetProvisioningClientConnectionArgsOperation
+            uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetProvisioningClientConnectionArgsOperation
+          - name: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetSymmetricKeySecurityClientOperation
+            uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetSymmetricKeySecurityClientOperation
+          - name: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetX509SecurityClientOperation
+            uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.SetX509SecurityClientOperation
+          name: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+          uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+        - items:
+          - name: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.CommonProvisioningStage
+            uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.CommonProvisioningStage
+          - name: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+            uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+          - name: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.PollingStatusStage
+            uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.PollingStatusStage
+          - name: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.RegistrationStage
+            uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.RegistrationStage
+          - name: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.UseSecurityClientStage
+            uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.UseSecurityClientStage
+          name: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+          uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+        - items:
+          - name: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt.ProvisioningMQTTTranslationStage
+            uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt.ProvisioningMQTTTranslationStage
+          name: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+          uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+        - items:
+          - name: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+            uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+          name: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+          uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+        name: azure.iot.device.provisioning.pipeline
+        uid: azure.iot.device.provisioning.pipeline
+      - items:
+        - name: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+          uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+        name: azure.iot.device.provisioning.provisioning_device_client
+        uid: azure.iot.device.provisioning.provisioning_device_client
+      - items:
+        - items:
+          - name: azure.iot.device.provisioning.security.sk_security_client.SymmetricKeySecurityClient
+            uid: azure.iot.device.provisioning.security.sk_security_client.SymmetricKeySecurityClient
+          name: azure.iot.device.provisioning.security.sk_security_client
+          uid: azure.iot.device.provisioning.security.sk_security_client
+        - items:
+          - name: azure.iot.device.provisioning.security.x509_security_client.X509SecurityClient
+            uid: azure.iot.device.provisioning.security.x509_security_client.X509SecurityClient
+          name: azure.iot.device.provisioning.security.x509_security_client
+          uid: azure.iot.device.provisioning.security.x509_security_client
+        name: azure.iot.device.provisioning.security
+        uid: azure.iot.device.provisioning.security
+      - name: azure.iot.device.provisioning.ProvisioningDeviceClient
+        uid: azure.iot.device.provisioning.ProvisioningDeviceClient
+      - name: azure.iot.device.provisioning.RegistrationResult
+        uid: azure.iot.device.provisioning.RegistrationResult
+      name: azure.iot.device.provisioning
+      uid: azure.iot.device.provisioning
+    - name: azure.iot.device.IoTHubDeviceClient
+      uid: azure.iot.device.IoTHubDeviceClient
+    - name: azure.iot.device.IoTHubModuleClient
+      uid: azure.iot.device.IoTHubModuleClient
+    - name: azure.iot.device.Message
+      uid: azure.iot.device.Message
+    - name: azure.iot.device.MethodRequest
+      uid: azure.iot.device.MethodRequest
+    - name: azure.iot.device.MethodResponse
+      uid: azure.iot.device.MethodResponse
+    - name: azure.iot.device.ProvisioningDeviceClient
+      uid: azure.iot.device.ProvisioningDeviceClient
+    - name: azure.iot.device.ProxyOptions
+      uid: azure.iot.device.ProxyOptions
+    - name: azure.iot.device.RegistrationResult
+      uid: azure.iot.device.RegistrationResult
+    - name: azure.iot.device.X509
+      uid: azure.iot.device.X509
+    name: azure.iot.device
+    uid: azure.iot.device
+  name: azure-iot-device
+  uid: project-azure-iot-device
 

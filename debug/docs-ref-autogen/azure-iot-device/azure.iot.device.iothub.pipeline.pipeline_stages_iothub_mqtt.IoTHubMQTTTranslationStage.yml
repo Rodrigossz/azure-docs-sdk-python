@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt.IoTHubMQTTTranslationStage
+  fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt.IoTHubMQTTTranslationStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt
+  name: IoTHubMQTTTranslationStage
+  source:
+    id: IoTHubMQTTTranslationStage
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub_mqtt.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub_mqtt.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 29
+  summary: 'PipelineStage which converts other Iot and IoTHub operations into MQTT
+    operations.  This stage also
+
+    converts mqtt pipeline events into Iot and IoTHub pipeline events.'
+  syntax:
+    content: IoTHubMQTTTranslationStage()
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub_mqtt.IoTHubMQTTTranslationStage
+references: []

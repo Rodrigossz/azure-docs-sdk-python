@@ -1,0 +1,647 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.encode_message_properties_in_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.extract_message_properties_from_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_c2d_topic_for_subscribe
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_name_from_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_topic_for_subscribe
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_name_from_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_request_id_from_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_publish
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_subscribe
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_telemetry_topic_for_publish
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_patch_topic_for_subscribe
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_request_id_from_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_response_topic_for_subscribe
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_status_code_from_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_topic_for_publish
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_c2d_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_input_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_method_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_desired_property_patch_topic
+  - azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_response_topic
+  fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: mqtt_topic_iothub
+  source:
+    id: mqtt_topic_iothub
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.encode_message_properties_in_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: encode_message_properties_in_topic(message_to_send, topic)
+  source:
+    id: encode_message_properties_in_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 311
+  summary: 'uri-encode the system properties of a message as key-value pairs on the
+    topic with defined keys.
+
+    Additionally if the message has user defined properties, the property keys and
+    values shall be
+
+    uri-encoded and appended at the end of the above topic with the following convention:
+
+    ''<key>=<value>&<key2>=<value2>&<key3>=<value3>(...)''
+
+    :param message_to_send: The message to send
+
+    :param topic: The topic which has not been encoded yet. For a device it looks
+    like
+
+    "devices/<deviceId>/messages/events/" and for a module it looks like
+
+    "devices/<deviceId>/modules/<moduleId>/messages/events/
+
+    :return: The topic which has been uri-encoded'
+  syntax:
+    content: encode_message_properties_in_topic(message_to_send, topic)
+    parameters:
+    - id: message_to_send
+    - id: topic
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.encode_message_properties_in_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.extract_message_properties_from_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: extract_message_properties_from_topic(topic, message_received)
+  source:
+    id: extract_message_properties_from_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 256
+  summary: 'Extract key=value pairs from custom properties and set the properties
+    on the received message.
+
+    :param topic: The topic string
+
+    :param message_received: The message received with the payload in bytes'
+  syntax:
+    content: extract_message_properties_from_topic(topic, message_received)
+    parameters:
+    - id: topic
+    - id: message_received
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.extract_message_properties_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_c2d_topic_for_subscribe
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_c2d_topic_for_subscribe(device_id)
+  source:
+    id: get_c2d_topic_for_subscribe
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 37
+  summary: '"devices/<deviceid>/messages/devicebound/#"'
+  syntax:
+    content: get_c2d_topic_for_subscribe(device_id)
+    parameters:
+    - id: device_id
+    return:
+      description: The topic for cloud to device messages.It is of the format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_c2d_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_name_from_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_input_name_from_topic(topic)
+  source:
+    id: get_input_name_from_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 172
+  summary: 'Extract the input channel from the topic name
+
+    Topics for inputs are of the following format:
+
+    devices/<deviceId>/modules/<moduleId>/inputs/<inputName>'
+  syntax:
+    content: get_input_name_from_topic(topic)
+    parameters:
+    - description: The topic string
+      id: topic
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_name_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_topic_for_subscribe
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_input_topic_for_subscribe(device_id, module_id)
+  source:
+    id: get_input_topic_for_subscribe
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 45
+  summary: '"devices/<deviceId>/modules/<moduleId>/inputs/#"'
+  syntax:
+    content: get_input_topic_for_subscribe(device_id, module_id)
+    parameters:
+    - id: device_id
+    - id: module_id
+    return:
+      description: The topic for input messages. It is of the format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_name_from_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_method_name_from_topic(topic)
+  source:
+    id: get_method_name_from_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 187
+  summary: 'Extract the method name from the method topic.
+
+    Topics for methods are of the following format:
+
+    "$iothub/methods/POST/{method name}/?$rid={request id}"'
+  syntax:
+    content: get_method_name_from_topic(topic)
+    parameters:
+    - description: The topic string
+      id: topic
+      type:
+      - str
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_name_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_request_id_from_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_method_request_id_from_topic(topic)
+  source:
+    id: get_method_request_id_from_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 202
+  summary: 'Extract the Request ID (RID) from the method topic.
+
+    Topics for methods are of the following format:
+
+    "$iothub/methods/POST/{method name}/?$rid={request id}"'
+  syntax:
+    content: get_method_request_id_from_topic(topic)
+    parameters:
+    - description: the topic string
+      id: topic
+      type:
+      - str
+    return:
+      description: request id from topic string
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_request_id_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_publish
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_method_topic_for_publish(request_id, status)
+  source:
+    id: get_method_topic_for_publish
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 84
+  summary: '"$iothub/methods/res/<status>/?$rid=<requestId>'
+  syntax:
+    content: get_method_topic_for_publish(request_id, status)
+    parameters:
+    - id: request_id
+    - id: status
+    return:
+      description: The topic for publishing method responses. It is of the format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_publish
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_subscribe
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_method_topic_for_subscribe()
+  source:
+    id: get_method_topic_for_subscribe
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 53
+  summary: '"$iothub/methods/POST/#"'
+  syntax:
+    content: get_method_topic_for_subscribe()
+    return:
+      description: The topic for ALL incoming methods. It is of the format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_telemetry_topic_for_publish
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_telemetry_topic_for_publish(device_id, module_id)
+  source:
+    id: get_telemetry_topic_for_publish
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 77
+  summary: return the topic string used to publish telemetry
+  syntax:
+    content: get_telemetry_topic_for_publish(device_id, module_id)
+    parameters:
+    - id: device_id
+    - id: module_id
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_telemetry_topic_for_publish
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_patch_topic_for_subscribe
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_twin_patch_topic_for_subscribe()
+  source:
+    id: get_twin_patch_topic_for_subscribe
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 69
+  summary: '"$iothub/twin/PATCH/properties/desired/#'
+  syntax:
+    content: get_twin_patch_topic_for_subscribe()
+    return:
+      description: The topic for ALL incoming twin patches. It is of the format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_patch_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_request_id_from_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_twin_request_id_from_topic(topic)
+  source:
+    id: get_twin_request_id_from_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 221
+  summary: 'Extract the Request ID (RID) from the twin response topic.
+
+    Topics for twin response are in the following format:
+
+    "$iothub/twin/res/{status}/?$rid={rid}"'
+  syntax:
+    content: get_twin_request_id_from_topic(topic)
+    parameters:
+    - description: The topic string
+      id: topic
+      type:
+      - str
+    return:
+      description: request id from topic string
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_request_id_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_response_topic_for_subscribe
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_twin_response_topic_for_subscribe()
+  source:
+    id: get_twin_response_topic_for_subscribe
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 61
+  summary: '"$iothub/twin/res/#"'
+  syntax:
+    content: get_twin_response_topic_for_subscribe()
+    return:
+      description: The topic for ALL incoming twin responses. It is of the format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_response_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_status_code_from_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_twin_status_code_from_topic(topic)
+  source:
+    id: get_twin_status_code_from_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 239
+  summary: 'Extract the status code from the twin response topic.
+
+    Topics for twin response are in the following format:
+
+    "$iothub/twin/res/{status}/?$rid={rid}"
+
+
+
+    :returns status code from topic string'
+  syntax:
+    content: get_twin_status_code_from_topic(topic)
+    parameters:
+    - description: The topic string
+      id: topic
+      type:
+      - str
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_status_code_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_topic_for_publish
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: get_twin_topic_for_publish(method, resource_location, request_id)
+  source:
+    id: get_twin_topic_for_publish
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 98
+  summary: '"$iothub/twin/<method><resourceLocation>?$rid=<requestId>'
+  syntax:
+    content: get_twin_topic_for_publish(method, resource_location, request_id)
+    parameters:
+    - id: method
+    - id: resource_location
+    - id: request_id
+    return:
+      description: The topic for publishing twin requests / patches. It is of the
+        format
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_topic_for_publish
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_c2d_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: is_c2d_topic(topic, device_id)
+  source:
+    id: is_c2d_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 110
+  summary: 'Topics for c2d message are of the following format:
+
+    devices/<deviceId>/messages/devicebound
+
+    :param topic: The topic string'
+  syntax:
+    content: is_c2d_topic(topic, device_id)
+    parameters:
+    - id: topic
+    - id: device_id
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_c2d_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_input_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: is_input_topic(topic, device_id, module_id)
+  source:
+    id: is_input_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 124
+  summary: 'Topics for inputs are of the following format:
+
+    devices/<deviceId>/modules/<moduleId>/inputs/<inputName>
+
+    :param topic: The topic string'
+  syntax:
+    content: is_input_topic(topic, device_id, module_id)
+    parameters:
+    - id: topic
+    - id: device_id
+    - id: module_id
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_input_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_method_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: is_method_topic(topic)
+  source:
+    id: is_method_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 142
+  summary: 'Topics for methods are of the following format:
+
+    "$iothub/methods/POST/{method name}/?$rid={request id}"'
+  syntax:
+    content: is_method_topic(topic)
+    parameters:
+    - description: The topic string.
+      id: topic
+      type:
+      - str
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_method_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_desired_property_patch_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: is_twin_desired_property_patch_topic(topic)
+  source:
+    id: is_twin_desired_property_patch_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 163
+  summary: 'Topics for twin desired property patches are of the following format:
+
+    $iothub/twin/PATCH/properties/desired'
+  syntax:
+    content: is_twin_desired_property_patch_topic(topic)
+    parameters:
+    - description: The topic string
+      id: topic
+      type:
+      - str
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_desired_property_patch_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_response_topic
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  name: is_twin_response_topic(topic)
+  source:
+    id: is_twin_response_topic
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_topic_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 154
+  summary: 'Topics for twin responses are of the following format:
+
+    $iothub/twin/res/{status}/?$rid={rid}'
+  syntax:
+    content: is_twin_response_topic(topic)
+    parameters:
+    - description: The topic string
+      id: topic
+      type:
+      - str
+  type: function
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_response_topic
+references:
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.encode_message_properties_in_topic
+  isExternal: false
+  name: encode_message_properties_in_topic(message_to_send, topic)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.encode_message_properties_in_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.extract_message_properties_from_topic
+  isExternal: false
+  name: extract_message_properties_from_topic(topic, message_received)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.extract_message_properties_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_c2d_topic_for_subscribe
+  isExternal: false
+  name: get_c2d_topic_for_subscribe(device_id)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_c2d_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_name_from_topic
+  isExternal: false
+  name: get_input_name_from_topic(topic)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_name_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_topic_for_subscribe
+  isExternal: false
+  name: get_input_topic_for_subscribe(device_id, module_id)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_input_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_name_from_topic
+  isExternal: false
+  name: get_method_name_from_topic(topic)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_name_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_request_id_from_topic
+  isExternal: false
+  name: get_method_request_id_from_topic(topic)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_request_id_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_publish
+  isExternal: false
+  name: get_method_topic_for_publish(request_id, status)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_publish
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_subscribe
+  isExternal: false
+  name: get_method_topic_for_subscribe()
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_method_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_telemetry_topic_for_publish
+  isExternal: false
+  name: get_telemetry_topic_for_publish(device_id, module_id)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_telemetry_topic_for_publish
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_patch_topic_for_subscribe
+  isExternal: false
+  name: get_twin_patch_topic_for_subscribe()
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_patch_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_request_id_from_topic
+  isExternal: false
+  name: get_twin_request_id_from_topic(topic)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_request_id_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_response_topic_for_subscribe
+  isExternal: false
+  name: get_twin_response_topic_for_subscribe()
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_response_topic_for_subscribe
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_status_code_from_topic
+  isExternal: false
+  name: get_twin_status_code_from_topic(topic)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_status_code_from_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_topic_for_publish
+  isExternal: false
+  name: get_twin_topic_for_publish(method, resource_location, request_id)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.get_twin_topic_for_publish
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_c2d_topic
+  isExternal: false
+  name: is_c2d_topic(topic, device_id)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_c2d_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_input_topic
+  isExternal: false
+  name: is_input_topic(topic, device_id, module_id)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_input_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_method_topic
+  isExternal: false
+  name: is_method_topic(topic)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_method_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_desired_property_patch_topic
+  isExternal: false
+  name: is_twin_desired_property_patch_topic(topic)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_desired_property_patch_topic
+- fullName: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_response_topic
+  isExternal: false
+  name: is_twin_response_topic(topic)
+  parent: azure.iot.device.iothub.pipeline.mqtt_topic_iothub
+  uid: azure.iot.device.iothub.pipeline.mqtt_topic_iothub.is_twin_response_topic

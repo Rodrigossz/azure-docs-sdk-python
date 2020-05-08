@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.models.twin.Twin
+  fullName: azure.iot.device.iothub.models.twin
+  langs:
+  - python
+  module: azure.iot.device.iothub.models.twin
+  name: twin
+  source:
+    id: twin
+    path: azure-iot-device\azure\iot\device\iothub\models\twin.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\models\twin.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module contains classes related to device twin and module twin functionality
+  type: module
+  uid: azure.iot.device.iothub.models.twin
+references:
+- fullName: azure.iot.device.iothub.models.twin.Twin
+  isExternal: false
+  name: Twin
+  parent: azure.iot.device.iothub.models.twin
+  uid: azure.iot.device.iothub.models.twin.Twin

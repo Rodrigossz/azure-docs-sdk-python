@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.MethodInvokeOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.MethodInvokeOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  name: MethodInvokeOperation
+  source:
+    id: MethodInvokeOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 9
+  summary: 'A PipleineOperation object which contains arguments used to send a method
+    invoke to an IoTHub or EdgeHub server.
+
+
+    This operation is in the group of EdgeHub operations because it is very specific
+    to the EdgeHub client.'
+  syntax:
+    content: MethodInvokeOperation(target_device_id, target_module_id, method_params,
+      callback)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.MethodInvokeOperation
+references: []

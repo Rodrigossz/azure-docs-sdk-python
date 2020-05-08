@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
+  fullName: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.iothub.auth.authentication_provider
+  name: AuthenticationProvider
+  source:
+    id: AuthenticationProvider
+    path: azure-iot-device\azure\iot\device\iothub\auth\authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\auth\authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 12
+  summary: 'Super class for all providing known types of authentication mechanism
+    like
+
+    x509 and SAS based authentication.'
+  syntax:
+    content: AuthenticationProvider(hostname, device_id, module_id=None)
+    variables:
+    - description: Hostname
+      id: hostname
+      type:
+      - str
+    - description: Device ID
+      id: device_id
+      type:
+      - str
+    - description: Module ID
+      id: module_id
+      type:
+      - str
+  type: class
+  uid: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
+references: []

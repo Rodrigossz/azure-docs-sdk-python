@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  fullName: azure.iot.device.iothub.pipeline.exceptions
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.exceptions
+  name: exceptions
+  source:
+    id: exceptions
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module defines an exception surface, exposed as part of the pipeline
+    API
+  type: module
+  uid: azure.iot.device.iothub.pipeline.exceptions
+references: []

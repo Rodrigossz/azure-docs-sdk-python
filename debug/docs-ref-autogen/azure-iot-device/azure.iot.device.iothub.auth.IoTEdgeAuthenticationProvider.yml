@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.auth.IoTEdgeAuthenticationProvider
+  fullName: azure.iot.device.iothub.auth.IoTEdgeAuthenticationProvider
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
+    type: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  langs:
+  - python
+  module: azure.iot.device.iothub.auth
+  name: IoTEdgeAuthenticationProvider
+  source:
+    id: IoTEdgeAuthenticationProvider
+    path: azure-iot-device\azure\iot\device\iothub\auth\iotedge_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\auth\iotedge_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 27
+  summary: 'An Azure IoT Edge Authentication Provider.
+
+
+    This provider creates the Shared Access Signature that would be needed to connenct
+    to the IoT Edge runtime'
+  syntax:
+    content: IoTEdgeAuthenticationProvider(hostname, device_id, module_id, gateway_hostname,
+      module_generation_id, workload_uri, api_version)
+  type: class
+  uid: azure.iot.device.iothub.auth.IoTEdgeAuthenticationProvider
+references: []

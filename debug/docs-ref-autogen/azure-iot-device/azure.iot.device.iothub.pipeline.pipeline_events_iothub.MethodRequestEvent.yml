@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_events_iothub.MethodRequestEvent
+  fullName: azure.iot.device.iothub.pipeline.pipeline_events_iothub.MethodRequestEvent
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  name: MethodRequestEvent
+  source:
+    id: MethodRequestEvent
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_events_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_events_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 43
+  summary: 'A PipelineEvent object which represents an incoming MethodRequest event.
+
+    This object is probably created by some converter stage based on a protocol-specific
+    event.'
+  syntax:
+    content: MethodRequestEvent(method_request)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.MethodRequestEvent
+references: []

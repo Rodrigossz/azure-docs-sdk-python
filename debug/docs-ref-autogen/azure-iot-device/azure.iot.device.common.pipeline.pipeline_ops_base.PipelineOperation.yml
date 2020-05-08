@@ -1,0 +1,239 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.add_callback
+  - azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.complete
+  - azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.halt_completion
+  - azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.spawn_worker_op
+  class: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: PipelineOperation
+  source:
+    id: PipelineOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 16
+  summary: 'A base class for data objects representing operations that travels down
+    the pipeline.
+
+
+    Each PipelineOperation object represents a single asyncroneous operation that
+    is performed
+
+    by the pipeline. The PipelineOperation objects travel through "stages" of the
+    pipeline,
+
+    and each stage has the opportunity to act on each specific operation that it
+
+    receives.  If a stage does not handle a particular operation, it needs to pass
+    it to the
+
+    next stage.  If the operation gets to the end of the pipeline without being handled
+
+    (completed), then it is treated as an error.'
+  syntax:
+    content: PipelineOperation(callback)
+    variables:
+    - description: The name of the operation.  This is used primarily for logging
+      id: name
+    - description: 'The callback that is called when the operation is completed, either
+
+        successfully or with a failure.'
+      id: callback
+    - description: 'This is an attribute that indicates whether a particular operation
+
+        requires a connection to operate.  This is currently used by the AutoConnectStage
+
+        stage, but this functionality will be revamped shortly.'
+      id: needs_connection
+    - description: 'The presence of a value in the error attribute indicates that
+        the operation failed,
+
+        absence of this value indicates that the operation either succeeded or hasn''t
+        been handled yet.'
+      id: error
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+- class: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.add_callback
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: add_callback(callback)
+  source:
+    id: add_callback
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 62
+  summary: 'Adds a callback to the Operation that will be triggered upon Operation
+    completion.
+
+
+    When an Operation is completed, all callbacks will be resolved in LIFO order.
+
+
+    Callbacks cannot be added to an already completed operation, or an operation that
+    is
+
+    currently undergoing a completion process.'
+  syntax:
+    content: add_callback(callback)
+    parameters:
+    - description: The callback to add to the operation.
+      id: callback
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.add_callback
+- class: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.complete
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: complete(error=None)
+  source:
+    id: complete
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 90
+  summary: 'Complete the operation, and trigger all callbacks in LIFO order.
+
+
+    The operation is completed successfully be default, or completed unsucessfully
+    if an error
+
+    is provided.
+
+
+    An operation that is already fully completed, or in the process of completion
+    cannot be
+
+    completed again.
+
+
+    This process can be halted if a callback for the operation invokes the .halt_completion()
+
+    method on this Operation.'
+  syntax:
+    content: complete(error=None)
+    parameters:
+    - description: 'Optionally provide an Exception object indicating the error that
+        caused
+
+        the completion. Providing an error indicates that the operation was unsucessful.'
+      id: error
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.complete
+- class: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.halt_completion
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: halt_completion()
+  source:
+    id: halt_completion
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 161
+  summary: 'Halt the completion of an operation that is currently undergoing a completion
+    process
+
+    as a result of a call to .complete().
+
+
+    Completion cannot be halted if there is no currently ongoing completion process.
+    The only
+
+    way to successfully invoke this method is from within a callback on the Operation
+    in
+
+    question.
+
+
+    This method will leave any yet-untriggered callbacks on the Operation to be triggered
+    upon
+
+    a later completion.
+
+
+    This method will clear any error associated with the currently ongoing completion
+    process
+
+    from the Operation.'
+  syntax:
+    content: halt_completion()
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.halt_completion
+- class: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.spawn_worker_op
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: spawn_worker_op(worker_op_type, **kwargs)
+  source:
+    id: spawn_worker_op
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 189
+  summary: 'Create and return a new operation, which, when completed, will complete
+    the operation
+
+    it was spawned from.'
+  syntax:
+    content: spawn_worker_op(worker_op_type, **kwargs)
+    parameters:
+    - description: The type (class) of the new worker operation.
+      id: worker_op_type
+    - description: 'The arguments to instantiate the new worker operation with. Note
+        that a
+
+        callback is not required, but if provided, will be triggered prior to completing
+        the
+
+        operation that spawned the worker operation.'
+      id: '**kwargs'
+    return:
+      description: A new worker operation of the type specified in the worker_op_type
+        parameter.
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.spawn_worker_op
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.add_callback
+  isExternal: false
+  name: add_callback(callback)
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.add_callback
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.complete
+  isExternal: false
+  name: complete(error=None)
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.complete
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.halt_completion
+  isExternal: false
+  name: halt_completion()
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.halt_completion
+- fullName: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.spawn_worker_op
+  isExternal: false
+  name: spawn_worker_op(worker_op_type, **kwargs)
+  parent: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation.spawn_worker_op

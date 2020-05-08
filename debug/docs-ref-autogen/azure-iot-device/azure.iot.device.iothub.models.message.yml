@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.models.message.Message
+  fullName: azure.iot.device.iothub.models.message
+  langs:
+  - python
+  module: azure.iot.device.iothub.models.message
+  name: message
+  source:
+    id: message
+    path: azure-iot-device\azure\iot\device\iothub\models\message.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\models\message.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module contains a class representing messages that are sent or received.
+  type: module
+  uid: azure.iot.device.iothub.models.message
+references:
+- fullName: azure.iot.device.iothub.models.message.Message
+  isExternal: false
+  name: Message
+  parent: azure.iot.device.iothub.models.message
+  uid: azure.iot.device.iothub.models.message.Message

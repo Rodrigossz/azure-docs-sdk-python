@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_ops_base.DisconnectOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.DisconnectOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: DisconnectOperation
+  source:
+    id: DisconnectOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 253
+  summary: 'A PipelineOperation object which tells the pipeline to disconnect from
+    whatever service it might be connected to.
+
+
+    This operation is in the group of base operations because disconnecting is a common
+    operation that many clients might need to do.
+
+
+    Even though this is an base operation, it will most likely be handled by a more
+    specific stage (such as an IoTHub or MQTT stage).'
+  syntax:
+    content: DisconnectOperation(callback)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.DisconnectOperation
+references: []

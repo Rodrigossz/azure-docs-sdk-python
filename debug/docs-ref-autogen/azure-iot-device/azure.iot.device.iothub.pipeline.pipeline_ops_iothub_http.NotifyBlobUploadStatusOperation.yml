@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.NotifyBlobUploadStatusOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.NotifyBlobUploadStatusOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  name: NotifyBlobUploadStatusOperation
+  source:
+    id: NotifyBlobUploadStatusOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 57
+  summary: A PipleineOperation object which contains arguments used to get the storage
+    information from IoT Hub.
+  syntax:
+    content: NotifyBlobUploadStatusOperation(correlation_id, is_success, status_code,
+      status_description, callback)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.NotifyBlobUploadStatusOperation
+references: []

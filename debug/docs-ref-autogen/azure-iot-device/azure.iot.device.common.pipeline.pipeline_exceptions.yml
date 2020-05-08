@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_exceptions.OperationCancelled
+  - azure.iot.device.common.pipeline.pipeline_exceptions.OperationError
+  - azure.iot.device.common.pipeline.pipeline_exceptions.PipelineError
+  - azure.iot.device.common.pipeline.pipeline_exceptions.PipelineException
+  - azure.iot.device.common.pipeline.pipeline_exceptions.PipelineTimeoutError
+  fullName: azure.iot.device.common.pipeline.pipeline_exceptions
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_exceptions
+  name: pipeline_exceptions
+  source:
+    id: pipeline_exceptions
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module defines exceptions that may be raised from a pipeline
+  type: module
+  uid: azure.iot.device.common.pipeline.pipeline_exceptions
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_exceptions.OperationCancelled
+  isExternal: false
+  name: OperationCancelled
+  parent: azure.iot.device.common.pipeline.pipeline_exceptions
+  uid: azure.iot.device.common.pipeline.pipeline_exceptions.OperationCancelled
+- fullName: azure.iot.device.common.pipeline.pipeline_exceptions.OperationError
+  isExternal: false
+  name: OperationError
+  parent: azure.iot.device.common.pipeline.pipeline_exceptions
+  uid: azure.iot.device.common.pipeline.pipeline_exceptions.OperationError
+- fullName: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineError
+  isExternal: false
+  name: PipelineError
+  parent: azure.iot.device.common.pipeline.pipeline_exceptions
+  uid: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineError
+- fullName: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineException
+  isExternal: false
+  name: PipelineException
+  parent: azure.iot.device.common.pipeline.pipeline_exceptions
+  uid: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineException
+- fullName: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineTimeoutError
+  isExternal: false
+  name: PipelineTimeoutError
+  parent: azure.iot.device.common.pipeline.pipeline_exceptions
+  uid: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineTimeoutError

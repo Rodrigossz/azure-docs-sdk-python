@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.transport_exceptions.ConnectionDroppedError
+  - azure.iot.device.common.transport_exceptions.ConnectionFailedError
+  - azure.iot.device.common.transport_exceptions.ProtocolClientError
+  - azure.iot.device.common.transport_exceptions.ProtocolProxyError
+  - azure.iot.device.common.transport_exceptions.TlsExchangeAuthError
+  - azure.iot.device.common.transport_exceptions.UnauthorizedError
+  fullName: azure.iot.device.common.transport_exceptions
+  langs:
+  - python
+  module: azure.iot.device.common.transport_exceptions
+  name: transport_exceptions
+  source:
+    id: transport_exceptions
+    path: azure-iot-device\azure\iot\device\common\transport_exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\transport_exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module defines errors that may be raised from a transport
+  type: module
+  uid: azure.iot.device.common.transport_exceptions
+references:
+- fullName: azure.iot.device.common.transport_exceptions.ConnectionDroppedError
+  isExternal: false
+  name: ConnectionDroppedError
+  parent: azure.iot.device.common.transport_exceptions
+  uid: azure.iot.device.common.transport_exceptions.ConnectionDroppedError
+- fullName: azure.iot.device.common.transport_exceptions.ConnectionFailedError
+  isExternal: false
+  name: ConnectionFailedError
+  parent: azure.iot.device.common.transport_exceptions
+  uid: azure.iot.device.common.transport_exceptions.ConnectionFailedError
+- fullName: azure.iot.device.common.transport_exceptions.ProtocolClientError
+  isExternal: false
+  name: ProtocolClientError
+  parent: azure.iot.device.common.transport_exceptions
+  uid: azure.iot.device.common.transport_exceptions.ProtocolClientError
+- fullName: azure.iot.device.common.transport_exceptions.ProtocolProxyError
+  isExternal: false
+  name: ProtocolProxyError
+  parent: azure.iot.device.common.transport_exceptions
+  uid: azure.iot.device.common.transport_exceptions.ProtocolProxyError
+- fullName: azure.iot.device.common.transport_exceptions.TlsExchangeAuthError
+  isExternal: false
+  name: TlsExchangeAuthError
+  parent: azure.iot.device.common.transport_exceptions
+  uid: azure.iot.device.common.transport_exceptions.TlsExchangeAuthError
+- fullName: azure.iot.device.common.transport_exceptions.UnauthorizedError
+  isExternal: false
+  name: UnauthorizedError
+  parent: azure.iot.device.common.transport_exceptions
+  uid: azure.iot.device.common.transport_exceptions.UnauthorizedError

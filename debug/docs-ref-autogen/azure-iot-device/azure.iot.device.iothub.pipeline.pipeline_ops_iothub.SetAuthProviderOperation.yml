@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetAuthProviderOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetAuthProviderOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  name: SetAuthProviderOperation
+  source:
+    id: SetAuthProviderOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 35
+  summary: 'A PipelineOperation object which tells the pipeline to use a particular
+    authorization provider.
+
+    Some pipeline stage is expected to extract arguments out of the auth provider
+    and pass them
+
+    on so an even lower stage can use those arguments to connect.
+
+
+    This operation is in the group of IoTHub operations because autorization providers
+    are currently
+
+    very IoTHub-specific'
+  syntax:
+    content: SetAuthProviderOperation(auth_provider, callback)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetAuthProviderOperation
+references: []

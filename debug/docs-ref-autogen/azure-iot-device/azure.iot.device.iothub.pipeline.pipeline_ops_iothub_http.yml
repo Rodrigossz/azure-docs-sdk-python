@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.GetStorageInfoOperation
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.MethodInvokeOperation
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.NotifyBlobUploadStatusOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  name: pipeline_ops_iothub_http
+  source:
+    id: pipeline_ops_iothub_http
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+references:
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.GetStorageInfoOperation
+  isExternal: false
+  name: GetStorageInfoOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.GetStorageInfoOperation
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.MethodInvokeOperation
+  isExternal: false
+  name: MethodInvokeOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.MethodInvokeOperation
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.NotifyBlobUploadStatusOperation
+  isExternal: false
+  name: NotifyBlobUploadStatusOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub_http.NotifyBlobUploadStatusOperation

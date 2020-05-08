@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.PollStatusOperation
+  fullName: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.PollStatusOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning
+  name: PollStatusOperation
+  source:
+    id: PollStatusOperation
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_ops_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_ops_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 121
+  summary: 'A PipelineOperation object which contains arguments used to send a registration
+    request
+
+    to an Device Provisioning Service.
+
+
+    This operation is in the group of DPS operations because it is very specific to
+    the DPS client.'
+  syntax:
+    content: PollStatusOperation(operation_id, request_payload, callback, registration_result=None)
+  type: class
+  uid: azure.iot.device.provisioning.pipeline.pipeline_ops_provisioning.PollStatusOperation
+references: []

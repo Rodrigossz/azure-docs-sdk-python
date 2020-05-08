@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.models.x509.X509
+  fullName: azure.iot.device.common.models.x509
+  langs:
+  - python
+  module: azure.iot.device.common.models.x509
+  name: x509
+  source:
+    id: x509
+    path: azure-iot-device\azure\iot\device\common\models\x509.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\models\x509.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'This module represents a certificate that is responsible for providing
+    client provided x509 certificates
+
+    that will eventually establish the authenticity of devices to IoTHub and Provisioning
+    Services.'
+  type: module
+  uid: azure.iot.device.common.models.x509
+references:
+- fullName: azure.iot.device.common.models.x509.X509
+  isExternal: false
+  name: X509
+  parent: azure.iot.device.common.models.x509
+  uid: azure.iot.device.common.models.x509.X509

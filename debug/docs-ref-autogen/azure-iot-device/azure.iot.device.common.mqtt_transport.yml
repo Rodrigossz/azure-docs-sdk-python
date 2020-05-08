@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.mqtt_transport.MQTTTransport
+  - azure.iot.device.common.mqtt_transport.OperationManager
+  fullName: azure.iot.device.common.mqtt_transport
+  langs:
+  - python
+  module: azure.iot.device.common.mqtt_transport
+  name: mqtt_transport
+  source:
+    id: mqtt_transport
+    path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.mqtt_transport
+references:
+- fullName: azure.iot.device.common.mqtt_transport.MQTTTransport
+  isExternal: false
+  name: MQTTTransport
+  parent: azure.iot.device.common.mqtt_transport
+  uid: azure.iot.device.common.mqtt_transport.MQTTTransport
+- fullName: azure.iot.device.common.mqtt_transport.OperationManager
+  isExternal: false
+  name: OperationManager
+  parent: azure.iot.device.common.mqtt_transport
+  uid: azure.iot.device.common.mqtt_transport.OperationManager

@@ -1,0 +1,220 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_symmetric_key
+  - azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_x509_certificate
+  - azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.receive_message
+  class: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+  fullName: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.iothub.abstract_clients.AbstractIoTHubClient
+  langs:
+  - python
+  module: azure.iot.device.iothub.abstract_clients
+  name: AbstractIoTHubDeviceClient
+  source:
+    id: AbstractIoTHubDeviceClient
+    path: azure-iot-device\azure\iot\device\iothub\abstract_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\abstract_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 163
+  summary: ''
+  syntax:
+    content: AbstractIoTHubDeviceClient(mqtt_pipeline, http_pipeline)
+  type: class
+  uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+- class: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+  fullName: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_symmetric_key
+  langs:
+  - python
+  module: azure.iot.device.iothub.abstract_clients
+  name: create_from_symmetric_key(symmetric_key, hostname, device_id, **kwargs)
+  source:
+    id: create_from_symmetric_key
+    path: azure-iot-device\azure\iot\device\iothub\abstract_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\abstract_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 214
+  summary: Instantiate a client using symmetric key authentication.
+  syntax:
+    content: create_from_symmetric_key(symmetric_key, hostname, device_id, **kwargs)
+    parameters:
+    - description: The symmetric key.
+      id: symmetric_key
+    - description: 'Host running the IotHub.
+
+        Can be found in the Azure portal in the Overview tab as the string hostname.'
+      id: hostname
+      type:
+      - str
+    - description: The device ID
+      id: device_id
+    - description: 'Configuration Option. The trusted certificate chain.
+
+        Necessary when using connecting to an endpoint which has a non-standard root
+        of trust,
+
+        such as a protocol gateway.'
+      id: server_verification_cert
+      type:
+      - str
+    - description: 'Configuration Option. Default is False. Set to true if using MQTT
+
+        over websockets.'
+      id: websockets
+      type:
+      - bool
+    - description: 'Configuration Option. Cipher suite(s) for TLS/SSL, as a string
+        in
+
+        "OpenSSL cipher list format" or as a list of cipher suite strings.'
+      id: cipher
+      type:
+      - str
+      - list(str)
+    - description: 'Configuration Option. Default is empty string. The string contains
+
+        arbitrary product info which is appended to the user agent string.'
+      id: product_info
+      type:
+      - str
+    - description: Options for sending traffic through proxy servers.
+      id: proxy_options
+      type:
+      - azure.iot.device.ProxyOptions
+    return:
+      description: An instance of an IoTHub client that uses a symmetric key for authentication.
+  type: method
+  uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_symmetric_key
+- class: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+  fullName: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_x509_certificate
+  langs:
+  - python
+  module: azure.iot.device.iothub.abstract_clients
+  name: create_from_x509_certificate(x509, hostname, device_id, **kwargs)
+  source:
+    id: create_from_x509_certificate
+    path: azure-iot-device\azure\iot\device\iothub\abstract_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\abstract_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 164
+  summary: Instantiate a client which using X509 certificate authentication.
+  syntax:
+    content: create_from_x509_certificate(x509, hostname, device_id, **kwargs)
+    parameters:
+    - description: 'Host running the IotHub.
+
+        Can be found in the Azure portal in the Overview tab as the string hostname.'
+      id: hostname
+      type:
+      - str
+    - description: 'The complete x509 certificate object.
+
+        To use the certificate the enrollment object needs to contain cert
+
+        (either the root certificate or one of the intermediate CA certificates).
+
+        If the cert comes from a CER file, it needs to be base64 encoded.'
+      id: x509
+      type:
+      - azure.iot.device.X509
+    - description: The ID used to uniquely identify a device in the IoTHub
+      id: device_id
+      type:
+      - str
+    - description: 'Configuration Option. The trusted certificate chain.
+
+        Necessary when using connecting to an endpoint which has a non-standard root
+        of trust,
+
+        such as a protocol gateway.'
+      id: server_verification_cert
+      type:
+      - str
+    - description: 'Configuration Option. Default is False. Set to true if using MQTT
+
+        over websockets.'
+      id: websockets
+      type:
+      - bool
+    - description: 'Configuration Option. Cipher suite(s) for TLS/SSL, as a string
+        in
+
+        "OpenSSL cipher list format" or as a list of cipher suite strings.'
+      id: cipher
+      type:
+      - str
+      - list(str)
+    - description: 'Configuration Option. Default is empty string. The string contains
+
+        arbitrary product info which is appended to the user agent string.'
+      id: product_info
+      type:
+      - str
+    - description: Options for sending traffic through proxy servers.
+      id: proxy_options
+      type:
+      - azure.iot.device.ProxyOptions
+    return:
+      description: An instance of an IoTHub client that uses an X509 certificate for
+        authentication.
+  type: method
+  uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_x509_certificate
+- class: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+  fullName: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.receive_message
+  langs:
+  - python
+  module: azure.iot.device.iothub.abstract_clients
+  name: receive_message()
+  source:
+    id: receive_message
+    path: azure-iot-device\azure\iot\device\iothub\abstract_clients.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\abstract_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 260
+  syntax:
+    content: receive_message()
+    parameters: []
+  type: method
+  uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.receive_message
+references:
+- fullName: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_symmetric_key
+  isExternal: false
+  name: create_from_symmetric_key(symmetric_key, hostname, device_id, **kwargs)
+  parent: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+  uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_symmetric_key
+- fullName: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_x509_certificate
+  isExternal: false
+  name: create_from_x509_certificate(x509, hostname, device_id, **kwargs)
+  parent: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+  uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.create_from_x509_certificate
+- fullName: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.receive_message
+  isExternal: false
+  name: receive_message()
+  parent: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+  uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient.receive_message
+- fullName: list(str)
+  name: list(str)
+  spec.python:
+  - fullName: list
+    name: list
+    uid: list
+  - fullName: (
+    name: (
+  - fullName: str
+    name: str
+    uid: str
+  - fullName: )
+    name: )
+  uid: list(str)

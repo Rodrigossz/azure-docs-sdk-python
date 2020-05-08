@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendD2CMessageOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendD2CMessageOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  name: SendD2CMessageOperation
+  source:
+    id: SendD2CMessageOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 107
+  summary: 'A PipelineOperation object which contains arguments used to send a telemetry
+    message to an IoTHub or EdegHub server.
+
+
+    This operation is in the group of IoTHub operations because it is very specific
+    to the IoTHub client'
+  syntax:
+    content: SendD2CMessageOperation(message, callback)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendD2CMessageOperation
+references: []

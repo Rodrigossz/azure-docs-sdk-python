@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  fullName: azure.iot.device.constant
+  langs:
+  - python
+  module: azure.iot.device.constant
+  name: constant
+  source:
+    id: constant
+    path: azure-iot-device\azure\iot\device\constant.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\constant.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module defines constants for use across the azure-iot-device package
+  type: module
+  uid: azure.iot.device.constant
+references: []

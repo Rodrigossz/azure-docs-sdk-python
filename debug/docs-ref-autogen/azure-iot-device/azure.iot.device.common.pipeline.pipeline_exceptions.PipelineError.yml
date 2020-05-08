@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineError
+  fullName: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineError
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: builtins.BaseException
+        type: builtins.Exception
+      type: azure.iot.device.common.chainable_exception.ChainableException
+    type: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineException
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_exceptions
+  name: PipelineError
+  source:
+    id: PipelineError
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 37
+  summary: Error caused by incorrect pipeline configuration
+  syntax:
+    content: PipelineError(message=None, cause=None)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_exceptions.PipelineError
+references: []

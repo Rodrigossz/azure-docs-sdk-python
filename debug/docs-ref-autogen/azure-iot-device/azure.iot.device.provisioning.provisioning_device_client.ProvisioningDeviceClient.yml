@@ -1,0 +1,274 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_symmetric_key
+  - azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_x509_certificate
+  - azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register
+  class: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.provisioning.abstract_provisioning_device_client.AbstractProvisioningDeviceClient
+  langs:
+  - python
+  module: azure.iot.device.provisioning.provisioning_device_client
+  name: ProvisioningDeviceClient
+  source:
+    id: ProvisioningDeviceClient
+    path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 38
+  summary: 'Client which can be used to run the registration of a device with provisioning
+    service
+
+    using Symmetric Key orr X509 authentication.'
+  syntax:
+    content: ProvisioningDeviceClient(provisioning_pipeline)
+  type: class
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+- class: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_symmetric_key
+  langs:
+  - python
+  module: azure.iot.device.provisioning.provisioning_device_client
+  name: create_from_symmetric_key(provisioning_host, registration_id, id_scope, symmetric_key,
+    **kwargs)
+  source:
+    id: create_from_symmetric_key
+    path: azure-iot-device\azure\iot\device\patch_documentation.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\patch_documentation.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 199
+  summary: 'Create a client which can be used to run the registration of a device
+    with provisioning service
+
+    using Symmetric Key authentication.'
+  syntax:
+    content: create_from_symmetric_key(provisioning_host, registration_id, id_scope,
+      symmetric_key, **kwargs)
+    parameters:
+    - description: 'Host running the Device Provisioning Service.
+
+        Can be found in the Azure portal in the Overview tab as the string Global
+        device endpoint.'
+      id: provisioning_host
+      type:
+      - str
+    - description: 'The registration ID used to uniquely identify a device in the
+
+        Device Provisioning Service. The registration ID is alphanumeric, lowercase
+        string
+
+        and may contain hyphens.'
+      id: registration_id
+      type:
+      - str
+    - description: 'The ID scope used to uniquely identify the specific provisioning
+
+        service the device will register through. The ID scope is assigned to a
+
+        Device Provisioning Service when it is created by the user and is generated
+        by the
+
+        service and is immutable, guaranteeing uniqueness.'
+      id: id_scope
+      type:
+      - str
+    - description: 'The key which will be used to create the shared access signature
+
+        token to authenticate the device with the Device Provisioning Service. By
+        default,
+
+        the Device Provisioning Service creates new symmetric keys with a default
+        length of
+
+        32 bytes when new enrollments are saved with the Auto-generate keys option
+        enabled.
+
+        Users can provide their own symmetric keys for enrollments by disabling this
+        option
+
+        within 16 bytes and 64 bytes and in valid Base64 format.'
+      id: symmetric_key
+      type:
+      - str
+    - description: 'Configuration Option. Default is False. Set to true if using MQTT
+
+        over websockets.'
+      id: websockets
+      type:
+      - bool
+    - description: 'Configuration Option. Cipher suite(s) for TLS/SSL, as a string
+        in
+
+        "OpenSSL cipher list format" or as a list of cipher suite strings.'
+      id: cipher
+      type:
+      - str
+      - list(str)
+    - description: Options for sending traffic through proxy servers.
+      id: proxy_options
+      type:
+      - azure.iot.device.ProxyOptions
+    return:
+      description: A ProvisioningDeviceClient instance which can register via Symmetric
+        Key.
+  type: method
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_symmetric_key
+- class: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_x509_certificate
+  langs:
+  - python
+  module: azure.iot.device.provisioning.provisioning_device_client
+  name: create_from_x509_certificate(provisioning_host, registration_id, id_scope,
+    x509, **kwargs)
+  source:
+    id: create_from_x509_certificate
+    path: azure-iot-device\azure\iot\device\patch_documentation.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\patch_documentation.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 213
+  summary: 'Create a client which can be used to run the registration of a device
+    with
+
+    provisioning service using X509 certificate authentication.'
+  syntax:
+    content: create_from_x509_certificate(provisioning_host, registration_id, id_scope,
+      x509, **kwargs)
+    parameters:
+    - description: 'Host running the Device Provisioning Service. Can be found in
+
+        the Azure portal in the Overview tab as the string Global device endpoint.'
+      id: provisioning_host
+      type:
+      - str
+    - description: 'The registration ID used to uniquely identify a device in the
+
+        Device Provisioning Service. The registration ID is alphanumeric, lowercase
+        string
+
+        and may contain hyphens.'
+      id: registration_id
+      type:
+      - str
+    - description: 'The ID scope is used to uniquely identify the specific
+
+        provisioning service the device will register through. The ID scope is assigned
+        to a
+
+        Device Provisioning Service when it is created by the user and is generated
+        by the
+
+        service and is immutable, guaranteeing uniqueness.'
+      id: id_scope
+      type:
+      - str
+    - description: 'The x509 certificate, To use the certificate the enrollment object
+        needs to
+
+        contain cert (either the root certificate or one of the intermediate CA certificates).
+
+        If the cert comes from a CER file, it needs to be base64 encoded.'
+      id: x509
+      type:
+      - azure.iot.device.X509
+    - description: 'Configuration Option. Default is False. Set to true if using MQTT
+
+        over websockets.'
+      id: websockets
+      type:
+      - bool
+    - description: 'Configuration Option. Cipher suite(s) for TLS/SSL, as a string
+        in
+
+        "OpenSSL cipher list format" or as a list of cipher suite strings.'
+      id: cipher
+      type:
+      - str
+      - list(str)
+    - description: Options for sending traffic through proxy servers.
+      id: proxy_options
+      type:
+      - azure.iot.device.ProxyOptions
+    return:
+      description: A ProvisioningDeviceClient which can register via Symmetric Key.
+  type: method
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_x509_certificate
+- class: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register
+  langs:
+  - python
+  module: azure.iot.device.provisioning.provisioning_device_client
+  name: register()
+  source:
+    id: register
+    path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 44
+  summary: 'Register the device with the with the provisioning service
+
+
+    This is a synchronous call, meaning that this function will not return until the
+
+    registration process has completed successfully or the attempt has resulted in
+    a failure.
+
+    Before returning, the client will also disconnect from the provisioning service.
+
+    If a registration attempt is made while a previous registration is in progress
+    it may
+
+    throw an error.'
+  syntax:
+    content: register()
+    parameters: []
+    return:
+      description: RegistrationResult indicating the result of the registration.
+      type:
+      - <xref:azure.iot.device.RegistrationResult>
+  type: method
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register
+references:
+- fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_symmetric_key
+  isExternal: false
+  name: create_from_symmetric_key(provisioning_host, registration_id, id_scope, symmetric_key,
+    **kwargs)
+  parent: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_symmetric_key
+- fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_x509_certificate
+  isExternal: false
+  name: create_from_x509_certificate(provisioning_host, registration_id, id_scope,
+    x509, **kwargs)
+  parent: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.create_from_x509_certificate
+- fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register
+  isExternal: false
+  name: register()
+  parent: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register
+- fullName: list(str)
+  name: list(str)
+  spec.python:
+  - fullName: list
+    name: list
+    uid: list
+  - fullName: (
+    name: (
+  - fullName: str
+    name: str
+    uid: str
+  - fullName: )
+    name: )
+  uid: list(str)

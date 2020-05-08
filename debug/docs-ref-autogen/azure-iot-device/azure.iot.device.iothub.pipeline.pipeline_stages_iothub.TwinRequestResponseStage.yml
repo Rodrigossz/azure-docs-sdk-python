@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.TwinRequestResponseStage
+  fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.TwinRequestResponseStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+  name: TwinRequestResponseStage
+  source:
+    id: TwinRequestResponseStage
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 204
+  summary: 'PipelineStage which handles twin operations. In particular, it converts
+    twin GET and PATCH
+
+    operations into RequestAndResponseOperation operations.  This is done at the IoTHub
+    level because
+
+    there is nothing protocol-specific about this code.  The protocol-specific implementation
+
+    for twin requests and responses is handled inside IoTHubMQTTTranslationStage,
+    when it converts
+
+    the RequestOperation to a protocol-specific send operation and when it converts
+    the
+
+    protocol-specific receive event into an ResponseEvent event.'
+  syntax:
+    content: TwinRequestResponseStage()
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.TwinRequestResponseStage
+references: []

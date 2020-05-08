@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.append_stage
+  - azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.run_op
+  class: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: PipelineRootStage
+  source:
+    id: PipelineRootStage
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 190
+  summary: 'Object representing the root of a pipeline.  This is where the functions
+    to build
+
+    the pipeline exist.  This is also where clients can add event handlers to receive
+
+    events from the pipeline.'
+  syntax:
+    content: PipelineRootStage(pipeline_configuration)
+    variables:
+    - description: 'Handler which can be set by users of the pipeline to
+
+        receive PipelineEvent objects.  This is how users receive any "unsolicited"
+
+        events from the pipeline (such as C2D messages).  This function is called
+        with
+
+        a PipelineEvent object every time any such event occurs.'
+      id: on_pipeline_event_handler
+    - description: 'Handler which can be set by users of the pipeline to
+
+        receive events every time the underlying transport connects'
+      id: on_connected_handler
+    - description: 'Handler which can be set by users of the pipeline to
+
+        receive events every time the underlying transport disconnects'
+      id: on_disconnected_handler
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+- class: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.append_stage
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: append_stage(new_stage)
+  source:
+    id: append_stage
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 224
+  summary: 'Add the next stage to the end of the pipeline.  This is the function that
+    callers
+
+    use to build the pipeline by appending stages.  This function returns the root
+    of
+
+    the pipeline so that calls to this function can be chained together.'
+  syntax:
+    content: append_stage(new_stage)
+    parameters:
+    - description: Stage to add to the end of the pipeline
+      id: new_stage
+      type:
+      - PipelineStage
+    return:
+      description: The root of the pipeline.
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.append_stage
+- class: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.run_op
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: run_op(op)
+  source:
+    id: run_op
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 217
+  syntax:
+    content: run_op(op)
+    parameters:
+    - id: op
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.run_op
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.append_stage
+  isExternal: false
+  name: append_stage(new_stage)
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.append_stage
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.run_op
+  isExternal: false
+  name: run_op(op)
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineRootStage.run_op

@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_stages_http.HTTPTransportStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_http
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_http
+  name: pipeline_stages_http
+  source:
+    id: pipeline_stages_http
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_http.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_http.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.pipeline.pipeline_stages_http
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_http.HTTPTransportStage
+  isExternal: false
+  name: HTTPTransportStage
+  parent: azure.iot.device.common.pipeline.pipeline_stages_http
+  uid: azure.iot.device.common.pipeline.pipeline_stages_http.HTTPTransportStage

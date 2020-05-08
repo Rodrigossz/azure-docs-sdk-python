@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_events_iothub.TwinDesiredPropertiesPatchEvent
+  fullName: azure.iot.device.iothub.pipeline.pipeline_events_iothub.TwinDesiredPropertiesPatchEvent
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_events_iothub
+  name: TwinDesiredPropertiesPatchEvent
+  source:
+    id: TwinDesiredPropertiesPatchEvent
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_events_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_events_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 54
+  summary: 'A PipelineEvent object which represents an incoming twin desired properties
+    patch.  This
+
+    object is probably created by some converter stage based on a protocol-specific
+    event.'
+  syntax:
+    content: TwinDesiredPropertiesPatchEvent(patch)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_events_iothub.TwinDesiredPropertiesPatchEvent
+references: []

@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  name: provisioning_pipeline
+  source:
+    id: provisioning_pipeline
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\provisioning_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+references:
+- fullName: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline
+  isExternal: false
+  name: ProvisioningPipeline
+  parent: azure.iot.device.provisioning.pipeline.provisioning_pipeline
+  uid: azure.iot.device.provisioning.pipeline.provisioning_pipeline.ProvisioningPipeline

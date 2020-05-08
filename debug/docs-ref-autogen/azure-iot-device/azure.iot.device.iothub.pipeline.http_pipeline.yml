@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  fullName: azure.iot.device.iothub.pipeline.http_pipeline
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_pipeline
+  name: http_pipeline
+  source:
+    id: http_pipeline
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.http_pipeline
+references:
+- fullName: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  isExternal: false
+  name: HTTPPipeline
+  parent: azure.iot.device.iothub.pipeline.http_pipeline
+  uid: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline

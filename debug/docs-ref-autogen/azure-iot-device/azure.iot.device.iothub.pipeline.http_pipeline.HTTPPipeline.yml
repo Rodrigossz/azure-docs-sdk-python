@@ -1,0 +1,129 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.get_storage_info_for_blob
+  - azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.invoke_method
+  - azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.notify_blob_upload_status
+  class: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  fullName: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_pipeline
+  name: HTTPPipeline
+  source:
+    id: HTTPPipeline
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 30
+  summary: 'Pipeline to communicate with Edge.
+
+    Uses HTTP.'
+  syntax:
+    content: HTTPPipeline(auth_provider, pipeline_configuration)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+- class: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  fullName: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.get_storage_info_for_blob
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_pipeline
+  name: get_storage_info_for_blob(blob_name, callback)
+  source:
+    id: get_storage_info_for_blob
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 99
+  summary: "Sends a POST request to the IoT Hub service endpoint to retrieve an object\
+    \ that contains information for uploading via the Storage SDK.\n\nThe following\
+    \ exceptions are not \"raised\", but rather returned via the \"error\" parameter\n\
+    \   when invoking \"callback\":"
+  syntax:
+    content: get_storage_info_for_blob(blob_name, callback)
+    parameters:
+    - id: blob_name
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.get_storage_info_for_blob
+- class: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  fullName: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.invoke_method
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_pipeline
+  name: invoke_method(device_id, method_params, callback, module_id=None)
+  source:
+    id: invoke_method
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 63
+  summary: "Send a request to the service to invoke a method on a target device or\
+    \ module.\n\nThe following exceptions are not \"raised\", but rather returned\
+    \ via the \"error\" parameter\n   when invoking \"callback\":"
+  syntax:
+    content: invoke_method(device_id, method_params, callback, module_id=None)
+    parameters:
+    - id: device_id
+    - id: method_params
+    - id: callback
+    - defaultValue: None
+      id: module_id
+  type: method
+  uid: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.invoke_method
+- class: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  fullName: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.notify_blob_upload_status
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.http_pipeline
+  name: notify_blob_upload_status(correlation_id, is_success, status_code, status_description,
+    callback)
+  source:
+    id: notify_blob_upload_status
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\http_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 130
+  summary: "Sends a POST request to a IoT Hub service endpoint to notify the status\
+    \ of the Storage SDK call for a blob upload.\n\nThe following exceptions are not\
+    \ \"raised\", but rather returned via the \"error\" parameter\n   when invoking\
+    \ \"callback\":"
+  syntax:
+    content: notify_blob_upload_status(correlation_id, is_success, status_code, status_description,
+      callback)
+    parameters:
+    - id: correlation_id
+    - id: is_success
+    - id: status_code
+    - id: status_description
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.notify_blob_upload_status
+references:
+- fullName: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.get_storage_info_for_blob
+  isExternal: false
+  name: get_storage_info_for_blob(blob_name, callback)
+  parent: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  uid: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.get_storage_info_for_blob
+- fullName: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.invoke_method
+  isExternal: false
+  name: invoke_method(device_id, method_params, callback, module_id=None)
+  parent: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  uid: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.invoke_method
+- fullName: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.notify_blob_upload_status
+  isExternal: false
+  name: notify_blob_upload_status(correlation_id, is_success, status_code, status_description,
+    callback)
+  parent: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline
+  uid: azure.iot.device.iothub.pipeline.http_pipeline.HTTPPipeline.notify_blob_upload_status

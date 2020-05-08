@@ -1,0 +1,280 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.handle_pipeline_event
+  - azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.run_op
+  - azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_event_up
+  - azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_op_down
+  class: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: PipelineStage
+  source:
+    id: PipelineStage
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 28
+  summary: 'Base class representing a stage in the processing pipeline.  Each stage
+    is responsible for receiving
+
+    PipelineOperation objects from the top, possibly processing them, and possibly
+    passing them down.  It
+
+    is also responsible for receiving PipelineEvent objects from the bottom, possibly
+    processing them, and
+
+    possibly passing them up.
+
+
+    Each PipelineStage in the pipeline, is expected to act on some well-defined set
+    of PipelineOperation
+
+    types and/or some set of PipelineEvent types.  If any stage does not act on an
+    operation or event, it
+
+    should pass it to the next stage (for operations) or the previous stage (for events).  In
+    this way, the
+
+    pipeline implements the "chain of responsibility" design pattern (Gamma, et.al.
+    "Design Patterns".
+
+    Addison Wesley. 1995), with each stage being responsible for implementing some
+    "rule" or "policy" of the
+
+    pipeline, and each stage being ignorant of the stages that are before or after
+    it in the pipeline.
+
+
+    Each stage in the pipeline should act on the smallest set of rules possible, thus
+    making stages small
+
+    and easily testable.  Complex logic should be the exception and not the rule,
+    and complex stages should
+
+    operate on the most generic type of operation possible, thus allowing us to re-use
+    complex logic for
+
+    multiple cases.  The best way to do this is with "converter" stages that convert
+    a specific operation to
+
+    a more general one and with other converter stages that convert general operations
+    to more specific ones.
+
+
+    An example of a specific-to-generic stage is UseSkAuthProviderStage which takes
+    a specific operation
+
+    (use an auth provider) and converts it into something more generic (here is your
+    device_id, etc, and use
+
+    this SAS token when connecting).
+
+
+    An example of a generic-to-specific stage is IoTHubMQTTTranslationStage which
+    converts IoTHub operations
+
+    (such as SendD2CMessageOperation) to MQTT operations (such as Publish).
+
+
+    Each stage should also work in the broadest domain possible.  For example a generic
+    stage (say
+
+    "AutoConnectStage") that initiates a connection if any arbitrary operation needs
+    a connection is more useful
+
+    than having some MQTT-specific code that re-connects to the MQTT broker if the
+    user calls Publish and
+
+    there''s no connection.
+
+
+    One way to think about stages is to look at every "block of functionality" in
+    your code and ask yourself
+
+    "is this the one and only time I will need this code"?  If the answer is no, it
+    might be worthwhile to
+
+    implement that code in it''s own stage in a very generic way.'
+  syntax:
+    content: PipelineStage()
+    variables:
+    - description: The name of the stage.  This is used primarily for logging
+      id: name
+    - description: The next stage in the pipeline.  Set to None if this is the last
+        stage in the pipeline.
+      id: next
+    - description: The previous stage in the pipeline.  Set to None if this is the
+        first stage in the pipeline.
+      id: previous
+    - description: 'The first stage (root) of the pipeline.  This is useful if a stage
+        wants to
+
+        submit an operation to the pipeline starting at the root.  This type of behavior
+        is uncommon but not
+
+        unexpected.'
+      id: pipeline_root
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+- class: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.handle_pipeline_event
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: handle_pipeline_event(event)
+  source:
+    id: handle_pipeline_event
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 125
+  summary: 'Handle a pipeline event that arrives from the stage below this stage.  Derived
+
+    classes should not override this function.  Any stage-specific handling of
+
+    PipelineEvent objects should be implemented by overriding the private
+
+    _handle_pipeline_event function in the derived stage.'
+  syntax:
+    content: handle_pipeline_event(event)
+    parameters:
+    - description: The event that is being passed back up the pipeline
+      id: event
+      type:
+      - PipelineEvent
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.handle_pipeline_event
+- class: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.run_op
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: run_op(op)
+  source:
+    id: run_op
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 86
+  summary: 'Run the given operation.  This is the public function that outside callers
+    would call to run an
+
+    operation.  Derived classes should override the private _run_op function to implement
+
+    stage-specific behavior.  When run_op returns, that doesn''t mean that the operation
+    has executed
+
+    to completion.  Rather, it means that the pipeline has done something that will
+    cause the
+
+    operation to eventually execute to completion.  That might mean that something
+    was sent over
+
+    the network and some stage is waiting for a reply, or it might mean that the operation
+    is sitting
+
+    in a queue until something happens, or it could mean something entirely different.  The
+    only
+
+    thing you can assume is that the operation will _eventually_ complete successfully
+    or fail, and the
+
+    operation''s callback will be called when that happens.'
+  syntax:
+    content: run_op(op)
+    parameters:
+    - description: The operation to run.
+      id: op
+      type:
+      - PipelineOperation
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.run_op
+- class: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_event_up
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: send_event_up(event)
+  source:
+    id: send_event_up
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 173
+  summary: 'Helper function to pass an event to the previous stage of the pipeline.  This
+    is the default
+
+    behavior of events while traveling through the pipeline. They start somewhere
+    (maybe the
+
+    bottom) and move up the pipeline until they''re handled or until they error out.'
+  syntax:
+    content: send_event_up(event)
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_event_up
+- class: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_op_down
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: send_op_down(op)
+  source:
+    id: send_op_down
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 154
+  summary: 'Helper function to continue a given operation by passing it to the next
+    stage
+
+    in the pipeline.  If there is no next stage in the pipeline, this function
+
+    will fail the operation and call complete_op to return the failure back up the
+
+    pipeline.'
+  syntax:
+    content: send_op_down(op)
+    parameters:
+    - description: Operation which is being passed on
+      id: op
+      type:
+      - PipelineOperation
+  type: method
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_op_down
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.handle_pipeline_event
+  isExternal: false
+  name: handle_pipeline_event(event)
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.handle_pipeline_event
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.run_op
+  isExternal: false
+  name: run_op(op)
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.run_op
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_event_up
+  isExternal: false
+  name: send_event_up(event)
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_event_up
+- fullName: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_op_down
+  isExternal: false
+  name: send_op_down(op)
+  parent: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage.send_op_down

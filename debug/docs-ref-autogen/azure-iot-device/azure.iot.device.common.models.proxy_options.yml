@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.models.proxy_options.ProxyOptions
+  fullName: azure.iot.device.common.models.proxy_options
+  langs:
+  - python
+  module: azure.iot.device.common.models.proxy_options
+  name: proxy_options
+  source:
+    id: proxy_options
+    path: azure-iot-device\azure\iot\device\common\models\proxy_options.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\models\proxy_options.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module represents proxy options to enable sending traffic through
+    proxy servers.
+  type: module
+  uid: azure.iot.device.common.models.proxy_options
+references:
+- fullName: azure.iot.device.common.models.proxy_options.ProxyOptions
+  isExternal: false
+  name: ProxyOptions
+  parent: azure.iot.device.common.models.proxy_options
+  uid: azure.iot.device.common.models.proxy_options.ProxyOptions

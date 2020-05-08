@@ -1,0 +1,179 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.pipeline_thread.invoke_on_callback_thread_nowait
+  - azure.iot.device.common.pipeline.pipeline_thread.invoke_on_http_thread_nowait
+  - azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread
+  - azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread_nowait
+  - azure.iot.device.common.pipeline.pipeline_thread.runs_on_http_thread
+  - azure.iot.device.common.pipeline.pipeline_thread.runs_on_pipeline_thread
+  fullName: azure.iot.device.common.pipeline.pipeline_thread
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_thread
+  name: pipeline_thread
+  source:
+    id: pipeline_thread
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.pipeline.pipeline_thread
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_callback_thread_nowait
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_thread
+  name: invoke_on_callback_thread_nowait(func)
+  source:
+    id: invoke_on_callback_thread_nowait
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 162
+  summary: Run the decorated function on the callback thread, but don't wait for it
+    to complete
+  syntax:
+    content: invoke_on_callback_thread_nowait(func)
+    parameters:
+    - id: func
+  type: function
+  uid: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_callback_thread_nowait
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_http_thread_nowait
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_thread
+  name: invoke_on_http_thread_nowait(func)
+  source:
+    id: invoke_on_http_thread_nowait
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 169
+  summary: Run the decorated function on the callback thread, but don't wait for it
+    to complete
+  syntax:
+    content: invoke_on_http_thread_nowait(func)
+    parameters:
+    - id: func
+  type: function
+  uid: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_http_thread_nowait
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_thread
+  name: invoke_on_pipeline_thread(func)
+  source:
+    id: invoke_on_pipeline_thread
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 148
+  summary: Run the decorated function on the pipeline thread.
+  syntax:
+    content: invoke_on_pipeline_thread(func)
+    parameters:
+    - id: func
+  type: function
+  uid: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread_nowait
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_thread
+  name: invoke_on_pipeline_thread_nowait(func)
+  source:
+    id: invoke_on_pipeline_thread_nowait
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 155
+  summary: Run the decorated function on the pipeline thread, but don't wait for it
+    to complete
+  syntax:
+    content: invoke_on_pipeline_thread_nowait(func)
+    parameters:
+    - id: func
+  type: function
+  uid: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread_nowait
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.runs_on_http_thread
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_thread
+  name: runs_on_http_thread(func)
+  source:
+    id: runs_on_http_thread
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 210
+  summary: Decorator which marks a function as only running inside the http thread.
+  syntax:
+    content: runs_on_http_thread(func)
+    parameters:
+    - id: func
+  type: function
+  uid: azure.iot.device.common.pipeline.pipeline_thread.runs_on_http_thread
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.runs_on_pipeline_thread
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_thread
+  name: runs_on_pipeline_thread(func)
+  source:
+    id: runs_on_pipeline_thread
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_thread.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 203
+  summary: Decorator which marks a function as only running inside the pipeline thread.
+  syntax:
+    content: runs_on_pipeline_thread(func)
+    parameters:
+    - id: func
+  type: function
+  uid: azure.iot.device.common.pipeline.pipeline_thread.runs_on_pipeline_thread
+references:
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_callback_thread_nowait
+  isExternal: false
+  name: invoke_on_callback_thread_nowait(func)
+  parent: azure.iot.device.common.pipeline.pipeline_thread
+  uid: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_callback_thread_nowait
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_http_thread_nowait
+  isExternal: false
+  name: invoke_on_http_thread_nowait(func)
+  parent: azure.iot.device.common.pipeline.pipeline_thread
+  uid: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_http_thread_nowait
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread
+  isExternal: false
+  name: invoke_on_pipeline_thread(func)
+  parent: azure.iot.device.common.pipeline.pipeline_thread
+  uid: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread_nowait
+  isExternal: false
+  name: invoke_on_pipeline_thread_nowait(func)
+  parent: azure.iot.device.common.pipeline.pipeline_thread
+  uid: azure.iot.device.common.pipeline.pipeline_thread.invoke_on_pipeline_thread_nowait
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.runs_on_http_thread
+  isExternal: false
+  name: runs_on_http_thread(func)
+  parent: azure.iot.device.common.pipeline.pipeline_thread
+  uid: azure.iot.device.common.pipeline.pipeline_thread.runs_on_http_thread
+- fullName: azure.iot.device.common.pipeline.pipeline_thread.runs_on_pipeline_thread
+  isExternal: false
+  name: runs_on_pipeline_thread(func)
+  parent: azure.iot.device.common.pipeline.pipeline_thread
+  uid: azure.iot.device.common.pipeline.pipeline_thread.runs_on_pipeline_thread

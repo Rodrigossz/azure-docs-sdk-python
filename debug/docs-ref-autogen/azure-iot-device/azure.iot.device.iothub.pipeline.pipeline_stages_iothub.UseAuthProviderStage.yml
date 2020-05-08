@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.UseAuthProviderStage
+  fullName: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.UseAuthProviderStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_stages_iothub
+  name: UseAuthProviderStage
+  source:
+    id: UseAuthProviderStage
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_stages_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 24
+  summary: 'PipelineStage which extracts relevant AuthenticationProvider values for
+    a new
+
+    SetIoTHubConnectionArgsOperation.
+
+
+    All other operations are passed down.'
+  syntax:
+    content: UseAuthProviderStage()
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_stages_iothub.UseAuthProviderStage
+references: []

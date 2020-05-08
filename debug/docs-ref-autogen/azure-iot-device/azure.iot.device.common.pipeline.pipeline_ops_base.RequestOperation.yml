@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_ops_base.RequestOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.RequestOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: RequestOperation
+  source:
+    id: RequestOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 396
+  summary: 'A PipelineOperation object which is the first part of an RequestAndResponseOperation
+    operation (the request). The second
+
+    part of the RequestAndResponseOperation operation (the response) is returned via
+    an ResponseEvent event.
+
+
+    Even though this is an base operation, it will most likely be generated and also
+    handled by more specifics stages
+
+    (such as IoTHub or MQTT stages).'
+  syntax:
+    content: RequestOperation(request_type, method, resource_location, request_body,
+      request_id, callback, query_params=None)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.RequestOperation
+references: []

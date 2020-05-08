@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt.ProvisioningMQTTTranslationStage
+  fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+  name: pipeline_stages_provisioning_mqtt
+  source:
+    id: pipeline_stages_provisioning_mqtt
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning_mqtt.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning_mqtt.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+references:
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt.ProvisioningMQTTTranslationStage
+  isExternal: false
+  name: ProvisioningMQTTTranslationStage
+  parent: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning_mqtt.ProvisioningMQTTTranslationStage

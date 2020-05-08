@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: mqtt_pipeline
+  source:
+    id: mqtt_pipeline
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline
+references:
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  isExternal: false
+  name: MQTTPipeline
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline

@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.abstract_provisioning_device_client.AbstractProvisioningDeviceClient
+  - azure.iot.device.provisioning.abstract_provisioning_device_client.log_on_register_complete
+  fullName: azure.iot.device.provisioning.abstract_provisioning_device_client
+  langs:
+  - python
+  module: azure.iot.device.provisioning.abstract_provisioning_device_client
+  name: abstract_provisioning_device_client
+  source:
+    id: abstract_provisioning_device_client
+    path: azure-iot-device\azure\iot\device\provisioning\abstract_provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\abstract_provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'This module provides an abstract interface representing clients which
+    can communicate with the
+
+    Device Provisioning Service.'
+  type: module
+  uid: azure.iot.device.provisioning.abstract_provisioning_device_client
+- fullName: azure.iot.device.provisioning.abstract_provisioning_device_client.log_on_register_complete
+  langs:
+  - python
+  module: azure.iot.device.provisioning.abstract_provisioning_device_client
+  name: log_on_register_complete(result=None)
+  source:
+    id: log_on_register_complete
+    path: azure-iot-device\azure\iot\device\provisioning\abstract_provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\abstract_provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 170
+  syntax:
+    content: log_on_register_complete(result=None)
+    parameters:
+    - defaultValue: None
+      id: result
+  type: function
+  uid: azure.iot.device.provisioning.abstract_provisioning_device_client.log_on_register_complete
+references:
+- fullName: azure.iot.device.provisioning.abstract_provisioning_device_client.AbstractProvisioningDeviceClient
+  isExternal: false
+  name: AbstractProvisioningDeviceClient
+  parent: azure.iot.device.provisioning.abstract_provisioning_device_client
+  uid: azure.iot.device.provisioning.abstract_provisioning_device_client.AbstractProvisioningDeviceClient
+- fullName: azure.iot.device.provisioning.abstract_provisioning_device_client.log_on_register_complete
+  isExternal: false
+  name: log_on_register_complete(result=None)
+  parent: azure.iot.device.provisioning.abstract_provisioning_device_client
+  uid: azure.iot.device.provisioning.abstract_provisioning_device_client.log_on_register_complete

@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.auth.x509_authentication_provider.X509AuthenticationProvider
+  fullName: azure.iot.device.iothub.auth.x509_authentication_provider
+  langs:
+  - python
+  module: azure.iot.device.iothub.auth.x509_authentication_provider
+  name: x509_authentication_provider
+  source:
+    id: x509_authentication_provider
+    path: azure-iot-device\azure\iot\device\iothub\auth\x509_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\auth\x509_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.auth.x509_authentication_provider
+references:
+- fullName: azure.iot.device.iothub.auth.x509_authentication_provider.X509AuthenticationProvider
+  isExternal: false
+  name: X509AuthenticationProvider
+  parent: azure.iot.device.iothub.auth.x509_authentication_provider
+  uid: azure.iot.device.iothub.auth.x509_authentication_provider.X509AuthenticationProvider

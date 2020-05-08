@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_ops_base.ReauthorizeConnectionOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.ReauthorizeConnectionOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: ReauthorizeConnectionOperation
+  source:
+    id: ReauthorizeConnectionOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 234
+  summary: 'A PipelineOperation object which tells the pipeline to reauthorize the
+    connection to whatever service it is connected to.
+
+
+    Clients will most-likely submit a ReauthorizeConnectionOperation when some credential
+    (such as a sas token) has changed and the protocol client
+
+    needs to re-establish the connection to refresh the credentials
+
+
+    This operation is in the group of base operations because reauthorizinging is
+    a common operation that many clients might need to do.
+
+
+    Even though this is an base operation, it will most likely be handled by a more
+    specific stage (such as an IoTHub or MQTT stage).'
+  syntax:
+    content: ReauthorizeConnectionOperation(callback)
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.ReauthorizeConnectionOperation
+references: []

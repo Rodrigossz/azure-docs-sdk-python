@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.pipeline.config.BasePipelineConfig
+  fullName: azure.iot.device.common.pipeline.config
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.config
+  name: config
+  source:
+    id: config
+    path: azure-iot-device\azure\iot\device\common\pipeline\config.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\config.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.pipeline.config
+references:
+- fullName: azure.iot.device.common.pipeline.config.BasePipelineConfig
+  isExternal: false
+  name: BasePipelineConfig
+  parent: azure.iot.device.common.pipeline.config
+  uid: azure.iot.device.common.pipeline.config.BasePipelineConfig

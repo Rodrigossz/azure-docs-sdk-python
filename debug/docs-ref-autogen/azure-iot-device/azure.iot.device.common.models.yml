@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.models.proxy_options
+  - azure.iot.device.common.models.x509
+  fullName: azure.iot.device.common.models
+  kind: import
+  langs:
+  - python
+  module: azure.iot.device.common.models
+  name: models
+  source:
+    id: models
+    path: azure-iot-device\azure\iot\device\common\models\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\models\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'Azure Device Models
+
+
+
+    This package provides object models for use within the Azure Provisioning Device
+    SDK and Azure IoTHub Device SDK.'
+  type: package
+  uid: azure.iot.device.common.models
+references:
+- fullName: azure.iot.device.common.models.proxy_options
+  isExternal: false
+  name: proxy_options
+  parent: azure.iot.device.common.models
+  uid: azure.iot.device.common.models.proxy_options
+- fullName: azure.iot.device.common.models.x509
+  isExternal: false
+  name: x509
+  parent: azure.iot.device.common.models
+  uid: azure.iot.device.common.models.x509

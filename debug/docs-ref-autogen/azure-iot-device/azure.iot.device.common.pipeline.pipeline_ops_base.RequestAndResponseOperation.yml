@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_ops_base.RequestAndResponseOperation
+  fullName: azure.iot.device.common.pipeline.pipeline_ops_base.RequestAndResponseOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_ops_base
+  name: RequestAndResponseOperation
+  source:
+    id: RequestAndResponseOperation
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_ops_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 346
+  summary: 'A PipelineOperation object which wraps the common operation of sending
+    a request to iothub with a request_id ($rid)
+
+    value and waiting for a response with the same $rid value.  This convention is
+    used by both Twin and Provisioning
+
+    features.
+
+
+    Even though this is an base operation, it will most likely be generated and also
+    handled by more specifics stages
+
+    (such as IoTHub or MQTT stages).
+
+
+    The type of the request payload and the response payload is undefined at this
+    level.  The type of the payload is defined
+
+    based on the type of request that is being executed.  If types need to be converted,
+    that is the responsibility of
+
+    the stage which creates this operation, and also the stage which executes on the
+    operation.
+
+
+
+    Example is the id of the operation as returned by the initial provisioning request.'
+  syntax:
+    content: RequestAndResponseOperation(request_type, method, resource_location,
+      request_body, callback, query_params=None)
+    variables:
+    - description: The status code returned by the response.  Any value under 300
+        is considered success.
+      id: status_code
+    - description: The body of the response.
+      id: response_body
+    - description: Any query parameters that need to be sent with the request.
+      id: query_params
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_ops_base.RequestAndResponseOperation
+references: []

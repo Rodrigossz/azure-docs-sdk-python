@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.models.methods.MethodRequest
+  - azure.iot.device.iothub.models.methods.MethodResponse
+  fullName: azure.iot.device.iothub.models.methods
+  langs:
+  - python
+  module: azure.iot.device.iothub.models.methods
+  name: methods
+  source:
+    id: methods
+    path: azure-iot-device\azure\iot\device\iothub\models\methods.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\models\methods.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module contains classes related to direct method invocations.
+  type: module
+  uid: azure.iot.device.iothub.models.methods
+references:
+- fullName: azure.iot.device.iothub.models.methods.MethodRequest
+  isExternal: false
+  name: MethodRequest
+  parent: azure.iot.device.iothub.models.methods
+  uid: azure.iot.device.iothub.models.methods.MethodRequest
+- fullName: azure.iot.device.iothub.models.methods.MethodResponse
+  isExternal: false
+  name: MethodResponse
+  parent: azure.iot.device.iothub.models.methods
+  uid: azure.iot.device.iothub.models.methods.MethodResponse

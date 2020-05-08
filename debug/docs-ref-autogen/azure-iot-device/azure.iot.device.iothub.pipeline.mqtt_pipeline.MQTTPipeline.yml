@@ -1,0 +1,356 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connect
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connected
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disable_feature
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disconnect
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.enable_feature
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.get_twin
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.patch_twin_reported_properties
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_message
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_method_response
+  - azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_output_event
+  class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: MQTTPipeline
+  source:
+    id: MQTTPipeline
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 27
+  summary: ''
+  syntax:
+    content: MQTTPipeline(auth_provider, pipeline_configuration)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connect
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: connect(callback)
+  source:
+    id: connect
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 177
+  summary: 'Connect to the service.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: connect(callback)
+    parameters:
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connect
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connected
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: connected
+  source:
+    id: connected
+    path: null
+    remote:
+      branch: master
+      path: null
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: null
+  summary: Read-only property to indicate if the transport is connected or not.
+  syntax: {}
+  type: attribute
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connected
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disable_feature
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: disable_feature(feature_name, callback)
+  source:
+    id: disable_feature
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 367
+  summary: 'Disable the given feature by subscribing to the appropriate topics.
+
+    :param callback: callback which is called when the feature is disabled'
+  syntax:
+    content: disable_feature(feature_name, callback)
+    parameters:
+    - description: one of the feature name constants from constant.py
+      id: feature_name
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disable_feature
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disconnect
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: disconnect(callback)
+  source:
+    id: disconnect
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 198
+  summary: 'Disconnect from the service.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: disconnect(callback)
+    parameters:
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disconnect
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.enable_feature
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: enable_feature(feature_name, callback)
+  source:
+    id: enable_feature
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 339
+  summary: Enable the given feature by subscribing to the appropriate topics.
+  syntax:
+    content: enable_feature(feature_name, callback)
+    parameters:
+    - description: one of the feature name constants from constant.py
+      id: feature_name
+    - description: callback which is called when the feature is enabled
+      id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.enable_feature
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.get_twin
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: get_twin(callback)
+  source:
+    id: get_twin
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 288
+  summary: 'Send a request for a full twin to the service.
+
+
+
+    This callback should have two parameters.  On success, this callback is called
+    with the
+
+    requested twin and error=None.  On failure, this callback is called with None
+    for the requested
+
+    twin and error set to the cause of the failure.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: get_twin(callback)
+    parameters:
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.get_twin
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.patch_twin_reported_properties
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: patch_twin_reported_properties(patch, callback)
+  source:
+    id: patch_twin_reported_properties
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 314
+  summary: 'Send a patch for a twin''s reported properties to the service.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: patch_twin_reported_properties(patch, callback)
+    parameters:
+    - id: patch
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.patch_twin_reported_properties
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_message
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: send_message(message, callback)
+  source:
+    id: send_message
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 216
+  summary: 'Send a telemetry message to the service.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: send_message(message, callback)
+    parameters:
+    - id: message
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_message
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_method_response
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: send_method_response(method_response, callback)
+  source:
+    id: send_method_response
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 262
+  summary: 'Send a method response to the service.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: send_method_response(method_response, callback)
+    parameters:
+    - id: method_response
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_method_response
+- class: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_output_event
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.mqtt_pipeline
+  name: send_output_event(message, callback)
+  source:
+    id: send_output_event
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\mqtt_pipeline.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 239
+  summary: 'Send an output message to the service.
+
+
+    The following exceptions are not "raised", but rather returned via the "error"
+    parameter
+
+    when invoking "callback":'
+  syntax:
+    content: send_output_event(message, callback)
+    parameters:
+    - id: message
+    - id: callback
+  type: method
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_output_event
+references:
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connect
+  isExternal: false
+  name: connect(callback)
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connect
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connected
+  isExternal: false
+  name: connected
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.connected
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disable_feature
+  isExternal: false
+  name: disable_feature(feature_name, callback)
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disable_feature
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disconnect
+  isExternal: false
+  name: disconnect(callback)
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.disconnect
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.enable_feature
+  isExternal: false
+  name: enable_feature(feature_name, callback)
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.enable_feature
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.get_twin
+  isExternal: false
+  name: get_twin(callback)
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.get_twin
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.patch_twin_reported_properties
+  isExternal: false
+  name: patch_twin_reported_properties(patch, callback)
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.patch_twin_reported_properties
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_message
+  isExternal: false
+  name: send_message(message, callback)
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_message
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_method_response
+  isExternal: false
+  name: send_method_response(method_response, callback)
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_method_response
+- fullName: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_output_event
+  isExternal: false
+  name: send_output_event(message, callback)
+  parent: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline
+  uid: azure.iot.device.iothub.pipeline.mqtt_pipeline.MQTTPipeline.send_output_event

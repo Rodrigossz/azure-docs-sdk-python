@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.config.BasePipelineConfig
+  fullName: azure.iot.device.common.pipeline.config.BasePipelineConfig
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.config
+  name: BasePipelineConfig
+  source:
+    id: BasePipelineConfig
+    path: azure-iot-device\azure\iot\device\common\pipeline\config.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\config.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 16
+  summary: 'A base class for storing all configurations/options shared across the
+    Azure IoT Python Device Client Library.
+
+    More specific configurations such as those that only apply to the IoT Hub Client
+    will be found in the respective
+
+    config files.'
+  syntax:
+    content: BasePipelineConfig(websockets=False, cipher='', proxy_options=None)
+  type: class
+  uid: azure.iot.device.common.pipeline.config.BasePipelineConfig
+references: []

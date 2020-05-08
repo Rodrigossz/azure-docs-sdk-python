@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.chainable_exception.ChainableException
+  fullName: azure.iot.device.common.chainable_exception
+  langs:
+  - python
+  module: azure.iot.device.common.chainable_exception
+  name: chainable_exception
+  source:
+    id: chainable_exception
+    path: azure-iot-device\azure\iot\device\common\chainable_exception.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\chainable_exception.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.chainable_exception
+references:
+- fullName: azure.iot.device.common.chainable_exception.ChainableException
+  isExternal: false
+  name: ChainableException
+  parent: azure.iot.device.common.chainable_exception
+  uid: azure.iot.device.common.chainable_exception.ChainableException

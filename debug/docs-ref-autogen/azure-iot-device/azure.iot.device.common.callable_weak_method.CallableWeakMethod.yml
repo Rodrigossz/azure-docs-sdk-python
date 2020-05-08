@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.callable_weak_method.CallableWeakMethod
+  fullName: azure.iot.device.common.callable_weak_method.CallableWeakMethod
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.callable_weak_method
+  name: CallableWeakMethod
+  source:
+    id: CallableWeakMethod
+    path: azure-iot-device\azure\iot\device\common\callable_weak_method.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\callable_weak_method.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 10
+  summary: "Object which makes a weak reference to a method call.  Similar to weakref.WeakMethod,\n\
+    but works on Python 2.7 and returns an object which is callable.\n\nThis objet\
+    \ is used primarily for callbacks and it prevents circular references in the\n\
+    garbage collector.  It is used specifically in the scenario where object holds\
+    \ a\nrefernce to object b and b holds a callback into a (which creates a rererence\n\
+    back into a)\n\nBy default, method references are _strong_, and we end up with\
+    \  we have a situation\nwhere a has a _strong) reference to b and b has a _strong_\
+    \ reference to a.\n\nThe Python 3.4+ garbage collectors handle this circular reference\
+    \ just fine, but the\n2.7 garbage collector fails, but only when one of the objects\
+    \ has a finalizer method.\n\n\n'''\n# example of bad (strong) circular dependency:\n\
+    class A(object):\n\n\n   def --init__(self):\n      self.b = B()            #\
+    \ A objects now have a strong refernce to B objects\n      b.handler = a.method()\
+    \  # and B object have a strong reference back into A objects\n\n   def method(self):\n\
+    \      pass\n\n\n\n'''\n\nIn the example above, if a or B has a finalizer, that\
+    \ object will be considered uncollectable\n(on 2.7) and both objects will leak\n\
+    \nHowever, if we use this object, a will a _strong_ reference to b, and b will\
+    \ have a _weak_\nreference =back to a, and the circular depenency chain is broken.\n\
+    \n\n>>``<<`\n# example of better (weak) circular dependency:\nclass A(object):\n\
+    \n\n\n   def --init__(self):\n      self.b = B()                             \
+    \       # A objects now have a strong refernce to B objects\n      b.handler =\
+    \ CallableWeakMethod(a, \"method\")     # and B objects have a WEAK reference\
+    \ back into A objects\n\n   def method(self):\n      pass\n\n\n\n>>``<<>>`<<\n\
+    \n\n\nIn this example, there is no circular reference, and the Python 2.7 garbage\
+    \ collector is able\nto collect both objects, even if one of them has a finalizer.\n\
+    \nWhen we reach the point where all supported interpreters implement PEP 442,\
+    \ we will\nno longer need this object\n\nref: [https://www.python.org/dev/peps/pep-0442/](https://www.python.org/dev/peps/pep-0442/)"
+  syntax:
+    content: CallableWeakMethod(object, method_name)
+  type: class
+  uid: azure.iot.device.common.callable_weak_method.CallableWeakMethod
+references: []

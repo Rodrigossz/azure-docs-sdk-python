@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectStage
+  fullName: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectStage
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_stages_base
+  name: ReconnectStage
+  source:
+    id: ReconnectStage
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_stages_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 812
+  syntax:
+    content: ReconnectStage()
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_stages_base.ReconnectStage
+references: []

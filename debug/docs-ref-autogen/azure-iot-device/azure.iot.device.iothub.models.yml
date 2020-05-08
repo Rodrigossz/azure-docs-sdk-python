@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.models.message
+  - azure.iot.device.iothub.models.methods
+  - azure.iot.device.iothub.models.twin
+  fullName: azure.iot.device.iothub.models
+  kind: import
+  langs:
+  - python
+  module: azure.iot.device.iothub.models
+  name: models
+  source:
+    id: models
+    path: azure-iot-device\azure\iot\device\iothub\models\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\models\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: 'Azure IoT Hub Device SDK Models
+
+
+
+    This package provides object models for use within the Azure IoT Hub Device SDK.'
+  type: package
+  uid: azure.iot.device.iothub.models
+references:
+- fullName: azure.iot.device.iothub.models.message
+  isExternal: false
+  name: message
+  parent: azure.iot.device.iothub.models
+  uid: azure.iot.device.iothub.models.message
+- fullName: azure.iot.device.iothub.models.methods
+  isExternal: false
+  name: methods
+  parent: azure.iot.device.iothub.models
+  uid: azure.iot.device.iothub.models.methods
+- fullName: azure.iot.device.iothub.models.twin
+  isExternal: false
+  name: twin
+  parent: azure.iot.device.iothub.models
+  uid: azure.iot.device.iothub.models.twin

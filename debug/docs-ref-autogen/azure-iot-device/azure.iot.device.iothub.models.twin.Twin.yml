@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.models.twin.Twin
+  fullName: azure.iot.device.iothub.models.twin.Twin
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.iothub.models.twin
+  name: Twin
+  source:
+    id: Twin
+    path: azure-iot-device\azure\iot\device\iothub\models\twin.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\models\twin.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 10
+  summary: Represents a device twin or module twin
+  syntax:
+    content: Twin()
+    variables:
+    - description: 'The desired properties for the Twin.  These are properties
+
+        which are sent _to_ the device or module to indicate the _desired_ state of
+        the device
+
+        or module'
+      id: desired_properties
+    - description: 'The reported properties for the Twin.  These are properties
+
+        which are sent _from_ the device or module to indicate the _actual_ state
+        of the device.'
+      id: reported_properties
+  type: class
+  uid: azure.iot.device.iothub.models.twin.Twin
+references: []

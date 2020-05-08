@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  fullName: azure.iot.device.iothub.pipeline.constant
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.constant
+  name: constant
+  source:
+    id: constant
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\constant.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\constant.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  summary: This module contains constants realted to the pipeline package.
+  type: module
+  uid: azure.iot.device.iothub.pipeline.constant
+references: []

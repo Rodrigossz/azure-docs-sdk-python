@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetX509AuthProviderOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetX509AuthProviderOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  name: SetX509AuthProviderOperation
+  source:
+    id: SetX509AuthProviderOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 11
+  summary: 'A PipelineOperation object which tells the pipeline to use a particular
+    X509 authorization provider.
+
+    Some pipeline stage is expected to extract arguments out of the auth provider
+    and pass them
+
+    on so an even lower stage can use those arguments to connect.
+
+
+    This operation is in the group of IoTHub operations because authorization providers
+    are currently
+
+    very IoTHub-specific'
+  syntax:
+    content: SetX509AuthProviderOperation(auth_provider, callback)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetX509AuthProviderOperation
+references: []

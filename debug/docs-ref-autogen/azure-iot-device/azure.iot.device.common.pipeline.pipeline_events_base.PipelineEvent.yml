@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  fullName: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_events_base
+  name: PipelineEvent
+  source:
+    id: PipelineEvent
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 8
+  summary: 'A base class for data objects representing events that travels up the
+    pipeline.
+
+
+    PipelineEvent objects are used for anything that happens inside the pipeine that
+
+    cannot be attributed to a specific operation, such as a spontaneous disconnect.
+
+
+    PipelineEvents flow up the pipeline until they reach the client.  Every stage
+
+    has the opportunity to handle a given event.  If they don''t handle it, they
+
+    should pass it up to the next stage (this is the default behavior).  Stages
+
+    have the opportunity to tie a PipelineEvent to a PipelineOperation object
+
+    if they are waiting for a response for that particular operation.'
+  syntax:
+    content: PipelineEvent()
+    variables:
+    - description: The name of the event.  This is used primarily for logging
+      id: name
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+references: []

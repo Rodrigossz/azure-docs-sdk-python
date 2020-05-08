@@ -1,0 +1,202 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_properties_from_dps_response_topic
+  - azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_status_code_from_dps_response_topic
+  - azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_query_topic_for_publish
+  - azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_publish
+  - azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_subscribe
+  - azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.is_dps_response_topic
+  fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  name: mqtt_topic_provisioning
+  source:
+    id: mqtt_topic_provisioning
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_properties_from_dps_response_topic
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  name: extract_properties_from_dps_response_topic(topic)
+  source:
+    id: extract_properties_from_dps_response_topic
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 80
+  summary: 'Topics for responses from DPS are of the following format:
+
+    $dps/registrations/res/<statuscode>/?$<key1>=<value1>&<key2>=<value2>...&<keyN>=<valueN>
+
+    Extract key=value pairs from the latter part of the topic.
+
+    :param topic: The topic string
+
+    :return: a dictionary of property keys mapped to property values.'
+  syntax:
+    content: extract_properties_from_dps_response_topic(topic)
+    parameters:
+    - id: topic
+  type: function
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_properties_from_dps_response_topic
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_status_code_from_dps_response_topic
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  name: extract_status_code_from_dps_response_topic(topic)
+  source:
+    id: extract_status_code_from_dps_response_topic
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 109
+  summary: 'Topics for responses from DPS are of the following format:
+
+    $dps/registrations/res/<statuscode>/?$<key1>=<value1>&<key2>=<value2>...&<keyN>=<valueN>
+
+    Extract the status code part from the topic.
+
+    :param topic: The topic string
+
+    :return: The status code from the DPS response topic, as a string'
+  syntax:
+    content: extract_status_code_from_dps_response_topic(topic)
+    parameters:
+    - id: topic
+  type: function
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_status_code_from_dps_response_topic
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_query_topic_for_publish
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  name: get_query_topic_for_publish(request_id, operation_id)
+  source:
+    id: get_query_topic_for_publish
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 48
+  summary: '"$dps/registrations/GET/iotdps-get-operationstatus/?$rid=<request_id>&operationId=<operation_id>'
+  syntax:
+    content: get_query_topic_for_publish(request_id, operation_id)
+    parameters:
+    - id: request_id
+    - id: operation_id
+    return:
+      description: The topic string used to send a query. It is of the format
+  type: function
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_query_topic_for_publish
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_publish
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  name: get_register_topic_for_publish(request_id)
+  source:
+    id: get_register_topic_for_publish
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 38
+  summary: '"$dps/registrations/PUT/iotdps-register/?$rid=<request_id>'
+  syntax:
+    content: get_register_topic_for_publish(request_id)
+    parameters:
+    - id: request_id
+    return:
+      description: The topic string used to send a registration. It is of the format
+  type: function
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_publish
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_subscribe
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  name: get_register_topic_for_subscribe()
+  source:
+    id: get_register_topic_for_subscribe
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 30
+  summary: It is of the format "$dps/registrations/res/#"
+  syntax:
+    content: get_register_topic_for_subscribe()
+    return:
+      description: The topic string used to subscribe for receiving future responses
+        from DPS.
+  type: function
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_subscribe
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.is_dps_response_topic
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  name: is_dps_response_topic(topic)
+  source:
+    id: is_dps_response_topic
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\mqtt_topic_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 69
+  summary: 'Topics for responses from DPS are of the following format:
+
+    $dps/registrations/res/<statuscode>/?$<key1>=<value1>&<key2>=<value2>...&<keyN>=<valueN>
+
+    :param topic: The topic string'
+  syntax:
+    content: is_dps_response_topic(topic)
+    parameters:
+    - id: topic
+  type: function
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.is_dps_response_topic
+references:
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_properties_from_dps_response_topic
+  isExternal: false
+  name: extract_properties_from_dps_response_topic(topic)
+  parent: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_properties_from_dps_response_topic
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_status_code_from_dps_response_topic
+  isExternal: false
+  name: extract_status_code_from_dps_response_topic(topic)
+  parent: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.extract_status_code_from_dps_response_topic
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_query_topic_for_publish
+  isExternal: false
+  name: get_query_topic_for_publish(request_id, operation_id)
+  parent: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_query_topic_for_publish
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_publish
+  isExternal: false
+  name: get_register_topic_for_publish(request_id)
+  parent: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_publish
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_subscribe
+  isExternal: false
+  name: get_register_topic_for_subscribe()
+  parent: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.get_register_topic_for_subscribe
+- fullName: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.is_dps_response_topic
+  isExternal: false
+  name: is_dps_response_topic(topic)
+  parent: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning
+  uid: azure.iot.device.provisioning.pipeline.mqtt_topic_provisioning.is_dps_response_topic

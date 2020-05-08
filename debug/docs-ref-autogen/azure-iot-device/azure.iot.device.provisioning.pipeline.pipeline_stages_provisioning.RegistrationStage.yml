@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.RegistrationStage
+  fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.RegistrationStage
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: azure.iot.device.common.pipeline.pipeline_stages_base.PipelineStage
+    type: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.CommonProvisioningStage
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  name: RegistrationStage
+  source:
+    id: RegistrationStage
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 337
+  summary: 'This is the first stage that decides converts a registration request
+
+    into a normal request and response operation.
+
+    Upon the receipt of the response this stage decides whether
+
+    to send another registration request or send a query request.
+
+    Depending on the status and result of the response
+
+    this stage may also complete the registration process.'
+  syntax:
+    content: RegistrationStage()
+  type: class
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.RegistrationStage
+references: []

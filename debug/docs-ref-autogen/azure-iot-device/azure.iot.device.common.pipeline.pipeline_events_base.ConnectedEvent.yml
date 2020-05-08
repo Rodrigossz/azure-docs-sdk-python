@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_events_base.ConnectedEvent
+  fullName: azure.iot.device.common.pipeline.pipeline_events_base.ConnectedEvent
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_events_base
+  name: ConnectedEvent
+  source:
+    id: ConnectedEvent
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 68
+  summary: A PipelineEvent object indicating a connection has been established.
+  syntax:
+    content: ConnectedEvent()
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_events_base.ConnectedEvent
+references: []

@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.exceptions.ServiceError
+  fullName: azure.iot.device.exceptions.ServiceError
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.BaseException
+      type: builtins.Exception
+    type: azure.iot.device.common.chainable_exception.ChainableException
+  langs:
+  - python
+  module: azure.iot.device.exceptions
+  name: ServiceError
+  source:
+    id: ServiceError
+    path: azure-iot-device\azure\iot\device\exceptions.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\exceptions.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 53
+  summary: Error received from an Azure IoT service
+  syntax:
+    content: ServiceError(message=None, cause=None)
+  type: class
+  uid: azure.iot.device.exceptions.ServiceError
+references: []

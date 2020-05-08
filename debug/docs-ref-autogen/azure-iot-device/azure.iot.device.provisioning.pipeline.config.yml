@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.pipeline.config.ProvisioningPipelineConfig
+  fullName: azure.iot.device.provisioning.pipeline.config
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.config
+  name: config
+  source:
+    id: config
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\config.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\config.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.provisioning.pipeline.config
+references:
+- fullName: azure.iot.device.provisioning.pipeline.config.ProvisioningPipelineConfig
+  isExternal: false
+  name: ProvisioningPipelineConfig
+  parent: azure.iot.device.provisioning.pipeline.config
+  uid: azure.iot.device.provisioning.pipeline.config.ProvisioningPipelineConfig

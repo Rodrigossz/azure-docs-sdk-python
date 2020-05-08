@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.common.callable_weak_method.CallableWeakMethod
+  fullName: azure.iot.device.common.callable_weak_method
+  langs:
+  - python
+  module: azure.iot.device.common.callable_weak_method
+  name: callable_weak_method
+  source:
+    id: callable_weak_method
+    path: azure-iot-device\azure\iot\device\common\callable_weak_method.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\callable_weak_method.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.common.callable_weak_method
+references:
+- fullName: azure.iot.device.common.callable_weak_method.CallableWeakMethod
+  isExternal: false
+  name: CallableWeakMethod
+  parent: azure.iot.device.common.callable_weak_method
+  uid: azure.iot.device.common.callable_weak_method.CallableWeakMethod

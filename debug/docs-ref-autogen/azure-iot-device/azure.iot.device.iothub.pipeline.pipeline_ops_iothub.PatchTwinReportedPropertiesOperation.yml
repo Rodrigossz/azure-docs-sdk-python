@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.PatchTwinReportedPropertiesOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.PatchTwinReportedPropertiesOperation
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_ops_base.PipelineOperation
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  name: PatchTwinReportedPropertiesOperation
+  source:
+    id: PatchTwinReportedPropertiesOperation
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 187
+  summary: 'A PipelineOperation object which contains arguments used to send a reported
+    properties patch to the Azure
+
+    IoT Hub or Azure IoT Edge Hub service.'
+  syntax:
+    content: PatchTwinReportedPropertiesOperation(patch, callback)
+  type: class
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.PatchTwinReportedPropertiesOperation
+references: []

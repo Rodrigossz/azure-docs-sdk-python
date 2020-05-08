@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.common.pipeline.pipeline_events_base.ResponseEvent
+  fullName: azure.iot.device.common.pipeline.pipeline_events_base.ResponseEvent
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.common.pipeline.pipeline_events_base.PipelineEvent
+  langs:
+  - python
+  module: azure.iot.device.common.pipeline.pipeline_events_base
+  name: ResponseEvent
+  source:
+    id: ResponseEvent
+    path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\common\pipeline\pipeline_events_base.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 36
+  summary: 'A PipelineEvent object which is the second part of an RequestAndResponseOperation
+    operation
+
+    (the response).  The RequestAndResponseOperation represents the common operation
+    of sending
+
+    a request to iothub with a request_id ($rid) value and waiting for a response
+    with
+
+    the same $rid value.  This convention is used by both Twin and Provisioning features.
+
+
+    The response represented by this event has not yet been matched to the corresponding
+
+    RequestOperation operation.  That matching is done by the CoordinateRequestAndResponseStage
+
+    stage which takes the contents of this event and puts it into the RequestAndResponseOperation
+
+    operation with the matching $rid value.'
+  syntax:
+    content: ResponseEvent(request_id, status_code, response_body, retry_after=None)
+    variables:
+    - description: 'The request ID which will eventually be used to match a RequestOperation
+
+        operation to this event.'
+      id: request_id
+    - description: 'The status code returned by the response.  Any value under 300
+        is
+
+        considered success.'
+      id: status_code
+    - description: The body of the response.
+      id: response_body
+    - description: A retry interval value that was extracted from the topic.
+      id: retry_after
+  type: class
+  uid: azure.iot.device.common.pipeline.pipeline_events_base.ResponseEvent
+references: []

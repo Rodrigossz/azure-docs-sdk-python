@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.CommonProvisioningStage
+  - azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+  - azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.PollingStatusStage
+  - azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.RegistrationStage
+  - azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.UseSecurityClientStage
+  fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  langs:
+  - python
+  module: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  name: pipeline_stages_provisioning
+  source:
+    id: pipeline_stages_provisioning
+    path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\pipeline\pipeline_stages_provisioning.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+references:
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.CommonProvisioningStage
+  isExternal: false
+  name: CommonProvisioningStage
+  parent: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.CommonProvisioningStage
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+  isExternal: false
+  name: DeviceRegistrationPayload
+  parent: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.DeviceRegistrationPayload
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.PollingStatusStage
+  isExternal: false
+  name: PollingStatusStage
+  parent: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.PollingStatusStage
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.RegistrationStage
+  isExternal: false
+  name: RegistrationStage
+  parent: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.RegistrationStage
+- fullName: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.UseSecurityClientStage
+  isExternal: false
+  name: UseSecurityClientStage
+  parent: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning
+  uid: azure.iot.device.provisioning.pipeline.pipeline_stages_provisioning.UseSecurityClientStage

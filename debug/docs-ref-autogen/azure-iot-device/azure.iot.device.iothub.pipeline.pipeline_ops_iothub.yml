@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub.GetTwinOperation
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub.PatchTwinReportedPropertiesOperation
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendD2CMessageOperation
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendMethodResponseOperation
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendOutputEventOperation
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetAuthProviderOperation
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetIoTHubConnectionArgsOperation
+  - azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetX509AuthProviderOperation
+  fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  langs:
+  - python
+  module: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  name: pipeline_ops_iothub
+  source:
+    id: pipeline_ops_iothub
+    path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\iothub\pipeline\pipeline_ops_iothub.py
+      repo: https://github.com/Azure/azure-iot-sdk-python
+    startLine: 0
+  type: module
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+references:
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.GetTwinOperation
+  isExternal: false
+  name: GetTwinOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.GetTwinOperation
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.PatchTwinReportedPropertiesOperation
+  isExternal: false
+  name: PatchTwinReportedPropertiesOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.PatchTwinReportedPropertiesOperation
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendD2CMessageOperation
+  isExternal: false
+  name: SendD2CMessageOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendD2CMessageOperation
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendMethodResponseOperation
+  isExternal: false
+  name: SendMethodResponseOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendMethodResponseOperation
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendOutputEventOperation
+  isExternal: false
+  name: SendOutputEventOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SendOutputEventOperation
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetAuthProviderOperation
+  isExternal: false
+  name: SetAuthProviderOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetAuthProviderOperation
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetIoTHubConnectionArgsOperation
+  isExternal: false
+  name: SetIoTHubConnectionArgsOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetIoTHubConnectionArgsOperation
+- fullName: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetX509AuthProviderOperation
+  isExternal: false
+  name: SetX509AuthProviderOperation
+  parent: azure.iot.device.iothub.pipeline.pipeline_ops_iothub
+  uid: azure.iot.device.iothub.pipeline.pipeline_ops_iothub.SetX509AuthProviderOperation
