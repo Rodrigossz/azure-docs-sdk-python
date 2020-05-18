@@ -29,16 +29,15 @@ items:
   module: azure.mgmt.core.policies
   name: DEFAULT_HEADERS_WHITELIST
   syntax:
-    content: DEFAULT_HEADERS_WHITELIST = {'User-Agent', 'Date', 'x-ms-ratelimit-remaining-subscription-resource-requests',
-      'If-None-Match', 'x-ms-return-client-request-id', 'Request-Id', 'Cache-Control',
-      'Server', 'Transfer-Encoding', 'x-ms-ratelimit-remaining-resource', 'x-ms-request-id',
-      'x-ms-ratelimit-remaining-subscription-writes', 'x-ms-ratelimit-remaining-tenant-writes',
-      'x-ms-request-charge', 'If-Unmodified-Since', 'Content-Type', 'Retry-After',
-      'If-Match', 'x-ms-ratelimit-remaining-subscription-reads', 'If-Modified-Since',
-      'ETag', 'Pragma', 'x-ms-ratelimit-remaining-tenant-resource-entities-read',
-      'Expires', 'Connection', 'Last-Modified', 'traceparent', 'Content-Length', 'x-ms-ratelimit-remaining-tenant-resource-requests',
-      'Accept', 'x-ms-client-request-id', 'x-ms-ratelimit-remaining-tenant-reads',
-      'x-ms-ratelimit-remaining-subscription-resource-entities-read'}
+    content: DEFAULT_HEADERS_WHITELIST = {'Transfer-Encoding', 'x-ms-ratelimit-remaining-subscription-reads',
+      'Content-Length', 'x-ms-client-request-id', 'Connection', 'traceparent', 'Server',
+      'Pragma', 'Content-Type', 'User-Agent', 'x-ms-ratelimit-remaining-subscription-resource-entities-read',
+      'x-ms-ratelimit-remaining-tenant-resource-entities-read', 'Cache-Control', 'If-Modified-Since',
+      'x-ms-ratelimit-remaining-resource', 'Date', 'ETag', 'If-None-Match', 'Expires',
+      'If-Unmodified-Since', 'Retry-After', 'Request-Id', 'x-ms-ratelimit-remaining-tenant-writes',
+      'x-ms-request-charge', 'Last-Modified', 'If-Match', 'x-ms-request-id', 'x-ms-return-client-request-id',
+      'x-ms-ratelimit-remaining-subscription-resource-requests', 'x-ms-ratelimit-remaining-tenant-reads',
+      'Accept', 'x-ms-ratelimit-remaining-subscription-writes', 'x-ms-ratelimit-remaining-tenant-resource-requests'}
   type: attribute
   uid: azure.mgmt.core.policies.ARMHttpLoggingPolicy.DEFAULT_HEADERS_WHITELIST
 references:
