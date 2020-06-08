@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.cognitiveservices.search.videosearch
+  - ''
   fullName: azure-cognitiveservices-search-videosearch
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.cognitiveservices.search.videosearch
   isExternal: false
   name: azure.cognitiveservices.search.videosearch
-  uid: azure.cognitiveservices.search.videosearch
+  uid: ''

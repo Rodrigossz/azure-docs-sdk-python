@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.batchai
+  - ''
   fullName: azure-mgmt-batchai
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.batchai
   isExternal: false
   name: azure.mgmt.batchai
-  uid: azure.mgmt.batchai
+  uid: ''

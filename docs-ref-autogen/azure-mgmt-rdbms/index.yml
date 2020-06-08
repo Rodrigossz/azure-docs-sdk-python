@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.rdbms
+  - ''
   fullName: azure-mgmt-rdbms
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.rdbms
   isExternal: false
   name: azure.mgmt.rdbms
-  uid: azure.mgmt.rdbms
+  uid: ''

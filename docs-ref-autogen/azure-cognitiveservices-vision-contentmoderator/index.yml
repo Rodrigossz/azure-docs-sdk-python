@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.cognitiveservices.vision.contentmoderator
+  - ''
   fullName: azure-cognitiveservices-vision-contentmoderator
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.cognitiveservices.vision.contentmoderator
   isExternal: false
   name: azure.cognitiveservices.vision.contentmoderator
-  uid: azure.cognitiveservices.vision.contentmoderator
+  uid: ''

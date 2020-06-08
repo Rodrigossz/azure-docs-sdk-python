@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.cognitiveservices.anomalydetector
+  - ''
   fullName: azure-cognitiveservices-anomalydetector
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.cognitiveservices.anomalydetector
   isExternal: false
   name: azure.cognitiveservices.anomalydetector
-  uid: azure.cognitiveservices.anomalydetector
+  uid: ''

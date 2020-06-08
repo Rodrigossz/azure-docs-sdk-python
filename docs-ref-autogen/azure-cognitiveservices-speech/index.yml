@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.cognitiveservices.speech
+  - ''
   fullName: azure-cognitiveservices-speech
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.cognitiveservices.speech
   isExternal: false
   name: azure.cognitiveservices.speech
-  uid: azure.cognitiveservices.speech
+  uid: ''

@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - adal
+  - ''
   fullName: adal
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: adal
   isExternal: false
   name: adal
-  uid: adal
+  uid: ''

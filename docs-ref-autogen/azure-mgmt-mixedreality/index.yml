@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.mixedreality
+  - ''
   fullName: azure-mgmt-mixedreality
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.mixedreality
   isExternal: false
   name: azure.mgmt.mixedreality
-  uid: azure.mgmt.mixedreality
+  uid: ''

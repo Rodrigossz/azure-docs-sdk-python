@@ -1,8 +1,8 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.common
-  - azure.profiles
+  - ''
+  - ''
   fullName: azure-common
   kind: distribution
   langs:
@@ -15,8 +15,8 @@ references:
 - fullname: azure.common
   isExternal: false
   name: azure.common
-  uid: azure.common
+  uid: ''
 - fullname: azure.profiles
   isExternal: false
   name: azure.profiles
-  uid: azure.profiles
+  uid: ''

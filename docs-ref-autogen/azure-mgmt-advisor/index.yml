@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.advisor
+  - ''
   fullName: azure-mgmt-advisor
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.advisor
   isExternal: false
   name: azure.mgmt.advisor
-  uid: azure.mgmt.advisor
+  uid: ''

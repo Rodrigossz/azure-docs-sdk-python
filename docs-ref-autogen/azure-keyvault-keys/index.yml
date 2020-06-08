@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.keyvault.keys
+  - ''
   fullName: azure-keyvault-keys
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.keyvault.keys
   isExternal: false
   name: azure.keyvault.keys
-  uid: azure.keyvault.keys
+  uid: ''

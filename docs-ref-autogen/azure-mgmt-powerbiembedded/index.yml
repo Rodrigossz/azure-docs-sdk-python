@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.powerbiembedded
+  - ''
   fullName: azure-mgmt-powerbiembedded
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.powerbiembedded
   isExternal: false
   name: azure.mgmt.powerbiembedded
-  uid: azure.mgmt.powerbiembedded
+  uid: ''

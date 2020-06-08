@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.notificationhubs
+  - ''
   fullName: azure-mgmt-notificationhubs
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.notificationhubs
   isExternal: false
   name: azure.mgmt.notificationhubs
-  uid: azure.mgmt.notificationhubs
+  uid: ''

@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.eventhub
+  - ''
   fullName: azure-eventhub
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.eventhub
   isExternal: false
   name: azure.eventhub
-  uid: azure.eventhub
+  uid: ''

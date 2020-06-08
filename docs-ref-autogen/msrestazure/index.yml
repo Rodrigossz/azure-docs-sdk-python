@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - msrestazure
+  - ''
   fullName: msrestazure
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: msrestazure
   isExternal: false
   name: msrestazure
-  uid: msrestazure
+  uid: ''

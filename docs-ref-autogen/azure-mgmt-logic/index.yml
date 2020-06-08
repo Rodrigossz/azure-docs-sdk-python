@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.logic
+  - ''
   fullName: azure-mgmt-logic
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.logic
   isExternal: false
   name: azure.mgmt.logic
-  uid: azure.mgmt.logic
+  uid: ''

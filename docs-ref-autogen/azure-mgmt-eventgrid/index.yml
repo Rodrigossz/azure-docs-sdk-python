@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.eventgrid
+  - ''
   fullName: azure-mgmt-eventgrid
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.eventgrid
   isExternal: false
   name: azure.mgmt.eventgrid
-  uid: azure.mgmt.eventgrid
+  uid: ''

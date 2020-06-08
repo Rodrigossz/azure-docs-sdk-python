@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.storage.queue
+  - ''
   fullName: azure-storage-queue
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.storage.queue
   isExternal: false
   name: azure.storage.queue
-  uid: azure.storage.queue
+  uid: ''

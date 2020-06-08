@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.iot.hub
+  - ''
   fullName: azure-iot-hub
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.iot.hub
   isExternal: false
   name: azure.iot.hub
-  uid: azure.iot.hub
+  uid: ''

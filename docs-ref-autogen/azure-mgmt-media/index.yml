@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.media
+  - ''
   fullName: azure-mgmt-media
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.media
   isExternal: false
   name: azure.mgmt.media
-  uid: azure.mgmt.media
+  uid: ''

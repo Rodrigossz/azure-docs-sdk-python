@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.kusto
+  - ''
   fullName: azure-mgmt-kusto
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.kusto
   isExternal: false
   name: azure.mgmt.kusto
-  uid: azure.mgmt.kusto
+  uid: ''

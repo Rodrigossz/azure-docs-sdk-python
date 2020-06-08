@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.core
+  - ''
   fullName: azure-mgmt-core
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.core
   isExternal: false
   name: azure.mgmt.core
-  uid: azure.mgmt.core
+  uid: ''

@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.servicefabric
+  - ''
   fullName: azure-servicefabric
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.servicefabric
   isExternal: false
   name: azure.servicefabric
-  uid: azure.servicefabric
+  uid: ''

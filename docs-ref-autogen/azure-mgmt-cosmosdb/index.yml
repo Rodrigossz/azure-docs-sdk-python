@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.cosmosdb
+  - ''
   fullName: azure-mgmt-cosmosdb
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.cosmosdb
   isExternal: false
   name: azure.mgmt.cosmosdb
-  uid: azure.mgmt.cosmosdb
+  uid: ''

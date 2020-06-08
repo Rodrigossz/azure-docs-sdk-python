@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.servicebus
+  - ''
   fullName: azure-servicebus
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.servicebus
   isExternal: false
   name: azure.servicebus
-  uid: azure.servicebus
+  uid: ''

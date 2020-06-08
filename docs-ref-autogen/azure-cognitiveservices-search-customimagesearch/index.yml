@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.cognitiveservices.search.customimagesearch
+  - ''
   fullName: azure-cognitiveservices-search-customimagesearch
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.cognitiveservices.search.customimagesearch
   isExternal: false
   name: azure.cognitiveservices.search.customimagesearch
-  uid: azure.cognitiveservices.search.customimagesearch
+  uid: ''

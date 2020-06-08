@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.batch
+  - ''
   fullName: azure-batch
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.batch
   isExternal: false
   name: azure.batch
-  uid: azure.batch
+  uid: ''

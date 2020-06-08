@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.netapp
+  - ''
   fullName: azure-mgmt-netapp
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.netapp
   isExternal: false
   name: azure.mgmt.netapp
-  uid: azure.mgmt.netapp
+  uid: ''

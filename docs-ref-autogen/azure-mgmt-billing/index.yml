@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.billing
+  - ''
   fullName: azure-mgmt-billing
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.billing
   isExternal: false
   name: azure.mgmt.billing
-  uid: azure.mgmt.billing
+  uid: ''

@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.cognitiveservices.search.newssearch
+  - ''
   fullName: azure-cognitiveservices-search-newssearch
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.cognitiveservices.search.newssearch
   isExternal: false
   name: azure.cognitiveservices.search.newssearch
-  uid: azure.cognitiveservices.search.newssearch
+  uid: ''

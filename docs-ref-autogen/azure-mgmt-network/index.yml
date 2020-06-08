@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.network
+  - ''
   fullName: azure-mgmt-network
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.network
   isExternal: false
   name: azure.mgmt.network
-  uid: azure.mgmt.network
+  uid: ''

@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.recoveryservices
+  - ''
   fullName: azure-mgmt-recoveryservices
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.recoveryservices
   isExternal: false
   name: azure.mgmt.recoveryservices
-  uid: azure.mgmt.recoveryservices
+  uid: ''

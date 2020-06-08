@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.subscription
+  - ''
   fullName: azure-mgmt-subscription
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.subscription
   isExternal: false
   name: azure.mgmt.subscription
-  uid: azure.mgmt.subscription
+  uid: ''

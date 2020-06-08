@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.datalake.store
+  - ''
   fullName: azure-datalake-store
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.datalake.store
   isExternal: false
   name: azure.datalake.store
-  uid: azure.datalake.store
+  uid: ''

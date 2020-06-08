@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - provisioningserviceclient
+  - ''
   fullName: azure-iothub-provisioningserviceclient
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: provisioningserviceclient
   isExternal: false
   name: provisioningserviceclient
-  uid: provisioningserviceclient
+  uid: ''

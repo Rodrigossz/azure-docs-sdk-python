@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.monitor
+  - ''
   fullName: azure-mgmt-monitor
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.monitor
   isExternal: false
   name: azure.mgmt.monitor
-  uid: azure.mgmt.monitor
+  uid: ''

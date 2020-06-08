@@ -1,8 +1,8 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.cognitiveservices.language.luis.authoring
-  - azure.cognitiveservices.language.luis.runtime
+  - ''
+  - ''
   - azure.cognitiveservices.language.luis.version
   fullName: azure-cognitiveservices-language-luis
   kind: distribution
@@ -16,11 +16,11 @@ references:
 - fullname: azure.cognitiveservices.language.luis.authoring
   isExternal: false
   name: azure.cognitiveservices.language.luis.authoring
-  uid: azure.cognitiveservices.language.luis.authoring
+  uid: ''
 - fullname: azure.cognitiveservices.language.luis.runtime
   isExternal: false
   name: azure.cognitiveservices.language.luis.runtime
-  uid: azure.cognitiveservices.language.luis.runtime
+  uid: ''
 - fullname: azure.cognitiveservices.language.luis.version
   isExternal: false
   name: azure.cognitiveservices.language.luis.version

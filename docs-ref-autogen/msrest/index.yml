@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - msrest
+  - ''
   fullName: msrest
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: msrest
   isExternal: false
   name: msrest
-  uid: msrest
+  uid: ''

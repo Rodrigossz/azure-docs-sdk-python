@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - uamqp
+  - ''
   fullName: uamqp
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: uamqp
   isExternal: false
   name: uamqp
-  uid: uamqp
+  uid: ''

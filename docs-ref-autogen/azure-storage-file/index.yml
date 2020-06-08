@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.storage.file
+  - ''
   fullName: azure-storage-file
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.storage.file
   isExternal: false
   name: azure.storage.file
-  uid: azure.storage.file
+  uid: ''

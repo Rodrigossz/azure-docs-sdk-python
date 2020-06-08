@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.appconfiguration
+  - ''
   fullName: azure-appconfiguration
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.appconfiguration
   isExternal: false
   name: azure.appconfiguration
-  uid: azure.appconfiguration
+  uid: ''

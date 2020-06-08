@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.iot.device
+  - ''
   fullName: azure-iot-device
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.iot.device
   isExternal: false
   name: azure.iot.device
-  uid: azure.iot.device
+  uid: ''

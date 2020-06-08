@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.cognitiveservices.vision.customvision
+  - ''
   fullName: azure-cognitiveservices-vision-customvision
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.cognitiveservices.vision.customvision
   isExternal: false
   name: azure.cognitiveservices.vision.customvision
-  uid: azure.cognitiveservices.vision.customvision
+  uid: ''

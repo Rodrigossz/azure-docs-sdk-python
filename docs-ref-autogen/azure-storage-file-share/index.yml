@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.storage.fileshare
+  - ''
   fullName: azure-storage-file-share
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.storage.fileshare
   isExternal: false
   name: azure.storage.fileshare
-  uid: azure.storage.fileshare
+  uid: ''

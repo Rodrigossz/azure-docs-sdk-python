@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.cognitiveservices.personalizer
+  - ''
   fullName: azure-cognitiveservices-personalizer
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.cognitiveservices.personalizer
   isExternal: false
   name: azure.cognitiveservices.personalizer
-  uid: azure.cognitiveservices.personalizer
+  uid: ''

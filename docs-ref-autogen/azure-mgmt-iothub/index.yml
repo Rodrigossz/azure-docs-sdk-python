@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.iothub
+  - ''
   fullName: azure-mgmt-iothub
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.iothub
   isExternal: false
   name: azure.mgmt.iothub
-  uid: azure.mgmt.iothub
+  uid: ''

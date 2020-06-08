@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.graphrbac
+  - ''
   fullName: azure-graphrbac
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.graphrbac
   isExternal: false
   name: azure.graphrbac
-  uid: azure.graphrbac
+  uid: ''

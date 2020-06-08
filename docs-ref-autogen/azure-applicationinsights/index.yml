@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.applicationinsights
+  - ''
   fullName: azure-applicationinsights
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.applicationinsights
   isExternal: false
   name: azure.applicationinsights
-  uid: azure.applicationinsights
+  uid: ''

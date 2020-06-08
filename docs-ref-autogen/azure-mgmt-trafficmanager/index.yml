@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.mgmt.trafficmanager
+  - ''
   fullName: azure-mgmt-trafficmanager
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.mgmt.trafficmanager
   isExternal: false
   name: azure.mgmt.trafficmanager
-  uid: azure.mgmt.trafficmanager
+  uid: ''
