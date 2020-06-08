@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.search.documents
+  - ''
   fullName: azure-search-documents
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.search.documents
   isExternal: false
   name: azure.search.documents
-  uid: azure.search.documents
+  uid: ''

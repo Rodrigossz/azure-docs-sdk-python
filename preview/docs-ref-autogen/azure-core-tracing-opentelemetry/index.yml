@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.core.tracing.ext.opentelemetry_span
+  - ''
   fullName: azure-core-tracing-opentelemetry
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.core.tracing.ext.opentelemetry_span
   isExternal: false
   name: azure.core.tracing.ext.opentelemetry_span
-  uid: azure.core.tracing.ext.opentelemetry_span
+  uid: ''

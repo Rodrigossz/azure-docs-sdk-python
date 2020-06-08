@@ -1,202 +1,37 @@
 - items:
   - items:
-    - name: azure.cosmos.auth
-      uid: azure.cosmos.auth
-    - items:
-      - name: azure.cosmos.container.ContainerProxy
-        uid: azure.cosmos.container.ContainerProxy
-      name: azure.cosmos.container
-      uid: azure.cosmos.container
-    - items:
-      - name: azure.cosmos.cosmos_client.CosmosClient
-        uid: azure.cosmos.cosmos_client.CosmosClient
-      name: azure.cosmos.cosmos_client
-      uid: azure.cosmos.cosmos_client
-    - items:
-      - name: azure.cosmos.database.DatabaseProxy
-        uid: azure.cosmos.database.DatabaseProxy
-      name: azure.cosmos.database
-      uid: azure.cosmos.database
-    - items:
-      - name: azure.cosmos.diagnostics.RecordDiagnostics
-        uid: azure.cosmos.diagnostics.RecordDiagnostics
-      name: azure.cosmos.diagnostics
-      uid: azure.cosmos.diagnostics
-    - items:
-      - name: azure.cosmos.documents.ConnectionMode
-        uid: azure.cosmos.documents.ConnectionMode
-      - name: azure.cosmos.documents.ConnectionPolicy
-        uid: azure.cosmos.documents.ConnectionPolicy
-      - name: azure.cosmos.documents.ConsistencyLevel
-        uid: azure.cosmos.documents.ConsistencyLevel
-      - name: azure.cosmos.documents.DataType
-        uid: azure.cosmos.documents.DataType
-      - name: azure.cosmos.documents.DatabaseAccount
-        uid: azure.cosmos.documents.DatabaseAccount
-      - name: azure.cosmos.documents.IndexKind
-        uid: azure.cosmos.documents.IndexKind
-      - name: azure.cosmos.documents.IndexingDirective
-        uid: azure.cosmos.documents.IndexingDirective
-      - name: azure.cosmos.documents.IndexingMode
-        uid: azure.cosmos.documents.IndexingMode
-      - name: azure.cosmos.documents.PartitionKind
-        uid: azure.cosmos.documents.PartitionKind
-      - name: azure.cosmos.documents.PermissionMode
-        uid: azure.cosmos.documents.PermissionMode
-      - name: azure.cosmos.documents.ProxyConfiguration
-        uid: azure.cosmos.documents.ProxyConfiguration
-      - name: azure.cosmos.documents.SSLConfiguration
-        uid: azure.cosmos.documents.SSLConfiguration
-      - name: azure.cosmos.documents.TriggerOperation
-        uid: azure.cosmos.documents.TriggerOperation
-      - name: azure.cosmos.documents.TriggerType
-        uid: azure.cosmos.documents.TriggerType
-      name: azure.cosmos.documents
-      uid: azure.cosmos.documents
-    - name: azure.cosmos.errors
-      uid: azure.cosmos.errors
-    - items:
-      - name: azure.cosmos.exceptions.CosmosAccessConditionFailedError
-        uid: azure.cosmos.exceptions.CosmosAccessConditionFailedError
-      - name: azure.cosmos.exceptions.CosmosClientTimeoutError
-        uid: azure.cosmos.exceptions.CosmosClientTimeoutError
-      - name: azure.cosmos.exceptions.CosmosHttpResponseError
-        uid: azure.cosmos.exceptions.CosmosHttpResponseError
-      - name: azure.cosmos.exceptions.CosmosResourceExistsError
-        uid: azure.cosmos.exceptions.CosmosResourceExistsError
-      - name: azure.cosmos.exceptions.CosmosResourceNotFoundError
-        uid: azure.cosmos.exceptions.CosmosResourceNotFoundError
-      name: azure.cosmos.exceptions
-      uid: azure.cosmos.exceptions
-    - items:
-      - name: azure.cosmos.http_constants.CookieHeaders
-        uid: azure.cosmos.http_constants.CookieHeaders
-      - name: azure.cosmos.http_constants.Delimiters
-        uid: azure.cosmos.http_constants.Delimiters
-      - name: azure.cosmos.http_constants.HttpContextProperties
-        uid: azure.cosmos.http_constants.HttpContextProperties
-      - name: azure.cosmos.http_constants.HttpHeaderPreferenceTokens
-        uid: azure.cosmos.http_constants.HttpHeaderPreferenceTokens
-      - name: azure.cosmos.http_constants.HttpHeaders
-        uid: azure.cosmos.http_constants.HttpHeaders
-      - name: azure.cosmos.http_constants.HttpListenerErrorCodes
-        uid: azure.cosmos.http_constants.HttpListenerErrorCodes
-      - name: azure.cosmos.http_constants.HttpMethods
-        uid: azure.cosmos.http_constants.HttpMethods
-      - name: azure.cosmos.http_constants.HttpStatusDescriptions
-        uid: azure.cosmos.http_constants.HttpStatusDescriptions
-      - name: azure.cosmos.http_constants.QueryStrings
-        uid: azure.cosmos.http_constants.QueryStrings
-      - name: azure.cosmos.http_constants.ResourceType
-        uid: azure.cosmos.http_constants.ResourceType
-      - name: azure.cosmos.http_constants.StatusCodes
-        uid: azure.cosmos.http_constants.StatusCodes
-      - name: azure.cosmos.http_constants.SubStatusCodes
-        uid: azure.cosmos.http_constants.SubStatusCodes
-      - name: azure.cosmos.http_constants.Versions
-        uid: azure.cosmos.http_constants.Versions
-      name: azure.cosmos.http_constants
-      uid: azure.cosmos.http_constants
-    - items:
-      - name: azure.cosmos.offer.Offer
-        uid: azure.cosmos.offer.Offer
-      name: azure.cosmos.offer
-      uid: azure.cosmos.offer
-    - items:
-      - name: azure.cosmos.partition_key.NonePartitionKeyValue
-        uid: azure.cosmos.partition_key.NonePartitionKeyValue
-      - name: azure.cosmos.partition_key.PartitionKey
-        uid: azure.cosmos.partition_key.PartitionKey
-      name: azure.cosmos.partition_key
-      uid: azure.cosmos.partition_key
-    - items:
-      - name: azure.cosmos.permission.Permission
-        uid: azure.cosmos.permission.Permission
-      name: azure.cosmos.permission
-      uid: azure.cosmos.permission
-    - items:
-      - name: azure.cosmos.scripts.ScriptType
-        uid: azure.cosmos.scripts.ScriptType
-      - name: azure.cosmos.scripts.ScriptsProxy
-        uid: azure.cosmos.scripts.ScriptsProxy
-      name: azure.cosmos.scripts
-      uid: azure.cosmos.scripts
-    - items:
-      - name: azure.cosmos.user.UserProxy
-        uid: azure.cosmos.user.UserProxy
-      name: azure.cosmos.user
-      uid: azure.cosmos.user
-    - name: azure.cosmos.ConnectionRetryPolicy
-      uid: azure.cosmos.ConnectionRetryPolicy
-    - name: azure.cosmos.ConsistencyLevel
-      uid: azure.cosmos.ConsistencyLevel
-    - name: azure.cosmos.ContainerProxy
-      uid: azure.cosmos.ContainerProxy
-    - name: azure.cosmos.CosmosClient
-      uid: azure.cosmos.CosmosClient
-    - name: azure.cosmos.DataType
-      uid: azure.cosmos.DataType
-    - name: azure.cosmos.DatabaseAccount
-      uid: azure.cosmos.DatabaseAccount
-    - name: azure.cosmos.DatabaseProxy
-      uid: azure.cosmos.DatabaseProxy
-    - name: azure.cosmos.IndexKind
-      uid: azure.cosmos.IndexKind
-    - name: azure.cosmos.IndexingMode
-      uid: azure.cosmos.IndexingMode
-    - name: azure.cosmos.Offer
-      uid: azure.cosmos.Offer
-    - name: azure.cosmos.PartitionKey
-      uid: azure.cosmos.PartitionKey
-    - name: azure.cosmos.Permission
-      uid: azure.cosmos.Permission
-    - name: azure.cosmos.PermissionMode
-      uid: azure.cosmos.PermissionMode
-    - name: azure.cosmos.ProxyConfiguration
-      uid: azure.cosmos.ProxyConfiguration
-    - name: azure.cosmos.SSLConfiguration
-      uid: azure.cosmos.SSLConfiguration
-    - name: azure.cosmos.ScriptsProxy
-      uid: azure.cosmos.ScriptsProxy
-    - name: azure.cosmos.TriggerOperation
-      uid: azure.cosmos.TriggerOperation
-    - name: azure.cosmos.TriggerType
-      uid: azure.cosmos.TriggerType
-    - name: azure.cosmos.UserProxy
-      uid: azure.cosmos.UserProxy
-    name: azure.cosmos
-    uid: azure.cosmos
-  name: azure-cosmos
-  uid: project-azure-cosmos
-
-- items:
-  - items:
+    - name: Overview
+      uid: azure.core.tracing.ext.opencensus_span
     - name: azure.core.tracing.ext.opencensus_span.OpenCensusSpan
       uid: azure.core.tracing.ext.opencensus_span.OpenCensusSpan
     name: azure.core.tracing.ext.opencensus_span
-    uid: azure.core.tracing.ext.opencensus_span
   name: azure-core-tracing-opencensus
   uid: project-azure-core-tracing-opencensus
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.eventhub.extensions
     - items:
+      - name: Overview
+        uid: azure.eventhub.extensions.checkpointstoreblobaio
       - name: azure.eventhub.extensions.checkpointstoreblobaio.BlobCheckpointStore
         uid: azure.eventhub.extensions.checkpointstoreblobaio.BlobCheckpointStore
       name: azure.eventhub.extensions.checkpointstoreblobaio
-      uid: azure.eventhub.extensions.checkpointstoreblobaio
     name: azure.eventhub.extensions
-    uid: azure.eventhub.extensions
   name: azure-eventhub-checkpointstoreblob-aio
   uid: project-azure-eventhub-checkpointstoreblob-aio
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.ai.textanalytics
     - items:
+      - name: Overview
+        uid: azure.ai.textanalytics.aio
       - name: azure.ai.textanalytics.aio.TextAnalyticsClient
         uid: azure.ai.textanalytics.aio.TextAnalyticsClient
       name: azure.ai.textanalytics.aio
-      uid: azure.ai.textanalytics.aio
     - name: azure.ai.textanalytics.AnalyzeSentimentResult
       uid: azure.ai.textanalytics.AnalyzeSentimentResult
     - name: azure.ai.textanalytics.CategorizedEntity
@@ -234,22 +69,26 @@
     - name: azure.ai.textanalytics.TextDocumentStatistics
       uid: azure.ai.textanalytics.TextDocumentStatistics
     name: azure.ai.textanalytics
-    uid: azure.ai.textanalytics
   name: azure-ai-textanalytics
   uid: project-azure-ai-textanalytics
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.core.tracing.ext.opentelemetry_span
     - name: azure.core.tracing.ext.opentelemetry_span.OpenTelemetrySpan
       uid: azure.core.tracing.ext.opentelemetry_span.OpenTelemetrySpan
     name: azure.core.tracing.ext.opentelemetry_span
-    uid: azure.core.tracing.ext.opentelemetry_span
   name: azure-core-tracing-opentelemetry
   uid: project-azure-core-tracing-opentelemetry
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.search.documents
     - items:
+      - name: Overview
+        uid: azure.search.documents.aio
       - name: azure.search.documents.aio.AsyncSearchItemPaged
         uid: azure.search.documents.aio.AsyncSearchItemPaged
       - name: azure.search.documents.aio.SearchClient
@@ -257,7 +96,6 @@
       - name: azure.search.documents.aio.SearchServiceClient
         uid: azure.search.documents.aio.SearchServiceClient
       name: azure.search.documents.aio
-      uid: azure.search.documents.aio
     - name: azure.search.documents.AnalyzeRequest
       uid: azure.search.documents.AnalyzeRequest
     - name: azure.search.documents.AnalyzeResult
@@ -445,17 +283,19 @@
     - name: azure.search.documents.WordDelimiterTokenFilter
       uid: azure.search.documents.WordDelimiterTokenFilter
     name: azure.search.documents
-    uid: azure.search.documents
   name: azure-search-documents
   uid: project-azure-search-documents
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.keyvault.secrets
     - items:
+      - name: Overview
+        uid: azure.keyvault.secrets.aio
       - name: azure.keyvault.secrets.aio.SecretClient
         uid: azure.keyvault.secrets.aio.SecretClient
       name: azure.keyvault.secrets.aio
-      uid: azure.keyvault.secrets.aio
     - name: azure.keyvault.secrets.ApiVersion
       uid: azure.keyvault.secrets.ApiVersion
     - name: azure.keyvault.secrets.DeletedSecret
@@ -467,13 +307,16 @@
     - name: azure.keyvault.secrets.SecretProperties
       uid: azure.keyvault.secrets.SecretProperties
     name: azure.keyvault.secrets
-    uid: azure.keyvault.secrets
   name: azure-keyvault-secrets
   uid: project-azure-keyvault-secrets
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.identity
     - items:
+      - name: Overview
+        uid: azure.identity.aio
       - name: azure.identity.aio.AuthorizationCodeCredential
         uid: azure.identity.aio.AuthorizationCodeCredential
       - name: azure.identity.aio.CertificateCredential
@@ -491,7 +334,6 @@
       - name: azure.identity.aio.SharedTokenCacheCredential
         uid: azure.identity.aio.SharedTokenCacheCredential
       name: azure.identity.aio
-      uid: azure.identity.aio
     - name: azure.identity.AuthenticationRecord
       uid: azure.identity.AuthenticationRecord
     - name: azure.identity.AuthenticationRequiredError
@@ -523,17 +365,19 @@
     - name: azure.identity.UsernamePasswordCredential
       uid: azure.identity.UsernamePasswordCredential
     name: azure.identity
-    uid: azure.identity
   name: azure-identity
   uid: project-azure-identity
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.keyvault.certificates
     - items:
+      - name: Overview
+        uid: azure.keyvault.certificates.aio
       - name: azure.keyvault.certificates.aio.CertificateClient
         uid: azure.keyvault.certificates.aio.CertificateClient
       name: azure.keyvault.certificates.aio
-      uid: azure.keyvault.certificates.aio
     - name: azure.keyvault.certificates.AdministratorContact
       uid: azure.keyvault.certificates.AdministratorContact
     - name: azure.keyvault.certificates.ApiVersion
@@ -573,19 +417,25 @@
     - name: azure.keyvault.certificates.WellKnownIssuerNames
       uid: azure.keyvault.certificates.WellKnownIssuerNames
     name: azure.keyvault.certificates
-    uid: azure.keyvault.certificates
   name: azure-keyvault-certificates
   uid: project-azure-keyvault-certificates
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.keyvault.keys
     - items:
+      - name: Overview
+        uid: azure.keyvault.keys.aio
       - name: azure.keyvault.keys.aio.KeyClient
         uid: azure.keyvault.keys.aio.KeyClient
       name: azure.keyvault.keys.aio
-      uid: azure.keyvault.keys.aio
     - items:
+      - name: Overview
+        uid: azure.keyvault.keys.crypto
       - items:
+        - name: Overview
+          uid: azure.keyvault.keys.crypto.aio
         - name: azure.keyvault.keys.crypto.aio.CryptographyClient
           uid: azure.keyvault.keys.crypto.aio.CryptographyClient
         - name: azure.keyvault.keys.crypto.aio.EncryptResult
@@ -601,7 +451,6 @@
         - name: azure.keyvault.keys.crypto.aio.WrapResult
           uid: azure.keyvault.keys.crypto.aio.WrapResult
         name: azure.keyvault.keys.crypto.aio
-        uid: azure.keyvault.keys.crypto.aio
       - name: azure.keyvault.keys.crypto.CryptographyClient
         uid: azure.keyvault.keys.crypto.CryptographyClient
       - name: azure.keyvault.keys.crypto.DecryptResult
@@ -623,7 +472,6 @@
       - name: azure.keyvault.keys.crypto.WrapResult
         uid: azure.keyvault.keys.crypto.WrapResult
       name: azure.keyvault.keys.crypto
-      uid: azure.keyvault.keys.crypto
     - name: azure.keyvault.keys.ApiVersion
       uid: azure.keyvault.keys.ApiVersion
     - name: azure.keyvault.keys.DeletedKey
@@ -643,72 +491,56 @@
     - name: azure.keyvault.keys.KeyVaultKey
       uid: azure.keyvault.keys.KeyVaultKey
     name: azure.keyvault.keys
-    uid: azure.keyvault.keys
   name: azure-keyvault-keys
   uid: project-azure-keyvault-keys
 
 - items:
   - items:
-    - items:
-      - name: azure.eventhub.aio.CheckpointStore
-        uid: azure.eventhub.aio.CheckpointStore
-      - name: azure.eventhub.aio.EventHubConsumerClient
-        uid: azure.eventhub.aio.EventHubConsumerClient
-      - name: azure.eventhub.aio.EventHubProducerClient
-        uid: azure.eventhub.aio.EventHubProducerClient
-      - name: azure.eventhub.aio.EventHubSharedKeyCredential
-        uid: azure.eventhub.aio.EventHubSharedKeyCredential
-      - name: azure.eventhub.aio.PartitionContext
-        uid: azure.eventhub.aio.PartitionContext
-      name: azure.eventhub.aio
+    - name: Overview
       uid: azure.eventhub.aio
-    - items:
-      - name: azure.eventhub.exceptions.AuthenticationError
-        uid: azure.eventhub.exceptions.AuthenticationError
-      - name: azure.eventhub.exceptions.ClientClosedError
-        uid: azure.eventhub.exceptions.ClientClosedError
-      - name: azure.eventhub.exceptions.ConnectError
-        uid: azure.eventhub.exceptions.ConnectError
-      - name: azure.eventhub.exceptions.ConnectionLostError
-        uid: azure.eventhub.exceptions.ConnectionLostError
-      - name: azure.eventhub.exceptions.EventDataError
-        uid: azure.eventhub.exceptions.EventDataError
-      - name: azure.eventhub.exceptions.EventDataSendError
-        uid: azure.eventhub.exceptions.EventDataSendError
-      - name: azure.eventhub.exceptions.EventHubError
-        uid: azure.eventhub.exceptions.EventHubError
-      - name: azure.eventhub.exceptions.OperationTimeoutError
-        uid: azure.eventhub.exceptions.OperationTimeoutError
-      - name: azure.eventhub.exceptions.OwnershipLostError
-        uid: azure.eventhub.exceptions.OwnershipLostError
-      name: azure.eventhub.exceptions
+    - name: azure.eventhub.aio.CheckpointStore
+      uid: azure.eventhub.aio.CheckpointStore
+    - name: azure.eventhub.aio.EventHubConsumerClient
+      uid: azure.eventhub.aio.EventHubConsumerClient
+    - name: azure.eventhub.aio.EventHubProducerClient
+      uid: azure.eventhub.aio.EventHubProducerClient
+    - name: azure.eventhub.aio.EventHubSharedKeyCredential
+      uid: azure.eventhub.aio.EventHubSharedKeyCredential
+    - name: azure.eventhub.aio.PartitionContext
+      uid: azure.eventhub.aio.PartitionContext
+    name: azure.eventhub.aio
+  - items:
+    - name: Overview
       uid: azure.eventhub.exceptions
-    - name: azure.eventhub.CheckpointStore
-      uid: azure.eventhub.CheckpointStore
-    - name: azure.eventhub.CloseReason
-      uid: azure.eventhub.CloseReason
-    - name: azure.eventhub.EventData
-      uid: azure.eventhub.EventData
-    - name: azure.eventhub.EventDataBatch
-      uid: azure.eventhub.EventDataBatch
-    - name: azure.eventhub.EventHubConsumerClient
-      uid: azure.eventhub.EventHubConsumerClient
-    - name: azure.eventhub.EventHubProducerClient
-      uid: azure.eventhub.EventHubProducerClient
-    - name: azure.eventhub.EventHubSharedKeyCredential
-      uid: azure.eventhub.EventHubSharedKeyCredential
-    - name: azure.eventhub.PartitionContext
-      uid: azure.eventhub.PartitionContext
-    - name: azure.eventhub.TransportType
-      uid: azure.eventhub.TransportType
-    name: azure.eventhub
-    uid: azure.eventhub
+    - name: azure.eventhub.exceptions.AuthenticationError
+      uid: azure.eventhub.exceptions.AuthenticationError
+    - name: azure.eventhub.exceptions.ClientClosedError
+      uid: azure.eventhub.exceptions.ClientClosedError
+    - name: azure.eventhub.exceptions.ConnectError
+      uid: azure.eventhub.exceptions.ConnectError
+    - name: azure.eventhub.exceptions.ConnectionLostError
+      uid: azure.eventhub.exceptions.ConnectionLostError
+    - name: azure.eventhub.exceptions.EventDataError
+      uid: azure.eventhub.exceptions.EventDataError
+    - name: azure.eventhub.exceptions.EventDataSendError
+      uid: azure.eventhub.exceptions.EventDataSendError
+    - name: azure.eventhub.exceptions.EventHubError
+      uid: azure.eventhub.exceptions.EventHubError
+    - name: azure.eventhub.exceptions.OperationTimeoutError
+      uid: azure.eventhub.exceptions.OperationTimeoutError
+    - name: azure.eventhub.exceptions.OwnershipLostError
+      uid: azure.eventhub.exceptions.OwnershipLostError
+    name: azure.eventhub.exceptions
   name: azure-eventhub
   uid: project-azure-eventhub
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.servicebus
     - items:
+      - name: Overview
+        uid: azure.servicebus.aio
       - name: azure.servicebus.aio.AutoLockRenew
         uid: azure.servicebus.aio.AutoLockRenew
       - name: azure.servicebus.aio.ReceivedMessage
@@ -726,8 +558,9 @@
       - name: azure.servicebus.aio.ServiceBusSharedKeyCredential
         uid: azure.servicebus.aio.ServiceBusSharedKeyCredential
       name: azure.servicebus.aio
-      uid: azure.servicebus.aio
     - items:
+      - name: Overview
+        uid: azure.servicebus.exceptions
       - name: azure.servicebus.exceptions.AutoLockRenewFailed
         uid: azure.servicebus.exceptions.AutoLockRenewFailed
       - name: azure.servicebus.exceptions.AutoLockRenewTimeout
@@ -761,7 +594,6 @@
       - name: azure.servicebus.exceptions.SessionLockExpired
         uid: azure.servicebus.exceptions.SessionLockExpired
       name: azure.servicebus.exceptions
-      uid: azure.servicebus.exceptions
     - name: azure.servicebus.AutoLockRenew
       uid: azure.servicebus.AutoLockRenew
     - name: azure.servicebus.BatchMessage
@@ -789,19 +621,21 @@
     - name: azure.servicebus.TransportType
       uid: azure.servicebus.TransportType
     name: azure.servicebus
-    uid: azure.servicebus
   name: azure-servicebus
   uid: project-azure-servicebus
 
 - items:
   - items:
+    - name: Overview
+      uid: azure.ai.formrecognizer
     - items:
+      - name: Overview
+        uid: azure.ai.formrecognizer.aio
       - name: azure.ai.formrecognizer.aio.FormRecognizerClient
         uid: azure.ai.formrecognizer.aio.FormRecognizerClient
       - name: azure.ai.formrecognizer.aio.FormTrainingClient
         uid: azure.ai.formrecognizer.aio.FormTrainingClient
       name: azure.ai.formrecognizer.aio
-      uid: azure.ai.formrecognizer.aio
     - name: azure.ai.formrecognizer.AccountProperties
       uid: azure.ai.formrecognizer.AccountProperties
     - name: azure.ai.formrecognizer.CustomFormModel
@@ -857,7 +691,6 @@
     - name: azure.ai.formrecognizer.USReceiptType
       uid: azure.ai.formrecognizer.USReceiptType
     name: azure.ai.formrecognizer
-    uid: azure.ai.formrecognizer
   name: azure-ai-formrecognizer
   uid: project-azure-ai-formrecognizer
 

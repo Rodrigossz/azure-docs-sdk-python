@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.ai.textanalytics
+  - ''
   fullName: azure-ai-textanalytics
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.ai.textanalytics
   isExternal: false
   name: azure.ai.textanalytics
-  uid: azure.ai.textanalytics
+  uid: ''

@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.core.tracing.ext.opencensus_span
+  - ''
   fullName: azure-core-tracing-opencensus
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.core.tracing.ext.opencensus_span
   isExternal: false
   name: azure.core.tracing.ext.opencensus_span
-  uid: azure.core.tracing.ext.opencensus_span
+  uid: ''

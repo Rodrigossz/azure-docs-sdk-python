@@ -1,7 +1,7 @@
 ### YamlMime:UniversalReference
 items:
 - children:
-  - azure.ai.formrecognizer
+  - ''
   fullName: azure-ai-formrecognizer
   kind: distribution
   langs:
@@ -14,4 +14,4 @@ references:
 - fullname: azure.ai.formrecognizer
   isExternal: false
   name: azure.ai.formrecognizer
-  uid: azure.ai.formrecognizer
+  uid: ''
