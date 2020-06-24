@@ -50,7 +50,7 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "pr-26269",
+      "branch": "develop",
       "branch_mapping": {}
     },
     {
@@ -73,7 +73,7 @@
       "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
       "path_to_root": "_dependentPackages/CommonPlugins",
       "target_framework": "net45",
-      "version": "0.0.262-alpha"
+      "version": "latest-prerelease"
     }
   ],
   "JoinTOCPlugin": [
