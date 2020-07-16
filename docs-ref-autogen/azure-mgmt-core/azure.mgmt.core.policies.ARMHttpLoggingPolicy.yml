@@ -29,15 +29,15 @@ items:
   module: azure.mgmt.core.policies
   name: DEFAULT_HEADERS_WHITELIST
   syntax:
-    content: DEFAULT_HEADERS_WHITELIST = {'x-ms-request-charge', 'x-ms-ratelimit-remaining-subscription-reads',
-      'x-ms-ratelimit-remaining-subscription-resource-requests', 'x-ms-ratelimit-remaining-tenant-writes',
-      'If-Match', 'Accept', 'Server', 'Transfer-Encoding', 'Content-Length', 'x-ms-client-request-id',
-      'If-None-Match', 'Retry-After', 'Connection', 'Date', 'x-ms-ratelimit-remaining-subscription-writes',
-      'Cache-Control', 'x-ms-ratelimit-remaining-tenant-resource-requests', 'traceparent',
-      'If-Unmodified-Since', 'If-Modified-Since', 'Request-Id', 'x-ms-return-client-request-id',
-      'x-ms-ratelimit-remaining-tenant-reads', 'Content-Type', 'Last-Modified', 'x-ms-ratelimit-remaining-subscription-resource-entities-read',
-      'Expires', 'Pragma', 'x-ms-request-id', 'x-ms-ratelimit-remaining-tenant-resource-entities-read',
-      'x-ms-ratelimit-remaining-resource', 'ETag', 'User-Agent'}
+    content: DEFAULT_HEADERS_WHITELIST = {'If-Modified-Since', 'x-ms-ratelimit-remaining-subscription-writes',
+      'Expires', 'User-Agent', 'x-ms-ratelimit-remaining-resource', 'Accept', 'If-Match',
+      'Cache-Control', 'If-None-Match', 'Pragma', 'Retry-After', 'Last-Modified',
+      'traceparent', 'Connection', 'If-Unmodified-Since', 'x-ms-ratelimit-remaining-tenant-reads',
+      'x-ms-ratelimit-remaining-subscription-resource-requests', 'Server', 'x-ms-ratelimit-remaining-tenant-writes',
+      'x-ms-request-id', 'x-ms-return-client-request-id', 'x-ms-client-request-id',
+      'x-ms-ratelimit-remaining-tenant-resource-requests', 'x-ms-ratelimit-remaining-tenant-resource-entities-read',
+      'Transfer-Encoding', 'Content-Type', 'x-ms-ratelimit-remaining-subscription-reads',
+      'Date', 'ETag', 'Request-Id', 'Content-Length', 'x-ms-request-charge', 'x-ms-ratelimit-remaining-subscription-resource-entities-read'}
   type: attribute
   uid: azure.mgmt.core.policies.ARMHttpLoggingPolicy.DEFAULT_HEADERS_WHITELIST
 references:
