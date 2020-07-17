@@ -49,6 +49,15 @@ items:
     An async redirect policy in the pipeline can be configured directly or per operation.'
   syntax:
     content: AsyncRedirectPolicy(**kwargs)
+    parameters:
+    - description: Whether the client allows redirects. Defaults to True.
+      id: permit_redirects
+      type:
+      - bool
+    - description: The maximum allowed redirects. Defaults to 30.
+      id: redirect_max
+      type:
+      - int
   type: class
   uid: azure.core.pipeline.policies.AsyncRedirectPolicy
 - class: azure.core.pipeline.policies.AsyncRedirectPolicy

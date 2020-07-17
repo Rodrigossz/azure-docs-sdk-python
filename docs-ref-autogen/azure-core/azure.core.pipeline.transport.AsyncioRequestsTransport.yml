@@ -75,6 +75,19 @@ items:
       isRequired: true
       type:
       - azure.core.pipeline.transport.HttpRequest
+    - description: 'will override the driver session and use yours.
+
+        Should NOT be done unless really required. Anything else is sent straight
+        to requests.'
+      id: session
+      isRequired: true
+      type:
+      - requests.Session
+    - description: will define the proxy to use. Proxy is a dict (protocol, url)
+      id: proxies
+      isRequired: true
+      type:
+      - dict
     return:
       description: The AsyncHttpResponse
       type:

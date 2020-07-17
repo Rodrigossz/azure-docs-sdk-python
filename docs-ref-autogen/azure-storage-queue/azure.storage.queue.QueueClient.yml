@@ -58,6 +58,29 @@ items:
 
         shared access key, or an instance of a TokenCredentials class from azure.identity.'
       id: credential
+    - description: 'The Storage API version to use for requests. Default value is
+        ''2019-07-07''.
+
+        Setting to an older version may result in reduced feature compatibility.'
+      id: api_version
+      type:
+      - str
+    - description: The hostname of the secondary endpoint.
+      id: secondary_hostname
+      type:
+      - str
+    - description: 'The encoding policy to use on outgoing messages.
+
+        Default is not to encode messages. Other options include <xref:azure.storage.queue.TextBase64EncodePolicy>,
+
+        <xref:azure.storage.queue.BinaryBase64EncodePolicy> or *None*.'
+      id: message_encode_policy
+    - description: 'The decoding policy to use on incoming messages.
+
+        Default value is not to decode messages. Other options include <xref:azure.storage.queue.TextBase64DecodePolicy>,
+
+        <xref:azure.storage.queue.BinaryBase64DecodePolicy> or *None*.'
+      id: message_decode_policy
   type: class
   uid: azure.storage.queue.QueueClient
 - class: azure.storage.queue.QueueClient
@@ -77,6 +100,12 @@ items:
   summary: Deletes all messages from the specified queue.
   syntax:
     content: clear_messages(**kwargs)
+    parameters:
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
   type: method
   uid: azure.storage.queue.QueueClient.clear_messages
 - class: azure.storage.queue.QueueClient
@@ -101,6 +130,22 @@ items:
     a *ResourceExistsError*.'
   syntax:
     content: create_queue(**kwargs)
+    parameters:
+    - description: 'A dict containing name-value pairs to associate with the queue
+        as
+
+        metadata. Note that metadata names preserve the case with which they
+
+        were created, but are case-insensitive when set or read.'
+      id: metadata
+      isRequired: true
+      type:
+      - dict(str,str)
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: None or the result of cls(response)
       type:
@@ -162,6 +207,11 @@ items:
       isRequired: true
       type:
       - str
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
   type: method
   uid: azure.storage.queue.QueueClient.delete_message
 - class: azure.storage.queue.QueueClient
@@ -195,6 +245,12 @@ items:
     an <xref:azure.storage.queue.HttpResponseError> will be thrown.'
   syntax:
     content: delete_queue(**kwargs)
+    parameters:
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - None
@@ -295,6 +351,12 @@ items:
     queue that may be used with Shared Access Signatures.'
   syntax:
     content: get_queue_access_policy(**kwargs)
+    parameters:
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: A dictionary of access policies associated with the queue.
       type:
@@ -322,6 +384,12 @@ items:
     The data returned does not include the queue''s list of messages.'
   syntax:
     content: get_queue_properties(**kwargs)
+    parameters:
+    - description: The timeout parameter is expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: User-defined metadata for the queue.
       type:
@@ -381,6 +449,11 @@ items:
       isRequired: true
       type:
       - int
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: 'A list of <xref:azure.storage.queue.QueueMessage> objects. Note
         that
@@ -430,6 +503,38 @@ items:
     decrypted before being returned.'
   syntax:
     content: receive_messages(**kwargs)
+    parameters:
+    - description: 'A nonzero integer value that specifies the number of
+
+        messages to retrieve from the queue, up to a maximum of 32. If
+
+        fewer are visible, the visible messages are returned. By default,
+
+        a single message is retrieved from the queue with this operation.'
+      id: messages_per_page
+      isRequired: true
+      type:
+      - int
+    - description: 'If not specified, the default value is 0. Specifies the
+
+        new visibility timeout value, in seconds, relative to server time.
+
+        The value must be larger than or equal to 0, and cannot be
+
+        larger than 7 days. The visibility timeout of a message cannot be
+
+        set to a value later than the expiry time. visibility_timeout
+
+        should be set to a value smaller than the time-to-live value.'
+      id: visibility_timeout
+      isRequired: true
+      type:
+      - int
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: Returns a message iterator of dict-like Message objects.
       type:
@@ -486,6 +591,36 @@ items:
       isRequired: true
       type:
       - obj
+    - description: 'If not specified, the default value is 0. Specifies the
+
+        new visibility timeout value, in seconds, relative to server time.
+
+        The value must be larger than or equal to 0, and cannot be
+
+        larger than 7 days. The visibility timeout of a message cannot be
+
+        set to a value later than the expiry time. visibility_timeout
+
+        should be set to a value smaller than the time-to-live value.'
+      id: visibility_timeout
+      isRequired: true
+      type:
+      - int
+    - description: 'Specifies the time-to-live interval for the message, in
+
+        seconds. The time-to-live may be any positive number or -1 for infinity. If
+        this
+
+        parameter is omitted, the default time-to-live is 7 days.'
+      id: time_to_live
+      isRequired: true
+      type:
+      - int
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: 'A <xref:azure.storage.queue.QueueMessage> object.
 
@@ -552,6 +687,11 @@ items:
       isRequired: true
       type:
       - dict(str, azure.storage.queue.AccessPolicy)
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
   type: method
   uid: azure.storage.queue.QueueClient.set_queue_access_policy
 - class: azure.storage.queue.QueueClient
@@ -584,6 +724,11 @@ items:
       isRequired: true
       type:
       - dict(str, str)
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
   type: method
   uid: azure.storage.queue.QueueClient.set_queue_metadata
 - class: azure.storage.queue.QueueClient
@@ -652,6 +797,26 @@ items:
       isRequired: true
       type:
       - obj
+    - description: 'Specifies the new visibility timeout value, in seconds,
+
+        relative to server time. The new value must be larger than or equal
+
+        to 0, and cannot be larger than 7 days. The visibility timeout of a
+
+        message cannot be set to a value later than the expiry time. A
+
+        message can be updated until it has been deleted or has expired.
+
+        The message object or message id identifying the message to update.'
+      id: visibility_timeout
+      isRequired: true
+      type:
+      - int
+    - description: The server timeout, expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: 'A <xref:azure.storage.queue.QueueMessage> object. For convenience,
 
@@ -732,6 +897,20 @@ references:
   name: update_message(message, pop_receipt=None, content=None, **kwargs)
   parent: azure.storage.queue.QueueClient
   uid: azure.storage.queue.QueueClient.update_message
+- fullName: dict(str,str)
+  name: dict(str,str)
+  spec.python:
+  - fullName: dict
+    name: dict
+    uid: dict
+  - fullName: (
+    name: (
+  - fullName: str,str
+    name: str,str
+    uid: str,str
+  - fullName: )
+    name: )
+  uid: dict(str,str)
 - fullName: dict(str, azure.storage.queue.AccessPolicy)
   name: dict(str, AccessPolicy)
   spec.python:

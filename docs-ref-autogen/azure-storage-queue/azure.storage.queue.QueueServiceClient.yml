@@ -72,6 +72,17 @@ items:
 
         shared access key, or an instance of a TokenCredentials class from azure.identity.'
       id: credential
+    - description: 'The Storage API version to use for requests. Default value is
+        ''2019-07-07''.
+
+        Setting to an older version may result in reduced feature compatibility.'
+      id: api_version
+      type:
+      - str
+    - description: The hostname of the secondary endpoint.
+      id: secondary_hostname
+      type:
+      - str
   type: class
   uid: azure.storage.queue.QueueServiceClient
 - class: azure.storage.queue.QueueServiceClient
@@ -110,6 +121,11 @@ items:
       isRequired: true
       type:
       - dict(str, str)
+    - description: The timeout parameter is expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - azure.storage.queue.QueueClient
@@ -156,6 +172,11 @@ items:
       type:
       - str
       - azure.storage.queue.QueueProperties
+    - description: The timeout parameter is expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - None
@@ -264,6 +285,12 @@ items:
     Azure Storage Analytics.'
   syntax:
     content: get_service_properties(**kwargs)
+    parameters:
+    - description: The timeout parameter is expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: 'An object containing queue service properties such as
 
@@ -312,6 +339,12 @@ items:
     replication is enabled for your storage account.'
   syntax:
     content: get_service_stats(**kwargs)
+    parameters:
+    - description: The timeout parameter is expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: The queue service stats.
       type:
@@ -357,6 +390,23 @@ items:
       isRequired: true
       type:
       - bool
+    - description: 'The maximum number of queue names to retrieve per API
+
+        call. If the request does not specify the server will return up to 5,000 items.'
+      id: results_per_page
+      isRequired: true
+      type:
+      - int
+    - description: 'The server timeout, expressed in seconds. This function may make
+        multiple
+
+        calls to the service in which case the timeout value specified will be
+
+        applied to each individual call.'
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       description: An iterable (auto-paging) of QueueProperties.
       type:
@@ -434,6 +484,11 @@ items:
       isRequired: true
       type:
       - list(azure.storage.queue.CorsRule)
+    - description: The timeout parameter is expressed in seconds.
+      id: timeout
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - None

@@ -47,6 +47,10 @@ items:
       id: session_owner
       type:
       - bool
+    - description: Uses proxy settings from environment. Defaults to True.
+      id: use_env_settings
+      type:
+      - bool
   type: class
   uid: azure.core.pipeline.transport.AioHttpTransport
 - class: azure.core.pipeline.transport.AioHttpTransport
@@ -103,6 +107,22 @@ items:
     - description: Any keyword arguments
       id: config
       isRequired: true
+    - description: Defaults to False.
+      id: stream
+      isRequired: true
+      type:
+      - bool
+    - description: dict of proxy to used based on protocol. Proxy is a dict (protocol,
+        url)
+      id: proxies
+      isRequired: true
+      type:
+      - dict
+    - description: will define the proxy to use all the time
+      id: proxy
+      isRequired: true
+      type:
+      - str
     return:
       description: The AsyncHttpResponse
       type:

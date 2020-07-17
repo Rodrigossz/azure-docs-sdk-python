@@ -41,6 +41,16 @@ items:
     operations, and additional request id can also be set dynamically per operation.'
   syntax:
     content: RequestIdPolicy(**kwargs)
+    parameters:
+    - description: The request id to be added into header.
+      id: request_id
+      type:
+      - str
+    - description: Auto generates a unique request ID per call if true which is by
+        default.
+      id: auto_request_id
+      type:
+      - bool
   type: class
   uid: azure.core.pipeline.policies.RequestIdPolicy
 - class: azure.core.pipeline.policies.RequestIdPolicy
