@@ -7,118 +7,24 @@
   "packages": [
     {
       "package_info": {
-        "install_type": "dist_file",
+        "install_type": "pypi",
         "name": "azure-core-tracing-opencensus",
+        "version": ">=1.0.0b6",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "install_type": "pypi",
+        "name": "azure-ai-textanalytics",
         "version": ">=1.0.0b4",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-core-tracing-opencensus-1.0.0b6.zip"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
-    },
-    {
-      "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-ai-textanalytics-1.0.0b4.tar.gz"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
-    },
-    {
-      "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-core-tracing-opentelemetry-1.0.0b6.zip"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
-    },
-    {
-      "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-search-documents-1.0.0b4.zip"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
-    },
-    {
-      "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-keyvault-secrets-4.2.0b1.tar.gz"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
-    },
-    {
-      "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-identity-1.4.0b6.zip"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
-    },
-    {
-      "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-keyvault-certificates-4.2.0b1.tar.gz"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
-    },
-    {
-      "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-keyvault-keys-4.2.0b1.tar.gz"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
-    },
-    {
-      "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-servicebus-7.0.0b3.zip"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
-    },
-    {
-      "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-ai-formrecognizer-1.0.0b4.zip"
+        "prefer_source_distribution": "true"
       },
       "exclude_path": [
         "test*",
@@ -130,70 +36,184 @@
     {
       "package_info": {
         "install_type": "pypi",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-mgmt-appconfiguration-1.0.0b1.zip",
+        "name": "azure-core-tracing-opentelemetry",
+        "version": ">=1.0.0b6",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "install_type": "pypi",
+        "name": "azure-search-documents",
+        "version": ">=1.0.0b4",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "install_type": "pypi",
+        "name": "azure-keyvault-secrets",
+        "version": ">=4.2.0b1",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "install_type": "pypi",
+        "name": "azure-identity",
+        "version": ">=1.4.0b6",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "install_type": "pypi",
+        "name": "azure-keyvault-certificates",
+        "version": ">=4.2.0b1",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "install_type": "pypi",
+        "name": "azure-keyvault-keys",
+        "version": ">=4.2.0b1",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "install_type": "pypi",
+        "name": "azure-servicebus",
+        "version": ">=7.0.0b3",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "install_type": "pypi",
+        "name": "azure-ai-formrecognizer",
+        "version": ">=1.0.0b4",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "install_type": "pypi",
         "name": "azure-mgmt-appconfiguration",
-        "version": "1.0.0b1"
+        "version": ">=1.0.0b1",
+        "prefer_source_distribution": "true"
       },
       "exclude_path": []
     },
     {
       "package_info": {
         "install_type": "pypi",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-mgmt-compute-17.0.0b1.zip",
         "name": "azure-mgmt-compute",
-        "version": "17.0.0b1"
+        "version": ">=17.0.0b1",
+        "prefer_source_distribution": "true"
       },
       "exclude_path": []
     },
     {
       "package_info": {
         "install_type": "pypi",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-mgmt-eventhub-8.0.0b1.zip",
+        "prefer_source_distribution": "true",
         "name": "azure-mgmt-eventhub",
-        "version": "8.0.0b1"
+        "version": ">=8.0.0b1"
       },
       "exclude_path": []
     },
     {
       "package_info": {
         "install_type": "pypi",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-mgmt-keyvault-7.0.0b1.zip",
+        "prefer_source_distribution": "true",
         "name": "azure-mgmt-keyvault",
-        "version": "7.0.0b1"
+        "version": ">=7.0.0b1"
       },
       "exclude_path": []
     },
     {
       "package_info": {
         "install_type": "pypi",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-mgmt-monitor-1.0.0b1.zip",
+        "prefer_source_distribution": "true",
         "name": "azure-mgmt-monitor",
-        "version": "1.0.0b1"
+        "version": ">=1.0.0b1"
       },
       "exclude_path": []
     },
     {
       "package_info": {
         "install_type": "pypi",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-mgmt-resource-15.0.0b1.zip",
+        "prefer_source_distribution": "true",
         "name": "azure-mgmt-resource",
-        "version": "15.0.0b1"
+        "version": ">=15.0.0b1"
       },
       "exclude_path": []
     },
     {
       "package_info": {
         "install_type": "pypi",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-mgmt-storage-16.0.0b1.zip",
+        "prefer_source_distribution": "true",
         "name": "azure-mgmt-storage",
-        "version": "16.0.0b1"
+        "version": ">=16.0.0b1"
       },
       "exclude_path": []
     },
     {
       "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-storage-blob-12.4.0b1.zip"
+        "install_type": "pypi",
+        "prefer_source_distribution": "true",
+        "name": "azure-storage-blob",
+        "version": ">=12.4.0b1"
       },
       "exclude_path": [
         "test*",
@@ -204,8 +224,10 @@
     },
     {
       "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-storage-blob-changefeed-12.0.0b1.zip"
+        "install_type": "pypi",
+        "prefer_source_distribution": "true",
+        "name": "azure-storage-blob-changefeed",
+        "version": ">=12.0.0b1"
       },
       "exclude_path": [
         "test*",
@@ -216,8 +238,10 @@
     },
     {
       "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-storage-file-datalake-12.1.0b1.zip"
+        "install_type": "pypi",
+        "prefer_source_distribution": "true",
+        "name": "azure-storage-file-datalake",
+        "version": ">=12.1.0b1"
       },
       "exclude_path": [
         "test*",
@@ -228,8 +252,10 @@
     },
     {
       "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-storage-file-share-12.2.0b1.zip"
+        "install_type": "pypi",
+        "prefer_source_distribution": "true",
+        "name": "azure-storage-file-share",
+        "version": ">=12.2.0b1"
       },
       "exclude_path": [
         "test*",
@@ -240,8 +266,10 @@
     },
     {
       "package_info": {
-        "install_type": "dist_file",
-        "location": "https://docsupport.blob.core.windows.net/repackaged/azure-eventhub-5.2.0b1.zip"
+        "install_type": "pypi",
+        "prefer_source_distribution": "true",
+        "name": "azure-eventhub",
+        "version": ">=5.2.0b1"
       },
       "exclude_path": [
         "test*",
