@@ -3434,6 +3434,17 @@
 
 - items:
   - name: Overview
+    uid: project-azure-storage-blob-changefeed
+  - items:
+    - name: Overview
+      uid: azure.storage.blob.changefeed
+    - name: azure.storage.blob.changefeed.ChangeFeedClient
+      uid: azure.storage.blob.changefeed.ChangeFeedClient
+    name: azure.storage.blob.changefeed
+  name: azure-storage-blob-changefeed
+
+- items:
+  - name: Overview
     uid: project-azure-storage-file-datalake
   - items:
     - name: Overview
