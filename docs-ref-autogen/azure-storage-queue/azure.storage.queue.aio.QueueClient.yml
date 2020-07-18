@@ -19,15 +19,14 @@ items:
   - "Create the queue client with url and credential.<!--[!code-python[Main](les\\\
     queue_samples_message_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\\
-    a\\\\1\\\\s\\\\source_code\\\\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\\
-    queue_samples_message_async.py\", \"xml:space\": \"preserve\", \"language\": \"\
-    python\", \"linenos\": false, \"highlight_args\": {\"linenostart\": 1}} -->\n\n\
-    ````python\n\n   token_auth_queue = QueueClient.from_queue_url(\n       queue_url=queue.url,\n\
-    \       credential=sas_token\n   )\n\n   ````\n\nCreate the queue client with\
-    \ a connection string.<!--[!code-python[Main](les\\queue_samples_message_async.py\
-    \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\"\
+    a\\\\1\\\\s\\\\dist_temp\\\\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\"\
+    , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
+    highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   token_auth_queue\
+    \ = QueueClient.from_queue_url(\n       queue_url=queue.url,\n       credential=sas_token\n\
+    \   )\n\n   ````\n\nCreate the queue client with a connection string.<!--[!code-python[Main](les\\\
+    queue_samples_message_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
+    : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\\
+    a\\\\1\\\\s\\\\dist_temp\\\\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   from azure.storage.queue.aio\
     \ import QueueClient\n   queue = QueueClient.from_connection_string(self.connection_string,\
@@ -98,8 +97,8 @@ items:
   example:
   - "Clears all messages.<!--[!code-python[Main](les\\queue_samples_message_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   await queue.clear_messages()\n\
     \n   ````\n"
@@ -124,8 +123,8 @@ items:
   example:
   - "Create a queue.<!--[!code-python[Main](les\\queue_samples_hello_world_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_hello_world_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_hello_world_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   await queue.create_queue()\n\
     \n   ````\n"
@@ -169,8 +168,8 @@ items:
   example:
   - "Delete a message.<!--[!code-python[Main](les\\queue_samples_message_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   # Get the message\
     \ at the front of the queue\n   messages = queue.receive_messages()\n   async\
@@ -233,8 +232,8 @@ items:
   example:
   - "Delete a queue.<!--[!code-python[Main](les\\queue_samples_hello_world_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_hello_world_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_hello_world_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   await queue.delete_queue()\n\
     \n   ````\n"
@@ -300,8 +299,8 @@ items:
   example:
   - "Get the properties on the queue.<!--[!code-python[Main](les\\queue_samples_message_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   properties = await\
     \ queue.get_queue_properties()\n\n   ````\n"
@@ -333,8 +332,8 @@ items:
   example:
   - "Peek messages.<!--[!code-python[Main](les\\queue_samples_message_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\92\\\
-    \\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\", \"\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\92\\\\\
+    azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\", \"\
     xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"highlight_args\"\
     : {\"linenostart\": 1}} -->\n\n````python\n\n   # Peek at one message at the front\
     \ of the queue\n   msg = await queue.peek_messages()\n\n   # Peek at the last\
@@ -403,8 +402,8 @@ items:
   example:
   - "Receive messages from the queue.<!--[!code-python[Main](les\\queue_samples_message_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   # Receive messages\
     \ one-by-one\n   messages = queue.receive_messages()\n   async for msg in messages:\n\
@@ -480,8 +479,8 @@ items:
   example:
   - "Send messages.<!--[!code-python[Main](les\\queue_samples_message_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\92\\\
-    \\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\", \"\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\92\\\\\
+    azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\", \"\
     xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"highlight_args\"\
     : {\"linenostart\": 1}} -->\n\n````python\n\n   await asyncio.gather(\n      \
     \ queue.send_message(u\"message1\"),\n       queue.send_message(u\"message2\"\
@@ -571,8 +570,8 @@ items:
   example:
   - "Set an access policy on the queue.<!--[!code-python[Main](les\\queue_samples_message_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   # Create an access\
     \ policy\n   from azure.storage.queue import AccessPolicy, QueueSasPermissions\n\
@@ -635,8 +634,8 @@ items:
   example:
   - "Set metadata on the queue.<!--[!code-python[Main](les\\queue_samples_message_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   metadata = {'foo':\
     \ 'val1', 'bar': 'val2', 'baz': 'val3'}\n   await queue.set_queue_metadata(metadata=metadata)\n\
@@ -672,8 +671,8 @@ items:
   example:
   - "Update a message.<!--[!code-python[Main](les\\queue_samples_message_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_message_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_message_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   # Send a message\n\
     \   await queue.send_message(u\"update me\")\n\n   # Receive the message\n   messages\

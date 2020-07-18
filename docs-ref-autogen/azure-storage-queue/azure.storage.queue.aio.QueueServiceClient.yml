@@ -14,7 +14,7 @@ items:
   - "Creating the QueueServiceClient with an account url and credential.<!--[!code-python[Main](les\\\
     queue_samples_authentication_async.py )]-->\n\n<!-- literal_block {\"ids\": [],\
     \ \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\92\\\\azure-storage-queue-12.1.1\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\92\\\\azure-storage-queue-12.1.2\\\\samples\\\
     \\queue_samples_authentication_async.py\", \"xml:space\": \"preserve\", \"language\"\
     : \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\": 1}} -->\n\
     \n````python\n\n   from azure.storage.queue.aio import QueueServiceClient\n  \
@@ -22,7 +22,7 @@ items:
     \n   ````\n\nCreating the QueueServiceClient with Azure Identity credentials.<!--[!code-python[Main](les\\\
     queue_samples_authentication_async.py )]-->\n\n<!-- literal_block {\"ids\": [],\
     \ \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\92\\\\azure-storage-queue-12.1.1\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\92\\\\azure-storage-queue-12.1.2\\\\samples\\\
     \\queue_samples_authentication_async.py\", \"xml:space\": \"preserve\", \"language\"\
     : \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\": 1}} -->\n\
     \n````python\n\n   # Get a token credential for authentication\n   from azure.identity.aio\
@@ -93,8 +93,8 @@ items:
   example:
   - "Create a queue in the service.<!--[!code-python[Main](les\\queue_samples_service_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_service_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_service_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   await queue_service.create_queue(\"\
     myqueue1\")\n\n   ````\n"
@@ -139,8 +139,8 @@ items:
   example:
   - "Delete a queue in the service.<!--[!code-python[Main](les\\queue_samples_service_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_service_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_service_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   await queue_service.delete_queue(\"\
     myqueue1\")\n\n   ````\n"
@@ -190,8 +190,8 @@ items:
   example:
   - "Get the queue client.<!--[!code-python[Main](les\\queue_samples_service_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_service_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_service_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   # Get the queue\
     \ client to interact with a specific queue\n   queue = queue_service.get_queue_client(queue=\"\
@@ -227,8 +227,8 @@ items:
   example:
   - "Getting queue service properties.<!--[!code-python[Main](les\\queue_samples_service_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_service_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_service_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   properties = await\
     \ queue_service.get_service_properties()\n\n   ````\n"
@@ -313,8 +313,8 @@ items:
   example:
   - "List queues in the service.<!--[!code-python[Main](les\\queue_samples_service_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_service_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_service_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   # List all the\
     \ queues in the service\n   list_queues = queue_service.list_queues()\n   async\
@@ -375,8 +375,8 @@ items:
   example:
   - "Setting queue service properties.<!--[!code-python[Main](les\\queue_samples_service_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
-    \\92\\\\azure-storage-queue-12.1.1\\\\samples\\\\queue_samples_service_async.py\"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+    \\92\\\\azure-storage-queue-12.1.2\\\\samples\\\\queue_samples_service_async.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   # Create service\
     \ properties\n   from azure.storage.queue import QueueAnalyticsLogging, Metrics,\
