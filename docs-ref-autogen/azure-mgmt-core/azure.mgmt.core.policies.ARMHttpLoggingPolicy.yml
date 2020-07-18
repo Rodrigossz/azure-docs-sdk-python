@@ -29,16 +29,16 @@ items:
   module: azure.mgmt.core.policies
   name: DEFAULT_HEADERS_WHITELIST
   syntax:
-    content: DEFAULT_HEADERS_WHITELIST = {'If-Match', 'x-ms-client-request-id', 'Retry-After',
-      'x-ms-ratelimit-remaining-subscription-resource-entities-read', 'Expires', 'traceparent',
-      'ETag', 'x-ms-ratelimit-remaining-subscription-writes', 'Pragma', 'If-Unmodified-Since',
-      'If-Modified-Since', 'User-Agent', 'x-ms-ratelimit-remaining-tenant-reads',
-      'If-None-Match', 'Request-Id', 'x-ms-ratelimit-remaining-tenant-resource-entities-read',
-      'x-ms-request-id', 'Server', 'Last-Modified', 'x-ms-ratelimit-remaining-subscription-resource-requests',
-      'Content-Type', 'Date', 'x-ms-request-charge', 'Accept', 'Connection', 'Transfer-Encoding',
-      'x-ms-ratelimit-remaining-resource', 'x-ms-return-client-request-id', 'x-ms-ratelimit-remaining-tenant-writes',
-      'x-ms-ratelimit-remaining-tenant-resource-requests', 'x-ms-ratelimit-remaining-subscription-reads',
-      'Content-Length', 'Cache-Control'}
+    content: DEFAULT_HEADERS_WHITELIST = {'x-ms-ratelimit-remaining-tenant-resource-entities-read',
+      'Request-Id', 'If-Modified-Since', 'Cache-Control', 'If-None-Match', 'x-ms-return-client-request-id',
+      'Expires', 'Content-Length', 'Accept', 'Transfer-Encoding', 'x-ms-ratelimit-remaining-tenant-resource-requests',
+      'traceparent', 'If-Unmodified-Since', 'x-ms-ratelimit-remaining-tenant-reads',
+      'x-ms-ratelimit-remaining-subscription-reads', 'x-ms-request-id', 'Connection',
+      'x-ms-ratelimit-remaining-subscription-writes', 'x-ms-ratelimit-remaining-tenant-writes',
+      'x-ms-ratelimit-remaining-resource', 'Content-Type', 'Date', 'Pragma', 'Retry-After',
+      'Last-Modified', 'x-ms-client-request-id', 'x-ms-ratelimit-remaining-subscription-resource-entities-read',
+      'x-ms-ratelimit-remaining-subscription-resource-requests', 'ETag', 'x-ms-request-charge',
+      'If-Match', 'Server', 'User-Agent'}
   type: attribute
   uid: azure.mgmt.core.policies.ARMHttpLoggingPolicy.DEFAULT_HEADERS_WHITELIST
 references:

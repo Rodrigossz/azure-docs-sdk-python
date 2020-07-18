@@ -17,7 +17,7 @@ items:
   - "Create a new instance of the ServiceBusClient.<!--[!code-python[Main](les\\sync_samples\\\
     sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\\
-    a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\\sync_samples\\\
+    a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\\sync_samples\\\
     \\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"language\": \"python\"\
     , \"linenos\": false, \"highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\
     \n   import os\n   from azure.servicebus import ServiceBusClient, ServiceBusSharedKeyCredential\n\
@@ -112,7 +112,7 @@ items:
   - "Create a new instance of the ServiceBusClient from connection string.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusClient\n\
@@ -174,7 +174,7 @@ items:
   - "Create a new instance of the ServiceBusReceiver for Dead Letter Queue from ServiceBusClient.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusClient\n\
@@ -216,21 +216,6 @@ items:
       isRequired: true
       type:
       - azure.servicebus.ReceiveSettleMode
-    - description: 'The maximum number of messages to cache with each request to the
-        service.
-
-        The default value is 0, meaning messages will be received from the service
-        and processed
-
-        one at a time. Increasing this value will improve message throughput performance
-        but increase
-
-        the change that messages will expire while they are cached if they''re not
-        processed fast enough.'
-      id: prefetch
-      isRequired: true
-      type:
-      - int
     - description: 'The timeout in seconds between received messages after which the
         receiver will
 
@@ -271,6 +256,28 @@ items:
       isRequired: true
       type:
       - bool
+    - description: 'The maximum number of messages to cache with each request to the
+        service.
+
+        This setting is only for advanced performance tuning. Increasing this value
+        will improve message throughput
+
+        performance but increase the chance that messages will expire while they are
+        cached if they''re not
+
+        processed fast enough.
+
+        The default value is 0, meaning messages will be received from the service
+        and processed one at a time.
+
+        In the case of prefetch being 0, *ServiceBusReceiver.receive* would try to
+        cache *max_batch_size* (if provided)
+
+        within its request to the service.'
+      id: prefetch
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - azure.servicebus.ServiceBusReceiver
@@ -281,7 +288,7 @@ items:
   - "Create a new instance of the ServiceBusReceiver from ServiceBusClient.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusClient\n\
@@ -321,21 +328,6 @@ items:
       isRequired: true
       type:
       - azure.servicebus.ReceiveSettleMode
-    - description: 'The maximum number of messages to cache with each request to the
-        service.
-
-        The default value is 0, meaning messages will be received from the service
-        and processed
-
-        one at a time. Increasing this value will improve message throughput performance
-        but increase
-
-        the change that messages will expire while they are cached if they''re not
-        processed fast enough.'
-      id: prefetch
-      isRequired: true
-      type:
-      - int
     - description: 'The timeout in seconds between received messages after which the
         receiver will
 
@@ -352,6 +344,28 @@ items:
       isRequired: true
       type:
       - int
+    - description: 'The maximum number of messages to cache with each request to the
+        service.
+
+        This setting is only for advanced performance tuning. Increasing this value
+        will improve message throughput
+
+        performance but increase the chance that messages will expire while they are
+        cached if they''re not
+
+        processed fast enough.
+
+        The default value is 0, meaning messages will be received from the service
+        and processed one at a time.
+
+        In the case of prefetch being 0, *ServiceBusReceiver.receive* would try to
+        cache *max_batch_size* (if provided)
+
+        within its request to the service.'
+      id: prefetch
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - azure.servicebus.ServiceBusReceiver
@@ -362,7 +376,7 @@ items:
   - "Create a new instance of the ServiceBusSender from ServiceBusClient.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusClient\n\
@@ -403,7 +417,7 @@ items:
   - "Create a new instance of the ServiceBusReceiver from ServiceBusClient.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusClient\n\
@@ -437,14 +451,6 @@ items:
       id: session_id
       type:
       - str
-    - description: 'The timeout in seconds between received messages after which the
-        receiver will
-
-        automatically shutdown. The default value is 0, meaning no timeout.'
-      id: idle_timeout
-      isRequired: true
-      type:
-      - int
     - description: 'The mode with which messages will be retrieved from the entity.
         The two options
 
@@ -462,21 +468,6 @@ items:
       isRequired: true
       type:
       - azure.servicebus.ReceiveSettleMode
-    - description: 'The maximum number of messages to cache with each request to the
-        service.
-
-        The default value is 0, meaning messages will be received from the service
-        and processed
-
-        one at a time. Increasing this value will improve message throughput performance
-        but increase
-
-        the change that messages will expire while they are cached if they''re not
-        processed fast enough.'
-      id: prefetch
-      isRequired: true
-      type:
-      - int
     - description: 'The timeout in seconds between received messages after which the
         receiver will
 
@@ -493,6 +484,28 @@ items:
       isRequired: true
       type:
       - int
+    - description: 'The maximum number of messages to cache with each request to the
+        service.
+
+        This setting is only for advanced performance tuning. Increasing this value
+        will improve message throughput
+
+        performance but increase the chance that messages will expire while they are
+        cached if they''re not
+
+        processed fast enough.
+
+        The default value is 0, meaning messages will be received from the service
+        and processed one at a time.
+
+        In the case of prefetch being 0, *ServiceBusReceiver.receive* would try to
+        cache *max_batch_size* (if provided)
+
+        within its request to the service.'
+      id: prefetch
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - azure.servicebus.ServiceBusSessionReceiver
@@ -503,7 +516,7 @@ items:
   - "Create a new instance of the ServiceBusReceiver for Dead Letter Queue from ServiceBusClient.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusClient\n\
@@ -554,21 +567,6 @@ items:
       isRequired: true
       type:
       - azure.servicebus.ReceiveSettleMode
-    - description: 'The maximum number of messages to cache with each request to the
-        service.
-
-        The default value is 0, meaning messages will be received from the service
-        and processed
-
-        one at a time. Increasing this value will improve message throughput performance
-        but increase
-
-        the change that messages will expire while they are cached if they''re not
-        processed fast enough.'
-      id: prefetch
-      isRequired: true
-      type:
-      - int
     - description: 'The timeout in seconds between received messages after which the
         receiver will
 
@@ -609,6 +607,28 @@ items:
       isRequired: true
       type:
       - bool
+    - description: 'The maximum number of messages to cache with each request to the
+        service.
+
+        This setting is only for advanced performance tuning. Increasing this value
+        will improve message throughput
+
+        performance but increase the chance that messages will expire while they are
+        cached if they''re not
+
+        processed fast enough.
+
+        The default value is 0, meaning messages will be received from the service
+        and processed one at a time.
+
+        In the case of prefetch being 0, *ServiceBusReceiver.receive* would try to
+        cache *max_batch_size* (if provided)
+
+        within its request to the service.'
+      id: prefetch
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - azure.servicebus.ServiceBusReceiver
@@ -619,7 +639,7 @@ items:
   - "Create a new instance of the ServiceBusReceiver from ServiceBusClient.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusClient\n\
@@ -668,21 +688,6 @@ items:
       isRequired: true
       type:
       - azure.servicebus.ReceiveSettleMode
-    - description: 'The maximum number of messages to cache with each request to the
-        service.
-
-        The default value is 0, meaning messages will be received from the service
-        and processed
-
-        one at a time. Increasing this value will improve message throughput performance
-        but increase
-
-        the change that messages will expire while they are cached if they''re not
-        processed fast enough.'
-      id: prefetch
-      isRequired: true
-      type:
-      - int
     - description: 'The timeout in seconds between received messages after which the
         receiver will
 
@@ -712,6 +717,28 @@ items:
       isRequired: true
       type:
       - float
+    - description: 'The maximum number of messages to cache with each request to the
+        service.
+
+        This setting is only for advanced performance tuning. Increasing this value
+        will improve message throughput
+
+        performance but increase the chance that messages will expire while they are
+        cached if they''re not
+
+        processed fast enough.
+
+        The default value is 0, meaning messages will be received from the service
+        and processed one at a time.
+
+        In the case of prefetch being 0, *ServiceBusReceiver.receive* would try to
+        cache *max_batch_size* (if provided)
+
+        within its request to the service.'
+      id: prefetch
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - azure.servicebus.ServiceBusReceiver
@@ -722,7 +749,7 @@ items:
   - "Create a new instance of the ServiceBusReceiver from ServiceBusClient.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusClient\n\
@@ -784,21 +811,6 @@ items:
       isRequired: true
       type:
       - azure.servicebus.ReceiveSettleMode
-    - description: 'The maximum number of messages to cache with each request to the
-        service.
-
-        The default value is 0, meaning messages will be received from the service
-        and processed
-
-        one at a time. Increasing this value will improve message throughput performance
-        but increase
-
-        the change that messages will expire while they are cached if they''re not
-        processed fast enough.'
-      id: prefetch
-      isRequired: true
-      type:
-      - int
     - description: 'The timeout in seconds between received messages after which the
         receiver will
 
@@ -828,6 +840,28 @@ items:
       isRequired: true
       type:
       - float
+    - description: 'The maximum number of messages to cache with each request to the
+        service.
+
+        This setting is only for advanced performance tuning. Increasing this value
+        will improve message throughput
+
+        performance but increase the chance that messages will expire while they are
+        cached if they''re not
+
+        processed fast enough.
+
+        The default value is 0, meaning messages will be received from the service
+        and processed one at a time.
+
+        In the case of prefetch being 0, *ServiceBusReceiver.receive* would try to
+        cache *max_batch_size* (if provided)
+
+        within its request to the service.'
+      id: prefetch
+      isRequired: true
+      type:
+      - int
     return:
       type:
       - azure.servicebus.ServiceBusSessionReceiver
@@ -838,7 +872,7 @@ items:
   - "Create a new instance of the ServiceBusSender from ServiceBusClient.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusClient\n\

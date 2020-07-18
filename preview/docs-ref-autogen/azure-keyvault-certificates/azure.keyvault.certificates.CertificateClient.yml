@@ -34,7 +34,7 @@ items:
   example:
   - "Create a new `CertificateClient`<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   from azure.identity\
@@ -79,7 +79,7 @@ items:
   example:
   - "Get a certificate backup<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # backup certificate\n\
@@ -123,7 +123,7 @@ items:
   example:
   - "Create a certificate<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   from azure.keyvault.certificates\
@@ -195,7 +195,7 @@ items:
   example:
   - "Delete a certificate<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # delete a certificate\n\
@@ -252,7 +252,7 @@ items:
   example:
   - "Recover a deleted certificate<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # recover a\
@@ -334,7 +334,7 @@ items:
   example:
   - "Create an issuer<!--[!code-python[Main](s\\test_examples_certificates.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\6\\\\\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\6\\\\\
     azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   from azure.keyvault.certificates\
@@ -435,7 +435,7 @@ items:
   example:
   - "Delete contacts<!--[!code-python[Main](s\\test_examples_certificates.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\6\\\\\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\6\\\\\
     azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   deleted_contacts\
@@ -462,7 +462,7 @@ items:
   example:
   - "Delete an issuer<!--[!code-python[Main](s\\test_examples_certificates.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\6\\\\\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\6\\\\\
     azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   deleted_issuer\
@@ -501,7 +501,7 @@ items:
   example:
   - "Get a certificate<!--[!code-python[Main](s\\test_examples_certificates.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\6\\\\\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\6\\\\\
     azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # get the certificate\n\
@@ -594,7 +594,7 @@ items:
   example:
   - "Get a certificate<!--[!code-python[Main](s\\test_examples_certificates.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\6\\\\\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\6\\\\\
     azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # get the certificate\n\
@@ -639,7 +639,7 @@ items:
   example:
   - "Get contacts<!--[!code-python[Main](s\\test_examples_certificates.py )]-->\n\n\
     <!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\6\\\\\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\6\\\\\
     azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   contacts = certificate_client.get_contacts()\n\
@@ -666,7 +666,7 @@ items:
   example:
   - "Get a deleted certificate<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # get a deleted\
@@ -711,7 +711,7 @@ items:
   example:
   - "Get an issuer<!--[!code-python[Main](s\\test_examples_certificates.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\6\\\\\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\6\\\\\
     azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   issuer = certificate_client.get_issuer(\"\
@@ -812,7 +812,7 @@ items:
   example:
   - "List all the deleted certificates<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # get an iterator\
@@ -859,7 +859,7 @@ items:
   example:
   - "List all versions of a certificate<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # get an iterator\
@@ -897,7 +897,7 @@ items:
   example:
   - "List all certificates<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # get an iterator\
@@ -937,7 +937,7 @@ items:
   example:
   - "List issuers of a vault<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   issuers = certificate_client.list_properties_of_issuers()\n\
@@ -1060,7 +1060,7 @@ items:
   example:
   - "Restore a certificate backup<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # restore a\
@@ -1104,7 +1104,7 @@ items:
   example:
   - "Create contacts<!--[!code-python[Main](s\\test_examples_certificates.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\\6\\\\\
+    : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\6\\\\\
     azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   from azure.keyvault.certificates\
@@ -1175,7 +1175,7 @@ items:
   example:
   - "Update a certificate's attributes<!--[!code-python[Main](s\\test_examples_certificates.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
-    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
     \\6\\\\azure-keyvault-certificates-4.2.0b1\\\\tests\\\\test_examples_certificates.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n\n   # update attributes\

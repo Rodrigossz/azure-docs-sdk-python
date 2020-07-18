@@ -9,7 +9,7 @@ items:
   - "Create a new instance of the ServiceBusReceiver.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusReceiver,\
@@ -43,7 +43,14 @@ items:
 
     receiving messages from the Azure Service Bus Queue or Topic Subscription
 
-    while utilizing a session for FIFO and ownership semantics.'
+    while utilizing a session for FIFO and ownership semantics.
+
+
+    The two primary channels for message receipt are *receive()* to make a single
+    request for messages,
+
+    and *for message in receiver:* to continuously receive incoming messages in an
+    ongoing fashion.'
   syntax:
     content: ServiceBusSessionReceiver(fully_qualified_namespace, credential, **kwargs)
     parameters:
@@ -110,10 +117,12 @@ items:
         lock period before they will be removed from the queue. Messages received
         with ReceiveAndDelete
 
-        will be immediately removed from the queue, and cannot be subsequently rejected
-        or re-received if
+        will be immediately removed from the queue, and cannot be subsequently abandoned
+        or re-received
 
-        the client fails to process the message. The default mode is PeekLock.'
+        if the client fails to process the message.
+
+        The default mode is PeekLock.'
       id: mode
       type:
       - azure.servicebus.ReceiveSettleMode
@@ -172,7 +181,7 @@ items:
   - "Create a new instance of the ServiceBusReceiver from connection string.<!--[!code-python[Main](les\\\
     sync_samples\\sample_code_servicebus.py )]-->\n\n<!-- literal_block {\"ids\":\
     \ [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\
     \\sync_samples\\\\sample_code_servicebus.py\", \"xml:space\": \"preserve\", \"\
     language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
     : 1}} -->\n\n````python\n\n   import os\n   from azure.servicebus import ServiceBusReceiver\n\
@@ -221,10 +230,12 @@ items:
         lock period before they will be removed from the queue. Messages received
         with ReceiveAndDelete
 
-        will be immediately removed from the queue, and cannot be subsequently rejected
-        or re-received if
+        will be immediately removed from the queue, and cannot be subsequently abandoned
+        or re-received
 
-        the client fails to process the message. The default mode is PeekLock.'
+        if the client fails to process the message.
+
+        The default mode is PeekLock.'
       id: mode
       isRequired: true
       type:
@@ -304,7 +315,7 @@ items:
   - "Get session from a receiver<!--[!code-python[Main](les\\sync_samples\\sample_code_servicebus.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
-    \\8\\\\azure-servicebus-7.0.0b3\\\\samples\\\\sync_samples\\\\sample_code_servicebus.py\"\
+    \\8\\\\azure-servicebus-7.0.0b4\\\\samples\\\\sync_samples\\\\sample_code_servicebus.py\"\
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n       with servicebus_client.get_queue_session_receiver(queue_name=queue_name,\
     \ session_id=session_id) as receiver:\n           session = receiver.session\n\
