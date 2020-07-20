@@ -50,7 +50,7 @@ items:
       id: key_transformer
       type:
       - function
-    - defaultValue: <function attribute_transformer at 0x000001BFF0042D90>
+    - defaultValue: <function attribute_transformer at 0x000002302CDD2D90>
       id: key_transformer
     return:
       description: A dict JSON compatible object
