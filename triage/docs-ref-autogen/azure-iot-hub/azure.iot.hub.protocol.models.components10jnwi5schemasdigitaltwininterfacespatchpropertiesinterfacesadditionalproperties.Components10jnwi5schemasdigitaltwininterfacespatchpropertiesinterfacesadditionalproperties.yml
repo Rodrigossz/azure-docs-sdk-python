@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.hub.protocol.models.components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties.Components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties
+  fullName: azure.iot.hub.protocol.models.components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties.Components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: msrest.serialization.Model
+  langs:
+  - python
+  module: azure.iot.hub.protocol.models.components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties
+  name: Components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties
+  summary: Components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties.
+  syntax:
+    content: Components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties(**kwargs)
+    parameters:
+    - description: List of properties to update in an interface.
+      id: properties
+      type:
+      - dict[str,protocol.models.Components17cpi2fschemasdigitaltwininterfacespatchpropertiesinterfacesadditionalpropertiespropertiespropertiesadditionalproperties]
+  type: class
+  uid: azure.iot.hub.protocol.models.components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties.Components10jnwi5schemasdigitaltwininterfacespatchpropertiesinterfacesadditionalproperties
+references:
+- fullName: dict[str,protocol.models.Components17cpi2fschemasdigitaltwininterfacespatchpropertiesinterfacesadditionalpropertiespropertiespropertiesadditionalproperties]
+  name: dict[Components17cpi2fschemasdigitaltwininterfacespatchpropertiesinterfacesadditionalpropertiespropertiespropertiesadditionalproperties]
+  spec.python:
+  - fullName: dict
+    name: dict
+    uid: dict
+  - fullName: '['
+    name: '['
+  - fullName: str,protocol.models.Components17cpi2fschemasdigitaltwininterfacespatchpropertiesinterfacesadditionalpropertiespropertiespropertiesadditionalproperties
+    name: Components17cpi2fschemasdigitaltwininterfacespatchpropertiesinterfacesadditionalpropertiespropertiespropertiesadditionalproperties
+    uid: str,protocol.models.Components17cpi2fschemasdigitaltwininterfacespatchpropertiesinterfacesadditionalpropertiespropertiespropertiesadditionalproperties
+  - fullName: ']'
+    name: ']'
+  uid: dict[str,protocol.models.Components17cpi2fschemasdigitaltwininterfacespatchpropertiesinterfacesadditionalpropertiespropertiespropertiesadditionalproperties]
