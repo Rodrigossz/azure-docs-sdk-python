@@ -35,7 +35,9 @@ items:
 
         With lazy indexing, queries are eventually consistent. The index is
 
-        updated when the collection is idle.'
+        updated when the collection is idle.  Not supported for new containers 
+        since June/2020. Please check documentation for more information.'
+        
       id: Lazy
       type:
       - str
